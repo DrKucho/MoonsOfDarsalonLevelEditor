@@ -724,13 +724,13 @@ public class BuildPlayerWindow : EditorWindow
         
         Debug.Log("ADDING CHANGES");
         var request = ShellHelper.ProcessCommand("git add .", currentDir);
-        while (ShellHelper.running)
+        while (ShellHelper.PendingActions())
             yield return null;
         if (!ShellHelper.hasError)
         {
             Debug.Log("CHECKING STATUS CHANGES");
             request = ShellHelper.ProcessCommand("git status", currentDir);
-            while (ShellHelper.running)
+            while (ShellHelper.PendingActions())
                 yield return null;
             if (!ShellHelper.hasError)
             {
@@ -744,9 +744,17 @@ public class BuildPlayerWindow : EditorWindow
                 if (!ShellHelper.hasError)
                 {
                     Debug.Log("PUSHING CHANGES");
-                    request = ShellHelper.ProcessCommand("git push", "ALL DONE COMMITING AND PUSHING TO THE CLOUD", "SOME SHIT HAPPENED", currentDir);
-                    while (ShellHelper.running)
+                    request = ShellHelper.ProcessCommand("git push", currentDir);
+                    while (ShellHelper.PendingActions())
                         yield return null;
+                    if (!ShellHelper.hasError)
+                    {
+                        Debug.Log("ALL DONE COMMITING AND PUSHING TO THE CLOUD");
+                    }
+                    else
+                    {
+                        Debug.LogError("SOME SHIT HAPPENED"); 
+                    }
                 }
             }
         }
@@ -756,7 +764,7 @@ public class BuildPlayerWindow : EditorWindow
     {
         Debug.Log("DOWNLOADING CHANGES FROM GIT");
         var request = ShellHelper.ProcessCommand("git pull", Directory.GetCurrentDirectory());
-        while (ShellHelper.running)
+        while (ShellHelper.PendingActions())
             yield return null;
 
         if (!ShellHelper.hasError)
@@ -765,7 +773,7 @@ public class BuildPlayerWindow : EditorWindow
             Debug.Log("GETTING LAST COMMIT COMMENT");
             var qm = "\"";
             request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
-            while (ShellHelper.running)
+            while (ShellHelper.PendingActions())
                 yield return null;
         }
     }
@@ -773,7 +781,7 @@ public class BuildPlayerWindow : EditorWindow
     {
         Debug.Log("RESETTING LOCAL CHANGES");
         var request = ShellHelper.ProcessCommand("git reset --hard origin/main", Directory.GetCurrentDirectory());
-        while (ShellHelper.running)
+        while (ShellHelper.PendingActions())
             yield return null;
         EditorCoroutines.Execute(Git_Pull());
     }

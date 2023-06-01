@@ -15,7 +15,7 @@ MonoBehaviour:
   gamePrefab: {fileID: 133648, guid: 802e5563624d1407cbf81576e1f6f827, type: 3}
   buildOsxFull: 1
   buildWinFull: 0
-  projectPath: /Users/kucho/Unity Projects/MoonsOfDarsalon LevelMaker
+  projectPath: /Users/kucho/Unity Projects/MoonsOfDarsalonLevelEditor
   motherProjectPath: /Users/kucho/Unity Projects/MoonsOfDarsalon Proyecto Madre
   osxPath: /Volumes/MojaveAndMore/MoonsOfDarsalon LevelMaker(2019.4.0LTS)/Library/com.unity.addressables/aa/OSX/StandaloneOSX/userlevels_scenes_assets/-niveles
   winPath: /Applications/Steam_SDK/tools/ContentBuilder/scripts/MOD/content_win

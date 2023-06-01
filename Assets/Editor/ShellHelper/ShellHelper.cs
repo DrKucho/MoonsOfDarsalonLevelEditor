@@ -68,16 +68,17 @@ public class ShellHelper  {
 		_queue.Clear();
 	}
 
+	public static bool PendingActions()
+	{
+		if (_queue != null && _queue.Count > 0)
+			return true;
+		return false;
+	}
 
 	public static bool running;
 	public static bool hasError;
 
 	public static ShellRequest ProcessCommand(string cmd, string workDirectory, List<string> environmentVars = null)
-	{
-		return ProcessCommand(cmd, null, null, workDirectory, environmentVars);
-	}
-
-	public static ShellRequest ProcessCommand(string cmd,string okEndMsg, string errorEndMsg, string workDirectory,List<string> environmentVars = null)
 	{
 		running = true;
 		hasError = false;
@@ -161,24 +162,19 @@ public class ShellHelper  {
 								req.Log(1, error);
 							else
 								UnityEngine.Debug.Log(error);
-
 						}
 					);
 				}
 				p.Close();
 				if(hasError)
 				{
-					if (errorEndMsg != null)
-						Debug.LogError(errorEndMsg);
-					_queue.Add(delegate() 
+					_queue.Add(delegate()  
 					{
 						req.Error();
 					});
 				}
 				else
 				{
-					if (okEndMsg != null)
-						Debug.Log(okEndMsg);
 					_queue.Add(delegate()
 					{
 						req.NotifyDone();
