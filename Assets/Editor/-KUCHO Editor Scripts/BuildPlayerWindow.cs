@@ -723,88 +723,65 @@ public class BuildPlayerWindow : EditorWindow
         string currentDir = Directory.GetCurrentDirectory();
         
         Debug.Log("ADDING CHANGES");
-        lastRequestDone = false;
-        lastRequestError = false;
         var request = ShellHelper.ProcessCommand("git add .", currentDir);
-        request.onDone += OnDone;
-        request.onError += OnError;
-        while (lastRequestDone == false)
+        while (ShellHelper.running)
             yield return null;
-        if (!lastRequestError)
+        if (!ShellHelper.hasError)
         {
             Debug.Log("CHECKING STATUS CHANGES");
-            lastRequestDone = false;
-            lastRequestError = false;
             request = ShellHelper.ProcessCommand("git status", currentDir);
-            while (lastRequestDone == false)
+            while (ShellHelper.running)
                 yield return null;
-            if (!lastRequestError)
+            if (!ShellHelper.hasError)
             {
                 var comment = System.DateTime.Now.ToString();
                 comment = comment.Replace(' ', '_');
                 Debug.Log("COMMITING CHANGES WITH COMMENT " + comment);
-                lastRequestDone = false;
-                lastRequestError = false;
                 request = ShellHelper.ProcessCommand("git commit -m " + "\"" + comment + "\"", currentDir);
-                while (lastRequestDone == false)
+                while (ShellHelper.running)
                     yield return null;
 
-                if (!lastRequestError)
+                if (!ShellHelper.hasError)
                 {
                     Debug.Log("PUSHING CHANGES");
-                    lastRequestDone = false;
-                    lastRequestError = false;
                     request = ShellHelper.ProcessCommand("git push", currentDir);
-                    while (lastRequestDone == false)
+                    while (ShellHelper.running)
                         yield return null;
+                    if (!ShellHelper.hasError)
+                    {
+                        Debug.Log("ALL DONE COMMITING AND PUSHING TO THE CLOUD");
+                    }
+                    else
+                    {
+                        Debug.LogError("SOME SHIT HAPPENED");
+                    }
                 }
             }
         }
     }
 
-    private static bool lastRequestDone;
-    private static bool lastRequestError;
-    static void OnDone()
-    {
-        lastRequestDone = true;
-    }
-    static void OnError()
-    {
-        lastRequestError = true;
-    }
-
     public static IEnumerator Git_Pull()
     {
         Debug.Log("DOWNLOADING CHANGES FROM GIT");
-        lastRequestDone = false;
-        lastRequestError = false;
         var request = ShellHelper.ProcessCommand("git pull", Directory.GetCurrentDirectory());
-        request.onDone += OnDone;
-        request.onError += OnError;
-        while (lastRequestDone == false)
+        while (ShellHelper.running)
             yield return null;
 
-        if (!lastRequestError)
+        if (!ShellHelper.hasError)
         {
             AssetDatabase.Refresh();
             Debug.Log("GETTING LAST COMMIT COMMENT");
-            lastRequestDone = false;
-            lastRequestError = false;
             var qm = "\"";
             request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
-            while (lastRequestDone == false)
+            while (ShellHelper.running)
                 yield return null;
         }
     }
     public static IEnumerator Git_OverwriteAllLocalChangesFromRepo()
     {
         Debug.Log("RESETTING LOCAL CHANGES");
-        lastRequestDone = false;
-        lastRequestError = false;
         var request = ShellHelper.ProcessCommand("git reset --hard origin/main", Directory.GetCurrentDirectory());
-        request.onDone += OnDone;
-        request.onError += OnError;
-        while (lastRequestDone == false)
+        while (ShellHelper.running)
             yield return null;
         EditorCoroutines.Execute(Git_Pull());
     }

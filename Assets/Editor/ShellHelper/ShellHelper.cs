@@ -68,8 +68,12 @@ public class ShellHelper  {
 	}
 
 
-
-	public static ShellRequest ProcessCommand(string cmd,string workDirectory,List<string> environmentVars = null){
+	public static bool running;
+	public static bool hasError;
+	public static ShellRequest ProcessCommand(string cmd,string workDirectory,List<string> environmentVars = null)
+	{
+		running = true;
+		hasError = false;
 		ShellRequest req = new ShellRequest();
 		System.Threading.ThreadPool.QueueUserWorkItem(delegate(object state) {
 			Process p = null;
@@ -119,7 +123,7 @@ public class ShellHelper  {
 					UnityEngine.Debug.LogError(e.ToString());
 				};
 
-				bool hasError = false;
+				//bool hasError = false;
 				do{
 					string line = p.StandardOutput.ReadLine();
 					if(line == null){
@@ -173,6 +177,7 @@ public class ShellHelper  {
 					p.Close();
 				}
 			}
+			running = false;
 		});
 		return req;
 	}
