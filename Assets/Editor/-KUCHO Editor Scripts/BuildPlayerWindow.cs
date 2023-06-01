@@ -753,7 +753,7 @@ public class BuildPlayerWindow : EditorWindow
                     }
                     else
                     {
-                        Debug.LogError("SOME SHIT HAPPENED");
+                        Debug.LogError("SOME SHIT HAPPENED"); 
                     }
                 }
             }
