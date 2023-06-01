@@ -788,11 +788,17 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
             
-            Debug.Log("WAITING THREE SECONDs");
+            Debug.Log("WAITING FIVE SECONDs");
 
-            yield return new WaitForSeconds(3);
+            float leave = Time.realtimeSinceStartup + 5;
+            while (Time.realtimeSinceStartup < leave)
+                yield return null;
             
-            Debug.Log("REFRESING UNITY");
+            Debug.Log("REFRESING UNITY IN 2");
+            
+            leave = Time.realtimeSinceStartup + 2;
+            while (Time.realtimeSinceStartup < leave)
+                yield return null;
 
             AssetDatabase.Refresh();
 
