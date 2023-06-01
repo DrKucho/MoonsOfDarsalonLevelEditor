@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _GLOSSYREFLECTIONS_OFF
+          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: DIRECTIONAL _SPECULARHIGHLIGHTS_OFF
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SINGLE_CASCADE
+        passType: 0
+  - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 0
+      - keywords: PIXELSNAP_ON
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 46bd0f7afa367534eb405ad0eae5c9df, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5d7f4c401ae8946bcb0d6ff68a9e7466, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: bab32901ff4fcf846b8244ef5d16eb40, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 072e49c6e9a464de9868f153bce0f68a, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: 132032be8004cd840adc401e99786b67, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 24881d0f61e0b4addaef5a763bd239f2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2807c8ce5ecdb41819c74dd66611efe3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2c7f0fdb224b840f09488dddd1bf71d6, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: 31b6fc44bacc945d4949c7ba66ba0c63, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: 34e68990cfb994a4889b62298abf4cc6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 354bd8f33df954b4291c6f4290a20f08, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3eb0f02b369164a548e3c96e6e3a1e77, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4320f5c80f3834e89b5722c5e936645a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 52d8c9c1a42444803b0966a065ce35eb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6202a4291228b43659ac11406c7cc381, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6389215ba845240fe83614f622bace88, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: 69823f6fae1dc40b3b0c33fc305dd3c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 69973073158e34fd4811424501eb034c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6f6d456a182d2458793fbd3b8eadd722, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 71e1dd7f09abbd948a98634fa2b0fa9d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 7a07d34125fdd2b439503718458f0894, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8303ba60dfd5d49339eacec99affda29, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 88907f689cb94014980290b8ee139c22, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 88ce68c2c68e64c62a3a59482204e7cb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 89c0c84805b3049368291660d33e0af6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8a5f18b76afc64b1f8667b368f851b75, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: 8d24f6b6182ac4c15ab08fe54a71d3c6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 90bd02e145dc74861ad3bc6289047278, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: 9a51898a401f4499db9be29e96e0a22c, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: 9f627a0bd9d5e43d08d7007b7f37c002, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: aa24fead9f9dd43c8be42376664b098c, type: 3}
+    second:
+      variants:
+      - keywords: BLOOM_ON DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: b8370065a6b6e4682968d7b5601b5a42, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: bed0bb71768a14e8ca8d1e2887efdf76, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c48e39aa2d16443488b08095a4769b8a, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: c983e14f0e0db214eb522a96e6d806c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ce6c12a2b56c04da5a5d01686742baa4, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: d8bfd23c61e5c4418a3e1f26ed2723f1, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 0
+  - first: {fileID: 4800000, guid: decba43c5602c4fbab231ba6c4419523, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: eae485feba3684e16be07744a8b8ecd0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ee9d74d03466b49d3a5779a1d8751d8b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f1559d60a7fba457cbfad7631a8a11ee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f2c8fbe4a39fa45369593ef11ef4caf2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f7f7aea6b1b684617a389cc388fd4314, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: f90422fc704c9ac47b22ad527e0151eb, type: 3}
+    second:
+      variants:
+      - keywords: ORTHOGRAPHIC_CAMERA
+        passType: 0
+  - first: {fileID: 4800000, guid: 3356aee1a5a45455397f9826488c457a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

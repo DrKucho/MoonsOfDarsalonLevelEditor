@@ -1,0 +1,15 @@
+{
+    "name": "SWIZ",
+    "references": [
+        "GUID:de14014a0c7c44b3790fef69bdc01224"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

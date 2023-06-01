@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c436a30b6f741d3a43a5689ba32bba, type: 3}
+  m_Name: FarBackground Data
+  m_EditorClassIdentifier: 
+  parallax:
+  - {fileID: 7872392948348720568, guid: 992fd5ecf56a04ed48adca8b8d97fb3a, type: 3}
+  - {fileID: 3036481986220552054, guid: bbe48830c3cc64f06840bf89dbc47a9e, type: 3}
+  - {fileID: 2191996745341342786, guid: 6d666f65d93b64940bec09da03c46c0d, type: 3}
+  - {fileID: 5658230726448819402, guid: b87a9a976447c436e906474a557c658a, type: 3}
+  - {fileID: 1626708084295395374, guid: 5a5b2a54423f5463b8f49c11f3aeda40, type: 3}
+  - {fileID: 1921938987661392, guid: 46190f7dc28eb473b952fb6e74870a4e, type: 3}
+  - {fileID: 8931653720530185188, guid: 7cea1b0c2783849389314bc18de272f3, type: 3}
+  - {fileID: 7461146482669772455, guid: 60885e532b7544996a24bb56f634eb7a, type: 3}
+  - {fileID: 7461146482669772455, guid: abc29ec92b1f3458e97bc2510dfcac70, type: 3}
+  - {fileID: 7461146482669772455, guid: 88ae4d319f5b84d9fb76093a3e9a2f2d, type: 3}
+  parallaxNames:
+  - Std Rocks Originales
+  - Std Rocks Picudas
+  - Std Rocks Picudas Inclinadas
+  - Std Rocks Planas
+  - Std Rocks Planas Inclinadas
+  - Tianzi
+  - Classic Mountains
+  - White Rocks
+  - Alien Landscape Huevos
+  - Darsalon City
+  sky: {fileID: 8985550482745910802, guid: 4de6a15e8d631469da3625898bf404ac, type: 3}
+  skyTexturesWrap:
+  - tex: {fileID: 2800000, guid: bcff17ee9146f4965b0bf6fdc302b651, type: 3}
+    name: Nebula & Planet (Mag & Blue & Yellow Planet)
+    scrollable: 1
+    lightness: 0.3
+  - tex: {fileID: 2800000, guid: 711bae0b4364a4029ae3614822d51261, type: 3}
+    name: Nebula & Planet (Mag & Blue)
+    scrollable: 1
+    lightness: 0.317
+  - tex: {fileID: 2800000, guid: f0d0e38d98c91450faf8a1e5a0f81abc, type: 3}
+    name: Nebula & Planet (Yellow & Green & Blue planet)
+    scrollable: 1
+    lightness: 0.306
+  - tex: {fileID: 2800000, guid: 288360fdf643a4a2b8ae1c2dc451b344, type: 3}
+    name: Nebula & Planet (Yellow & Green)
+    scrollable: 1
+    lightness: 0.322
+  - tex: {fileID: 2800000, guid: b8e2019b2d72c461ca9ba86b6bbc5c06, type: 3}
+    name: Nebula & Planet (Mag & Blue Equal Contrast)
+    scrollable: 1
+    lightness: 0.322
+  - tex: {fileID: 2800000, guid: bb02ec93424fd4923992339fe18fb5a3, type: 3}
+    name: Nebula & Planet Moon2-A
+    scrollable: 1
+    lightness: 0.615
+  - tex: {fileID: 2800000, guid: 9bca303550eb44b309b637923cbff139, type: 3}
+    name: Sunset1PSD
+    scrollable: 0
+    lightness: 0.615
+  - tex: {fileID: 2800000, guid: 242363daaad454059bcc0db046e61f8e, type: 3}
+    name: Sunset2PSD
+    scrollable: 0
+    lightness: 0.631
+  - tex: {fileID: 2800000, guid: 7b882fb781e9d4b5e916fc6ebc49cda0, type: 3}
+    name: "Sunset2PSD (sin montan\u0303as)"
+    scrollable: 0
+    lightness: 0.631
+  - tex: {fileID: 2800000, guid: 412db35c05c1b4abf962e63a1c5fbcf6, type: 3}
+    name: Warm Sunset
+    scrollable: 0
+    lightness: 0.631

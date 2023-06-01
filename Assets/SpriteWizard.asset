@@ -1,0 +1,8088 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: SpriteWizard
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex:
+  - assetGUID: e13d159c446804f72bea05de4e6dff92
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 2dde60aba1f1c447d985721c2ff9f1c7
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: c77aaadb1c4d44aab98584087e5f6d8f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 693a04f53ca5f4555b5071015235b84e
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: c476cec2a6fb142c289612bdd3da7c05
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6adaa1ee786a544928e17b9696d7d0b6
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: cdb875d12de0340bdaf1b94fd281be44
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 76e8e911234f94e4194857b89ac3a7c2
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: df808662beb3742a195c54f25f77055e
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: bea867c5af6e24f59aff123401e56691
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 80f5b549d37004decb8616c17705a48d
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 955274728c35e440f942b0085ae861d8
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 15670f75e26f04dc3841de1ba9691f03
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: ba75c97f7590f494a974b4a958033b1a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: bc17b40f6d6544995996c5892de3f9ca
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 665a119024d7c4548a669a8b8388c1f4
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5509c1395601747c69f884b5aece8752
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 3110293c444f74adf91a74b3748890ee
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: fb16f9ca918fc47b8b9916a4a9a53460
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 8da371882b79243fa913707abe229fc5
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 05ae89de409e64c81aeba7eae70f2c76
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 1d21d4a84490c4c30a800e28eb9dce9b
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 456cb979d741e46ecb85fb539e37b31a
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5802120803a3c4c678e6506b76517914
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 7e8eb3c369bf941ca919501f57b852db
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 34c59a776c5af4b4e8bd4f35f58bc09c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b1faddd5cba0b496eae92044f81c65f4
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 4777bcdd8545243e4a53f58411c6f7f5
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 69d2e8c843b5e4a3fbf9192ca77a2c84
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 742bbe14d4d4d42d29a6e113b623d923
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d4349449c16154799bdf6d7d5d422f89
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 068510fe7516145c9882c8c2039fd43f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: c986d57b3fd164a5eb5531fc591ffb26
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: e67121b4f1a4f4e91b1637b8e6ac7f79
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: b063490b3ba4b4602a0aeac7dddec997
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: fdc91f80709904a918a614534cfba5c1
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 3ec7a214b51554eff890b77313835028
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 92b4973da07b24b48a5e05dd23bd871c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 832d0a1833f8d459bb5209be72d20072
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 235aa0255ba6444ec931ce9c2bc8f91c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex:
+  - assetGUID: 7bb51909af9f74b4fad4371e68942fd3
+    dataGUID: 901e021ad231b499aa92578cbdc07495
+    managed: 0
+    loadable: 0
+  - assetGUID: 5d64982ad047a4ed39ad03779d1f1d4a
+    dataGUID: 2a5760d5323844797bf70945ae9e608a
+    managed: 0
+    loadable: 0
+  - assetGUID: 344f25c4a1bb44a41a4a925f56dd3dde
+    dataGUID: 9f855f8b86e744281a18a4f703e8d8c9
+    managed: 0
+    loadable: 0
+  - assetGUID: 83dd541173ae44f1eb0e6b298f5bf8cd
+    dataGUID: 6b14bc5ddb07e4bb98e2f6124561b896
+    managed: 0
+    loadable: 0
+  - assetGUID: 8d6ee1845a9b74baebe4f4175ae70123
+    dataGUID: 85c43ffbf315943ecb514411546747f5
+    managed: 0
+    loadable: 0
+  - assetGUID: d9ff3024c1c42467e932d432500d73b5
+    dataGUID: c0f9ff377eb5b42bfbece0e594995c56
+    managed: 0
+    loadable: 0
+  - assetGUID: fe3bf7b454012400082055473edc1f14
+    dataGUID: 13b547182f2c84e8990e8e66df22dd10
+    managed: 0
+    loadable: 0
+  - assetGUID: 9f5a00843a69543cb8560be1da2b96df
+    dataGUID: 27e39ce7c2a164c838a6fed7cc74c505
+    managed: 0
+    loadable: 0
+  - assetGUID: aaaecbd60380a41c8a3533a9da30d0a6
+    dataGUID: f80bafaaed6714e7fb0fa350740ad913
+    managed: 0
+    loadable: 0
+  - assetGUID: 62cb0126e2ca6461296ac399dc9eec05
+    dataGUID: c33cdd8b6d8c2448bac7633d80ce8398
+    managed: 0
+    loadable: 0
+  - assetGUID: 2b8341a00736d4b07b40a58de381268e
+    dataGUID: 99d8be2a594f1499696d9ecaa5d7ec69
+    managed: 0
+    loadable: 0
+  - assetGUID: 7417bbbb2bf584c20a977d8c837da047
+    dataGUID: ad2920d8c6a334d91994284611f65760
+    managed: 0
+    loadable: 0
+  - assetGUID: 418ac2c8935a640a3993c190861e1fa6
+    dataGUID: 63141149886d7436581f1be0f5c139f3
+    managed: 0
+    loadable: 0
+  - assetGUID: 95de88be2d1e24debbc7b73299f25963
+    dataGUID: eb305d05a3edf4d54a4ed79f7ca94eae
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: GrassCollection
+    spriteCollectionGUID: 15abb0e49132e44d78f664c612193b15
+    spriteCollectionDataGUID: 5911a5aec63134a07a8ef85cb4735ad5
+    spriteNames:
+    - GrassV3/0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/6
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/7
+    - 
+    - GrassV3/1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/4
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GrassV3/5
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureGUIDs:
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 804efe29c751b49dfb33f39ea38bd6a1
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611661740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PlantsCollection
+    spriteCollectionGUID: 8c12f6ad0c5414f30ba694d257f9e262
+    spriteCollectionDataGUID: 0565c70912ee04e01b94a69ea8c7e8a8
+    spriteNames:
+    - Tree_Cyan_Sheet/0
+    - Tree_Cyan_Sheet/1
+    - Tree_Cyan_Sheet/2
+    - Tree_Cyan_Sheet/3
+    - Tree_Cyan_Sheet/4
+    - Tree_Cyan_Sheet/5
+    - Tree_Cyan_Sheet/6
+    - Tree_Cyan_Sheet/7
+    - Tree_Cyan_Sheet/8
+    - Tree_Cyan_Sheet/9
+    - Tree_Cyan_Sheet/10
+    - Tree_Cyan_Sheet/11
+    - Tree_Cyan_Sheet/12
+    - Tree_Cyan_Sheet/13
+    - Tree_Cyan_Sheet/14
+    - Tree_Cyan_Sheet/15
+    - Tree_Cyan_Sheet/16
+    - Tree_Cyan_Sheet/17
+    - Tree_Cyan_Sheet/18
+    - Tree_Cyan_Sheet/19
+    - Tree_Cyan_Sheet/20
+    - Tree_Cyan_Sheet/21
+    - Tree_Cyan_Sheet/22
+    - Tree_Cyan_Sheet/23
+    - Tree_Cyan_Sheet/24
+    - Root Flower Sheet/0
+    - Root Flower Sheet/1
+    - Root Flower Sheet/2
+    - Root Flower Sheet/3
+    - Root Flower Sheet/4
+    - Root Flower Sheet/5
+    - Root Flower Sheet/6
+    - Root Flower Sheet/7
+    - Root Flower Sheet/8
+    - Root Flower Sheet/9
+    - Root Flower Sheet/10
+    - Root Flower Sheet/11
+    - Root Flower Sheet/12
+    - Root Flower Sheet/13
+    - Root Flower Sheet/14
+    - Root Flower Sheet/15
+    - Root Flower Sheet/16
+    - Root Flower Sheet/17
+    - Root Flower Sheet/18
+    - Root Flower Sheet/19
+    - Root Flower Sheet/20
+    - Root Flower Sheet/21
+    - Root Flower Sheet/22
+    - Root Flower Sheet/23
+    - Root Flower Sheet/24
+    - Tree Raised By Wolves sheet/0
+    - Tree Raised By Wolves sheet/1
+    - Tree Raised By Wolves sheet/2
+    - Tree Raised By Wolves sheet/3
+    - Tree Raised By Wolves sheet/4
+    - Tree Raised By Wolves sheet/5
+    - Tree Raised By Wolves sheet/6
+    - Tree Raised By Wolves sheet/7
+    - Tree Raised By Wolves sheet/8
+    - Tree Raised By Wolves sheet/9
+    - Tree_Tianzi/0
+    - Tree_Tianzi/1
+    - Tree_Tianzi/2
+    - Tree_Tianzi/3
+    - Tree_Tianzi/4
+    - Tree_Tianzi/5
+    - Tree_Tianzi/6
+    - Tree_Tianzi/7
+    - Tree_Tianzi/8
+    - Tree_Tianzi/9
+    - Tree_Tianzi/10
+    - Tree_Tianzi/11
+    - Tree_Tianzi/12
+    - Tree_Tianzi/13
+    - Tree_Tianzi/14
+    - Tree_Tianzi/15
+    - Tree_Tianzi/16
+    - Tree_Tianzi/17
+    - Tree_Tianzi/18
+    - Tree_Tianzi/19
+    - Tree_Tianzi/20
+    - Tree_Tianzi/21
+    - Tree_Tianzi/22
+    - Tree_Tianzi/23
+    - Tree_Tianzi/24
+    - Tree Raised By Wolves sheet/10
+    - Tree Raised By Wolves sheet/11
+    - Tree Raised By Wolves sheet/12
+    - Tree Raised By Wolves sheet/13
+    - Tree Raised By Wolves sheet/14
+    - Tree Raised By Wolves sheet/15
+    - Tree Raised By Wolves sheet/16
+    - Tree Raised By Wolves sheet/17
+    - Tree Raised By Wolves sheet/18
+    - Tree Raised By Wolves sheet/19
+    - Tree Raised By Wolves sheet/20
+    - Tree Raised By Wolves sheet/21
+    - Tree Raised By Wolves sheet/22
+    - Tree Raised By Wolves sheet/23
+    - Tree Raised By Wolves sheet/24
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Tree_B/0
+    - Tree_B/1
+    - Tree_B/2
+    - Tree_B/3
+    - Tree_B/4
+    - Tree_B/5
+    - Tree_B/6
+    - Tree_B/7
+    - Tree_B/8
+    - Tree_B/9
+    - Tree_B/10
+    - Tree_B/11
+    - Tree_B/12
+    - Tree_B/13
+    - Tree_B/14
+    - Tree_B/15
+    - Tree_B/16
+    - Tree_B/17
+    - Tree_B/18
+    - Tree_B/19
+    - Tree_B/20
+    - Tree_B/21
+    - Tree_B/22
+    - Tree_Cv2_(pink)/0
+    - Tree_Cv2_(pink)/1
+    - Tree_Cv2_(pink)/2
+    - Tree_Cv2_(pink)/3
+    - Tree_Cv2_(pink)/4
+    - 
+    - 
+    - Tree_Cv2_(pink)/5
+    - Tree_Cv2_(pink)/6
+    - Tree_Cv2_(pink)/7
+    - Tree_Cv2_(pink)/8
+    - Tree_Cv2_(pink)/9
+    - 
+    - 
+    - Tree_Cv2_(pink)/10
+    - Tree_Cv2_(pink)/11
+    - Tree_Cv2_(pink)/12
+    - Tree_Cv2_(pink)/13
+    - Tree_Cv2_(pink)/14
+    - 
+    - 
+    - Tree_Cv2_(pink)/15
+    - Tree_Cv2_(pink)/16
+    - Tree_Cv2_(pink)/17
+    - Tree_Cv2_(pink)/18
+    - Tree_Cv2_(pink)/19
+    - 
+    - 
+    - Tree_Cv2_(pink)/20
+    - Tree_Cv2_(pink)/21
+    - Tree_Cv2_(pink)/22
+    - Tree_Cv2_(pink)/23
+    - Tree_Cv2_(pink)/24
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Tree_B/23
+    - Tree_B/24
+    - Tree_B/25
+    - Tree_B/26
+    - Tree_B/27
+    - Tree_B/28
+    - Tree_B/29
+    - Tree_B/30
+    - Tree_B/31
+    - Tree_B/32
+    - Tree_B/33
+    - Tree_B/34
+    - Tree_B/35
+    - Tree_B/36
+    - Tree_B/37
+    - Tree_B/38
+    - Tree_B/39
+    - Tree_B/40
+    - Tree_B/41
+    - Tree_B/42
+    - Tree_B/43
+    - Tree_B/44
+    - Tree_B/45
+    - Tree_B/46
+    - Tree_B/47
+    - Tree_B/48
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Tree_Dv2_(BlueYellow)/0
+    - Tree_Dv2_(BlueYellow)/1
+    - Tree_Dv2_(BlueYellow)/2
+    - Tree_Dv2_(BlueYellow)/3
+    - Tree_Dv2_(BlueYellow)/4
+    - Tree_Dv2_(BlueYellow)/5
+    - Tree_Dv2_(BlueYellow)/6
+    - Tree_Dv2_(BlueYellow)/7
+    - Tree_Dv2_(BlueYellow)/8
+    - Tree_Dv2_(BlueYellow)/9
+    - Tree_Dv2_(BlueYellow)/10
+    - Tree_Dv2_(BlueYellow)/11
+    - Tree_Dv2_(BlueYellow)/12
+    - Tree_Dv2_(BlueYellow)/13
+    - Tree_Dv2_(BlueYellow)/14
+    - Tree_Dv2_(BlueYellow)/15
+    - Tree_Dv2_(BlueYellow)/16
+    - Tree_Dv2_(BlueYellow)/17
+    - Tree_Dv2_(BlueYellow)/18
+    - Tree_Dv2_(BlueYellow)/19
+    - Tree_Dv2_(BlueYellow)/20
+    - Tree_Dv2_(BlueYellow)/21
+    - Tree_Dv2_(BlueYellow)/22
+    - Tree_Dv2_(BlueYellow)/23
+    - Tree_Dv2_(BlueYellow)/24
+    spriteTextureGUIDs:
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - f962721d29d45450b993fbe2aee70364
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - eff32eb47f1724717989a61975eef694
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - cf636e155c16441ca97c2d6f193f8f84
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 7221995b4f28147be8feb03bc7a4d1d2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 
+    - 
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 
+    - 
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 
+    - 
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 
+    - 
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 80d32200092194080b39dad4ae4cd694
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - acfa2e798321245eaaba3e1ac0da5e9a
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    - 81114efa1a3124755878cbd5c40e5e7b
+    spriteTextureTimeStamps:
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1615313102
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620251252
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1549104905
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 1620301022
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 0
+    - 0
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 0
+    - 0
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 0
+    - 0
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 0
+    - 0
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 1542391611
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 1520709524
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    - 1611491067
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: GadgetCollection
+    spriteCollectionGUID: 0f04fc444fea244e89c036e706ab6fac
+    spriteCollectionDataGUID: f3b8f8d0ad9684a979ac3c5620f45048
+    spriteNames:
+    - JetPack/0
+    - RIP ANIM/0
+    - Ammo
+    - GrenadesCrate
+    - Explosion1/0
+    - Battery
+    - JetPack/1
+    - Explosion1/1
+    - Explosion1/2
+    - Explosion1/3
+    - Explosion1/4
+    - Explosion1/5
+    - JetPack/2
+    - Explosion1/6
+    - Explosion1/7
+    - Explosion1/8
+    - Explosion1/9
+    - Explosion1/10
+    - JetPack/3
+    - Explosion1/11
+    - Explosion1/12
+    - Fuel
+    - Explosion1/13
+    - Explosion1/14
+    - JetPack/4
+    - Explosion1/15
+    - Explosion1/16
+    - Explosion1/17
+    - Explosion1/18
+    - Explosion1/19
+    - Explosion1/20
+    - Explosion1/21
+    - Explosion1/22
+    - Explosion1/23
+    - Explosion1/24
+    - FireExplosion/0
+    - FireExplosion/1
+    - FireExplosion/2
+    - FireExplosion/3
+    - FireExplosion/4
+    - FireExplosion/5
+    - FireExplosion/6
+    - FireExplosion/7
+    - FireExplosion/8
+    - FireExplosion/9
+    - FireExplosion/10
+    - FireExplosion/11
+    - FireExplosion/12
+    - FireExplosion/13
+    - FireExplosion/14
+    - FireExplosion/15
+    - FireExplosion/16
+    - FireExplosion/17
+    - FireExplosion/18
+    - FireExplosion/19
+    - RIP ANIM/1
+    - RIP ANIM/2
+    - RIP ANIM/3
+    - RIP ANIM/4
+    - RIP ANIM/5
+    - RIP ANIM/6
+    - RIP ANIM/7
+    - RIP ANIM/8
+    - RIP ANIM/9
+    - RIP ANIM/10
+    - RIP ANIM/11
+    - RIP ANIM/12
+    - RIP ANIM/13
+    - RIP ANIM/14
+    - RIP ANIM/15
+    - JetPack_Rot/0
+    - JetPack_Rot/1
+    - JetPack_Rot/2
+    - JetPack_Rot/3
+    - JetPack_Rot/4
+    - Lamp/0
+    - Lamp/1
+    - Lamp/2
+    - Lamp/3
+    - JetPack_Rot/5
+    - JetPack_Rot/6
+    - JetPack_Rot/7
+    - JetPack_Rot/8
+    - JetPack_Rot/9
+    - JetPack_Rot/10
+    - JetPack_Rot/11
+    - JetPack_Rot/12
+    - LampStick/0
+    - LampStick/1
+    - LampStick/3
+    - LampStick/4
+    - props4x/0
+    - props4x/1
+    - props4x/2
+    - props4x/3
+    - FlashLight
+    - GroundMakerReverseExplosion/0
+    - GroundMakerReverseExplosion/1
+    - GroundMakerReverseExplosion/2
+    - GroundMakerReverseExplosion/3
+    - GroundMakerReverseExplosion/4
+    - GroundMakerReverseExplosion/5
+    - GroundMakerReverseExplosion/6
+    - GroundMakerReverseExplosion/7
+    - GroundMakerReverseExplosion/8
+    - GroundMakerReverseExplosion/9
+    - GroundMakerReverseExplosion/10
+    - GroundMakerReverseExplosion/11
+    - GroundMakerReverseExplosion/12
+    - GroundMakerReverseExplosion/13
+    - GroundMakerReverseExplosion/14
+    - GroundMakerReverseExplosion/15
+    - GroundMakerReverseExplosion/16
+    - GroundMakerReverseExplosion/17
+    - GroundMakerReverseExplosion/18
+    - GroundMakerReverseExplosion/19
+    - GroundMakerReverseExplosion/20
+    - GroundMakerReverseExplosion/21
+    - GroundMakerReverseExplosion/22
+    - GroundMakerReverseExplosion/23
+    - GroundMakerReverseExplosion/24
+    - JetPack_Rot/13
+    - JetPack_Rot/14
+    - JetPack_Rot/15
+    - JetPack_Rot/16
+    - JetPack_Rot/17
+    - JetPack_Rot/18
+    - JetPack_Rot/19
+    - JetPack_Rot/20
+    - JetPack_Rot/21
+    - JetPack_Rot/22
+    - JetPack_Rot/23
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - AlienStreetLamp/0
+    - AlienStreetLamp/1
+    - AlienStreetLamp/2
+    - BlankSprite
+    - StreetLampPiece/0
+    - StreetLampPiece/1
+    - StreetLampPiece/2
+    - StreetLampPiece/3
+    - StreetLampPiece/4
+    - StreetLampPiece/5
+    - StreetLampPiece/6
+    - StreetLampPiece/7
+    - StreetLampPiece/8
+    - LampStick/2
+    - LampStick/5
+    - LampStick/6
+    - LampStick/7
+    - LampStick/8
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - props4x/4
+    - props4x/5
+    - props4x/6
+    - props4x/7
+    - props4x/8
+    - props4x/9
+    - props4x/10
+    - props4x/11
+    - props4x/12
+    - props4x/13
+    - props4x/14
+    - props4x/15
+    - props4x/16
+    - props4x/17
+    - props4x/18
+    - props4x/19
+    spriteTextureGUIDs:
+    - 53e54a70d5219454e99fef4c23b78c9e
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 3bb352b0451004380bd3e2c015978d8f
+    - 7f25381b4ddec4fed90e666028299e12
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 73d0d3b145730467e812b0e04c91f4f1
+    - 53e54a70d5219454e99fef4c23b78c9e
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 53e54a70d5219454e99fef4c23b78c9e
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 53e54a70d5219454e99fef4c23b78c9e
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 8be82e6fd1e524fce851907649892884
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 53e54a70d5219454e99fef4c23b78c9e
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - 2d838f3237c174809a7d6cf12d5b0315
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - d52b0ab697fcf47e7ab9463612974c54
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 6782713cab54d4fe3bb90cc9543d1580
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - fb1547106e72149119b6685e17710e7f
+    - fb1547106e72149119b6685e17710e7f
+    - fb1547106e72149119b6685e17710e7f
+    - fb1547106e72149119b6685e17710e7f
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 9c0c81a93d32d40369ce9b2372226b38
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 5ffbc73e6adbf431ebfcc31d1a0da557
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 0b206779c5ce54883aa8b7053b15c276
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 31a00e788de324fb1ba018c84683b77c
+    - 31a00e788de324fb1ba018c84683b77c
+    - 31a00e788de324fb1ba018c84683b77c
+    - 70f2d8e1d6888485a9d2f4ab4c72dd8a
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 8ab93be544f024ab9bc07d026d24f64c
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 964b287856a1a4d3e9004a504b1df6f4
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    - 51f456d33605d48498025549fd184cc0
+    spriteTextureTimeStamps:
+    - 1443367662
+    - 1508589746
+    - 1603465198
+    - 1434972088
+    - 1435407856
+    - 1604948190
+    - 1443367662
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1443367662
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1443367662
+    - 1435407856
+    - 1435407856
+    - 1602765488
+    - 1435407856
+    - 1435407856
+    - 1443367662
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1435407856
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1443374036
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1508589746
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1451862090
+    - 1451862090
+    - 1451862090
+    - 1451862090
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1546870537
+    - 1546870537
+    - 1546870537
+    - 1546870537
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1479642692
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1441383192
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 1596379621
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1451438246
+    - 1451438246
+    - 1451438246
+    - 1612097278
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1451176738
+    - 1546870537
+    - 1546870537
+    - 1546870537
+    - 1546870537
+    - 1546870537
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    - 1642002091
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PickUpCollection
+    spriteCollectionGUID: 46f44f89f07834438af78490dcbe290c
+    spriteCollectionDataGUID: 7dece8774e9074c5dbf8257abaca49ef
+    spriteNames:
+    - Battery
+    - Ammo
+    - FlashLight
+    - Fuel
+    - GrenadesCrate
+    - GreenLaser
+    - RedLaser
+    - BlueLaser
+    - GroundMaker
+    - JetPackPickUp
+    - GroundAmmo
+    - Oxigen
+    - WaterGunPickUp
+    - heart/0
+    - heart/1
+    - heart/2
+    - heart/3
+    - heart/4
+    - heart/5
+    - LampAmmo
+    - Clock/0
+    - Clock/1
+    - Clock/2
+    - Clock/3
+    - Clock/4
+    - Clock/5
+    - Clock/6
+    - Clock/7
+    - Clock/8
+    - Clock/9
+    - Clock/10
+    - Clock/11
+    - Clock/12
+    - Clock/13
+    - Clock/14
+    - Clock/15
+    - Clock/16
+    - Clock/17
+    spriteTextureGUIDs:
+    - 73d0d3b145730467e812b0e04c91f4f1
+    - 3bb352b0451004380bd3e2c015978d8f
+    - 9c0c81a93d32d40369ce9b2372226b38
+    - 8be82e6fd1e524fce851907649892884
+    - 7f25381b4ddec4fed90e666028299e12
+    - e47ed5f21c1c4464983120a41f0cc872
+    - 3f199a0c7e6ab4b9999bea4909102981
+    - aa646acc06a5a42e2b0cc098eea9cfb5
+    - 40c7ce2d4bb764f3c9da873fd44438b6
+    - 2e6d4fa381f144380a567f49dc615f38
+    - b11df59fa5fc643fa9a4ae092a00cd59
+    - f33d72c8bd3e849319a024e220b90dfe
+    - 02d8287bdfce5456d88aef7b5a14fa75
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - 4756a8f5d7f3542c08fb0023d7f7e7a7
+    - c28724ef67c83406aabf5c8cb11adc97
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    - 313fafc503f4c4dac92bdfd61330b24e
+    spriteTextureTimeStamps:
+    - 1604948190
+    - 1603465198
+    - 1479642692
+    - 1602765488
+    - 1434972088
+    - 1445847226
+    - 1445847454
+    - 1445847400
+    - 1540297195
+    - 1602848201
+    - 1603488953
+    - 1602766720
+    - 1501423546
+    - 1505302822
+    - 1505302822
+    - 1505302822
+    - 1505302822
+    - 1505302822
+    - 1505302822
+    - 1605558864
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    - 1637235950
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MiscCollection
+    spriteCollectionGUID: 142ad40d198334a60a33cdf462712cf1
+    spriteCollectionDataGUID: e8cd51bc5da094c80bf4fa7dd90366d6
+    spriteNames:
+    - 426x240
+    - DirectionalPadButton
+    - LightCircle
+    - MenCounter2Digits
+    - Radar
+    - MOD-LogoStandBy
+    - MOD-Logo90px
+    - MOD-Logo50px
+    - RadarSquare
+    - RadarSquareBackground
+    - MenCounter1Digit
+    - FloorButton
+    - FloorButtonBase
+    - TankSticker
+    - SmallStickers/0
+    - SmallStickers/1
+    - SmallStickers/2
+    - SmallStickers/3
+    - SmallStickers/4
+    - SmallStickers/5
+    - SmallStickers/6
+    - SmallStickers/7
+    - Arrows/0
+    - Arrows/1
+    - Arrows/2
+    - Arrows/3
+    - Arrows/4
+    - Arrows/5
+    - Arrows/6
+    - Arrows/7
+    - Controller1
+    - MiniArrow
+    - MiniLine
+    - MiniArrow90
+    - WhiteArrowDown
+    - ControllerGrande
+    - Controller2
+    - DirectionalPad
+    - LineWithCircle
+    - 8Arrows
+    - PlayButton
+    - ColorAdjustControl
+    - Graphics Icon
+    - GoldStar
+    - NoStar
+    - logodrkuchogamesBlancoPixelado
+    - DR-KUCHO GRADIENT para logo
+    - Action Button
+    - SuperMiniArrow90
+    - LineWithCircleStraight
+    - LongMiniArrow90
+    - SinglePixelCenter
+    - ActionButtonsMagnified
+    - Twitch Icon
+    - Gif Maker Icon
+    - Mouse
+    - Keyboard
+    - MiniArrowCross
+    - SingleKey
+    - SilverStar
+    - BronzeStar
+    - GoodGuysShip Sticker
+    - GoodGuysShip Sticker 70
+    - Base Sticker
+    - Alien Sticker
+    - Darsanaut Sticker
+    - Hero Sticker
+    - alien Saucer Sticker
+    - Alien Ship Sticker
+    - Digger Sticker
+    spriteTextureGUIDs:
+    - 4d9c4dbcedc2d43a9b3f9e6dbdb9abfb
+    - cd225fac8d8c54491877e869ae39282c
+    - 3c84442cd490c4918b7077bcee25dd37
+    - 5ed46f90cad1f492caabea3d99d58f02
+    - 0eb71a74c21fe43a093783f7557d146f
+    - 57d572b96f6e54dfd8bbac1728777656
+    - e8528862e393f40068e93eabfe32fd9a
+    - 8bf789f76a0ee49a981ec873afaf71c4
+    - a4d88b8fc1c054128b048db35a0897ec
+    - 79fe02086c05c4265a468e0017f603dc
+    - 647edf929a2214b0cb3c00fa864755fa
+    - d7a2af1e64b9747ce81d7e60c48b54d7
+    - 01f5e75de68f048848236139acedad7a
+    - 6e8510a9a4e01459b9d4fa1eb90083dd
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - a9409dddb435b499886048e3fcca0324
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 6f990cf9487204d21a0123ca9ae1f65f
+    - 1d3d16041dece4e79a36c1b1ea9553c9
+    - baf9358e615dc40818d2f420240a05cf
+    - 93816a2c858c942c8aef5ff3981c93ac
+    - 56f1ed049f22f4ef4a57c6e71818e626
+    - 3cc6a1115bc0146e5b3cbe186f25e511
+    - 3432fdf083fc747ffa135de6d0e5d5a4
+    - 589a70a98a05c4111af834faef5d27cd
+    - 237dfb2830baa425091d0d731b1c2aa5
+    - ac667816af5044d3b80fa09d91c2b55b
+    - 365960577ee1644bb824d8ef7dc634a2
+    - b210ebe113608424da85ee9e5bf23945
+    - 361c889ab45504e86b1b103b5f62f255
+    - 8d0e83d3dde824a33b4ea1fcc2871c09
+    - 469858d2a82654ced89e081310023129
+    - cc28e81a969184a57a25b4499324f2a6
+    - 943801beab311404dad7496ad2b690cd
+    - f0707d2fdc763466aae0cf1acc6b3744
+    - 371d798b8597b46aa95e5f3713c0cc77
+    - 87c415bbcb5e54da98281c4c95eb169f
+    - 184bdb5be16eb4805aeda3aa36baa834
+    - 76ca34652a99041f6a1e1117fef3ccaf
+    - 034ba3a5b99db406e817d828d49d1d81
+    - 404734285c02b4871b81d204265dac36
+    - 62b96b7fe67c0473e937dd3f56f90d47
+    - ef2c3aa8eff874001b4fc3ec52844f4f
+    - aef61e8f54bce4826bcc3a3a516ee157
+    - f3b220339ac374d1ea5aed54c55c9043
+    - d31f2fee4c2604d5d91ab15320381cfc
+    - a833deb57674c4da9bdd4c7885d61082
+    - 4d2350446bd14480eb148da1dcab9b19
+    - 6ab99957108594b488836f1efe60bb06
+    - b1d1e946dbedb43ba95ad262fd2d0a14
+    - 18e044dbbfe13413399acbea22863c96
+    - 5c6da785da35c4acca7693f16a2a2d4f
+    - 32bbea84e01a04fda8f091c80612dcde
+    - 321e620f52cbe4acf99ed0c74af41b8d
+    - c26fb188ddbfb4551977bb5108ecc2c3
+    - af1f72983e4e545b393dc72e7379695e
+    - 2fe21975ee557452395be22f54a91560
+    spriteTextureTimeStamps:
+    - 1638358371
+    - 1512560209
+    - 1426587050
+    - 1530549462
+    - 1442928550
+    - 1460598104
+    - 1614012992
+    - 1460565776
+    - 1476526514
+    - 1446235770
+    - 1530549459
+    - 1530633361
+    - 1530633465
+    - 1452088672
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1448888650
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1635171888
+    - 1615985813
+    - 1461800446
+    - 1461838694
+    - 1462199612
+    - 1526134754
+    - 1619190317
+    - 1615989639
+    - 1512243287
+    - 1534591682
+    - 1536678876
+    - 1564252679
+    - 1638043027
+    - 1609262191
+    - 1609265359
+    - 1614011768
+    - 1614081580
+    - 1615982727
+    - 1615982951
+    - 1615983561
+    - 1615984477
+    - 1450798220
+    - 1615989561
+    - 1619186347
+    - 1619187388
+    - 1635171846
+    - 1634393391
+    - 1634731824
+    - 1635187657
+    - 1635369909
+    - 1635341755
+    - 1644000778
+    - 1644000752
+    - 1644000846
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: OrbsCollection
+    spriteCollectionGUID: a97623d7390554b61baf18519add91df
+    spriteCollectionDataGUID: c1128adbac3f0409399a9f30584c3c6e
+    spriteNames:
+    - Orbs/0
+    - Orbs/1
+    - Orbs/2
+    - Orbs/3
+    - Orbs/4
+    - Orbs/5
+    - Orbs/6
+    - Orbs/7
+    - Orbs/8
+    - Orbs/9
+    - Orbs/10
+    - Orbs/11
+    - Orbs/12
+    - Orbs/13
+    - Orbs/14
+    - Orbs/15
+    - Orbs/16
+    - Orbs/17
+    - Orbs/18
+    - Orbs/19
+    - Orbs/20
+    - Orbs/21
+    - Orbs/22
+    - Orbs/23
+    - JetPackThrust/0
+    - JetPackThrust/1
+    - JetPackThrust/2
+    - JetPackThrust/3
+    - JetPackThrust/4
+    - JetPackThrust/5
+    - JetPackThrust/6
+    - JetPackThrust/7
+    - JetPackThrust/8
+    - JetPackThrust/9
+    - "\x10LaserExplosion/0"
+    - "\x10LaserExplosion/1"
+    - "\x10LaserExplosion/2"
+    - "\x10LaserExplosion/3"
+    - "\x10LaserExplosion/4"
+    - "\x10LaserExplosion/5"
+    - "\x10LaserExplosion/6"
+    - "\x10LaserExplosion/7"
+    - "\x10LaserExplosion/8"
+    - "\x10LaserExplosion/9"
+    - "\x10LaserExplosion/10"
+    - AlienTeleportRay/0
+    - AlienTeleportRay/1
+    - AlienTeleportRay/2
+    - AlienTeleportRay/3
+    - FireFlash/0
+    - FireFlash/1
+    - FireFlash/2
+    - FireFlash/3
+    - FireFlash/4
+    - LaserHiRes
+    - "\x10LaserExplosion/11"
+    - "\x10LaserExplosion/12"
+    - "\x10LaserExplosion/13"
+    - "\x10LaserExplosion/14"
+    - "\x10LaserExplosion/15"
+    - "\x10LaserExplosion/16"
+    - "\x10LaserExplosion/17"
+    - "\x10LaserExplosion/18"
+    - "\x10LaserExplosion/19"
+    - TeleportMiniLight
+    - TeleportMiniLight 2
+    - coin/0
+    - coin/1
+    - coin/2
+    - coin/3
+    - 
+    - 
+    - coin/4
+    - coin/5
+    - coin/6
+    - coin/7
+    spriteTextureGUIDs:
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 2a0e399f9e9154fe19e5260337bcd809
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - 4044f6f601e8e40b5ac563c859877a19
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 5d9891644bca3487b9d4e469feafb433
+    - 5d9891644bca3487b9d4e469feafb433
+    - 5d9891644bca3487b9d4e469feafb433
+    - 5d9891644bca3487b9d4e469feafb433
+    - 5d9891644bca3487b9d4e469feafb433
+    - d787c01fb8b8d4380b010636f660ff90
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - c338589a11e6b49c3a83b7ce35bb64a0
+    - ba876b81a9b584eb2b7449b2eada2f9f
+    - c0b60299c3e9c4302a056fc52f087c41
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    - 
+    - 
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    - 30060992a4eab459b9891bd187334e3d
+    spriteTextureTimeStamps:
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1603464526
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457730436
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1449142200
+    - 1449142200
+    - 1449142200
+    - 1449142200
+    - 1457468820
+    - 1457468820
+    - 1457468820
+    - 1457468820
+    - 1457468820
+    - 1457469926
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1457476850
+    - 1472830854
+    - 1472856950
+    - 1476574404
+    - 1476574404
+    - 1476574404
+    - 1476574404
+    - 0
+    - 0
+    - 1476574404
+    - 1476574404
+    - 1476574404
+    - 1476574404
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: ShadowsCollection
+    spriteCollectionGUID: 2ac73d27f6b12454b97c3fa30d68ed3d
+    spriteCollectionDataGUID: b95d1663f53cb4ea7aae0a4222d0256b
+    spriteNames:
+    - HangarShadow
+    - CircleShadow
+    - Rover_Truck_Shadow
+    - RTS Building 04 (mini tower 1) Platform Shadow
+    - Truck_01_shadow
+    - WheelInerShadow1
+    - wheel metal shadow
+    - Base Interior Shadow
+    spriteTextureGUIDs:
+    - 0c6b4b962fdd741428e7285b658aad86
+    - 441133911d0914ce293832ed09a21a31
+    - 9d79f68f194f74bd7aaf493df3299446
+    - 072cc3702eda44cd79fde937070cb368
+    - 0ac03f8de13a44d83a929ee1019a411f
+    - 7c82e38f90a0b4bc68722ed35de634db
+    - 313d4b8de7d3dbf47acfae4ce7d3b8b8
+    - c10912f52e87f45bbb8614f4af20439b
+    spriteTextureTimeStamps:
+    - 1594484281
+    - 1520191364
+    - 1513424980
+    - 1537791848
+    - 1449062546
+    - 1513544134
+    - 0
+    - 1596283037
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: LoadScreenCollection
+    spriteCollectionGUID: 2291bf1c26229490081dc6883f3de344
+    spriteCollectionDataGUID: 806b5b35cfd9a4c60a1c1063b4fda2fb
+    spriteNames:
+    - 
+    - 
+    - 
+    - LoadScreen-Humanos
+    - LoadScreen-Aliens
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - LoadScreen-Alien 1
+    - LoadScreen-Alien 2
+    - LoadScreen-Alien 3
+    - LoadScreen-Alien Teleport
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 89e628a6f474e42208e1dadcc89e43c4
+    - a959bed61003d429d8321fdaf9855cd9
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 337303cb016bd4744841c02f946c8ff0
+    - 7da10f9d684844ede91349f8ef59d900
+    - 793b8126ab9be488dba695c3b9cbac35
+    - 3da0bb489112243239ec7e79c0c16fc5
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 1489843050
+    - 1489847260
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1637505042
+    - 1637504956
+    - 1637504666
+    - 1637505636
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: FontsCollection
+    spriteCollectionGUID: 3d59c13bd6136416c97f2692c5490c79
+    spriteCollectionDataGUID: e328749d0ad3041a5a87d80f5f08b8b8
+    spriteNames:
+    - Arrows/0
+    - Arrows/1
+    - Arrows/2
+    - Arrows/3
+    - Arrows/4
+    - Arrows/5
+    - Arrows/6
+    - Arrows/7
+    - RadarSquare
+    - RadarSquareBackground
+    - Hud
+    - Meter1
+    - Emojis/0
+    - Emojis/1
+    - Emojis/2
+    - Emojis/3
+    - Emojis/4
+    - Emojis/5
+    - Emojis/6
+    - Emojis/7
+    - Emojis/8
+    - Emojis/9
+    - Emojis/10
+    - Emojis/11
+    - Emojis/12
+    - Emojis/13
+    - Emojis/14
+    - Emojis/15
+    - Emojis/16
+    - Emojis/17
+    - Emojis/18
+    - Emojis/19
+    - Emojis/20
+    - Emojis/21
+    - Emojis/22
+    - Emojis/23
+    - Emojis/24
+    - Emojis/25
+    - Emojis/26
+    - Emojis/27
+    - Emojis/28
+    - Emojis/29
+    - Emojis/30
+    - Emojis/31
+    - Emojis/32
+    - Emojis/33
+    - Emojis/34
+    - Emojis/35
+    - Emojis/36
+    - Emojis/37
+    - Emojis/38
+    - Emojis/39
+    - Emojis/40
+    - Emojis/41
+    - Emojis/42
+    - Emojis/43
+    - Emojis/44
+    - Emojis/45
+    - Emojis/46
+    - Emojis/47
+    - Emojis/48
+    - EmojiBallon
+    - DR-KUCHO GRADIENT para logo
+    spriteTextureGUIDs:
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - 2b3a9da603bdb4e29baba19985dab801
+    - a4d88b8fc1c054128b048db35a0897ec
+    - 79fe02086c05c4265a468e0017f603dc
+    - 1214040cd9455424ba74e09adbb82001
+    - 511f6b1173c8d45ee94adeddc7f467cc
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 98a8aab7571fc46688120f86d7708ea8
+    - 8e1219a0876884d4e837731232f6d443
+    - 943801beab311404dad7496ad2b690cd
+    spriteTextureTimeStamps:
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1461935258
+    - 1476526514
+    - 1446235770
+    - 1476477094
+    - 1476488284
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510581114
+    - 1510435027
+    - 1614081580
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Alien2Collection
+    spriteCollectionGUID: d6eda005afc27463ea23033bfd19ed2b
+    spriteCollectionDataGUID: 329b4274a80f24447a7fc549aeb8e09b
+    spriteNames:
+    - Alien v2/0
+    - Alien v2/1
+    - Alien v2/2
+    - Alien v2/3
+    - Alien v2/4
+    - Alien v2/5
+    - Alien v2/12
+    - Alien v2/13
+    - Alien v2/14
+    - Alien v2/15
+    - Alien v2/16
+    - Alien v2/17
+    - Alien v2/24
+    - Alien v2/25
+    - Alien v2/26
+    - Alien v2/27
+    - Alien v2/28
+    - Alien v2/29
+    - Alien v2/36
+    - Alien v2/37
+    - Alien v2/38
+    - Alien v2/39
+    - Alien v2/40
+    - Alien v2/41
+    - Alien v2/48
+    - Alien v2/49
+    - Alien v2/50
+    - Alien v2/51
+    - Alien v2/52
+    - Alien v2/53
+    - Alien v2/60
+    - Alien v2/61
+    - Alien v2/62
+    - Alien v2/63
+    - Alien v2/64
+    - Alien v2/65
+    - Alien v2/72
+    - Alien v2/73
+    - Alien v2/74
+    - Alien v2/75
+    - Alien v2/76
+    - Alien v2/77
+    - Alien v2/84
+    - Alien v2/85
+    - Alien v2/86
+    - Alien v2/87
+    - Alien v2/88
+    - Alien v2/89
+    - Alien v2/96
+    - Alien v2/97
+    - Alien v2/98
+    - Alien v2/99
+    - Alien v2/100
+    - Alien v2/101
+    - Alien v2/108
+    - Alien v2/109
+    - Alien v2/110
+    - Alien v2/111
+    - Alien v2/112
+    - Alien v2/113
+    - Alien v2/120
+    - Alien v2/121
+    - Alien v2/122
+    - Alien v2/123
+    - Alien v2/124
+    - Alien v2/125
+    - Alien v2/132
+    - Alien v2/133
+    - Alien v2/134
+    - Alien v2/135
+    - Alien v2/136
+    - Alien v2/137
+    - Alien v2/144
+    - Alien v2/145
+    - Alien v2/146
+    - Alien v2/147
+    - Alien v2/148
+    - Alien v2/149
+    - Alien v2/156
+    - Alien v2/157
+    - Alien v2/158
+    - Alien v2/159
+    - Alien v2/160
+    - Alien v2/161
+    - Alien v2/168
+    - Alien v2/169
+    - Alien v2/170
+    - Alien v2/171
+    - Alien v2/172
+    - Alien v2/173
+    - Alien v2/180
+    - Alien v2/181
+    - Alien v2/182
+    - Alien v2/183
+    - Alien v2/184
+    - Alien v2/185
+    - Alien v2/6
+    - Alien v2/7
+    - Alien v2/8
+    - Alien v2/9
+    - Alien v2/10
+    - Alien v2/11
+    - Alien v2/18
+    - Alien v2/19
+    - Alien v2/20
+    - Alien v2/21
+    - Alien v2/22
+    - Alien v2/23
+    - Alien v2/30
+    - Alien v2/31
+    - Alien v2/32
+    - Alien v2/33
+    - Alien v2/34
+    - Alien v2/35
+    - Alien v2/42
+    - Alien v2/43
+    - Alien v2/44
+    - Alien v2/45
+    - Alien v2/46
+    - Alien v2/47
+    - Alien v2/54
+    - Alien v2/55
+    - Alien v2/56
+    - Alien v2/57
+    - Alien v2/58
+    - Alien v2/59
+    - Alien v2/66
+    - Alien v2/67
+    - Alien v2/68
+    - Alien v2/69
+    - Alien v2/70
+    - Alien v2/71
+    - Alien v2/78
+    - Alien v2/79
+    - Alien v2/80
+    - Alien v2/81
+    - Alien v2/82
+    - Alien v2/83
+    - Alien v2/90
+    - Alien v2/91
+    - Alien v2/92
+    - Alien v2/93
+    - Alien v2/94
+    - Alien v2/95
+    - Alien v2/102
+    - Alien v2/103
+    - Alien v2/104
+    - Alien v2/105
+    - Alien v2/106
+    - Alien v2/107
+    - Alien v2/114
+    - Alien v2/115
+    - Alien v2/116
+    - Alien v2/117
+    - Alien v2/118
+    - Alien v2/119
+    - Alien v2/126
+    - Alien v2/127
+    - Alien v2/128
+    - Alien v2/129
+    - Alien v2/130
+    - Alien v2/131
+    - Alien v2/138
+    - Alien v2/139
+    - Alien v2/140
+    - Alien v2/141
+    - Alien v2/142
+    - Alien v2/143
+    - Alien v2/150
+    - Alien v2/151
+    - Alien v2/152
+    - Alien v2/153
+    - Alien v2/154
+    - Alien v2/155
+    - Alien v2/162
+    - Alien v2/163
+    - Alien v2/164
+    - Alien v2/165
+    - Alien v2/166
+    - Alien v2/167
+    - Alien v2/174
+    - Alien v2/175
+    - Alien v2/176
+    - Alien v2/177
+    - Alien v2/178
+    - Alien v2/179
+    - Alien v2/186
+    - Alien v2/187
+    - Alien v2/188
+    - Alien v2/189
+    - Alien v2/190
+    - Alien v2/191
+    - AlienGun1/0
+    - AlienGun1/1
+    - AlienGun1/2
+    - AlienGun1/3
+    - AlienGun1/4
+    - AlienGun1/5
+    - AlienGun1/6
+    - AlienGun1/7
+    - AlienGun1/8
+    - AlienGun1/9
+    - Alien Pilot
+    spriteTextureGUIDs:
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 919a919fdd23940f0951a28c8cc34674
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - 7c3b2315818c3457c8b1d7333b836a68
+    - ceeeed2d3c6e4432a8f4475aff9f5d22
+    spriteTextureTimeStamps:
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1625684829
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1603571135
+    - 1602528117
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: EnemiesCollection
+    spriteCollectionGUID: 3480b7df24be7476e9541768c0294dce
+    spriteCollectionDataGUID: c16a8aa11cf364bd2b16874596ab81f2
+    spriteNames:
+    - BatFly/0
+    - BatFly/1
+    - BatFly/2
+    - BatFly/3
+    - BatFly/4
+    - BatFly/5
+    - BatFly/6
+    - BatFly/7
+    - BatFly/8
+    - BatFly/9
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Dino/0
+    - Dino/1
+    - Dino/2
+    - Dino/3
+    - Dino/16
+    - Dino/17
+    - Dino/18
+    - Dino/19
+    - Dino/4
+    - Dino/5
+    - Dino/6
+    - Dino/7
+    - Dino/20
+    - Dino/21
+    - Dino/22
+    - Dino/23
+    - Dino/8
+    - Dino/9
+    - Dino/10
+    - Dino/11
+    - Dino/12
+    - Dino/13
+    - Dino/14
+    - Dino/15
+    - Dino/24
+    - Dino/25
+    - Dino/26
+    - Dino/27
+    - Dino/28
+    - Dino/29
+    - Dino/30
+    - Dino/31
+    - BatDie/0
+    - BatDie/1
+    - BatDie/2
+    - BatDie/3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - bat/0
+    - bat/1
+    - bat/2
+    - bat/3
+    - bat/4
+    - bat/5
+    - bat/6
+    - bat/7
+    - bat/8
+    - bat/9
+    - bat/10
+    - bat/11
+    - bat/12
+    - bat/13
+    - bat/14
+    - bat/15
+    - bat/16
+    - bat/17
+    - bat/18
+    - bat/19
+    - bat/20
+    - bat/21
+    - bat/22
+    - bat/23
+    - bat/24
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - BlankSprite
+    spriteTextureGUIDs:
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 9868037df2d754481b30d97eac80480b
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 80596371d87824b98b35b24c5fea8e21
+    - 450be9806f0ea44ba801437bb7655c13
+    - 450be9806f0ea44ba801437bb7655c13
+    - 450be9806f0ea44ba801437bb7655c13
+    - 450be9806f0ea44ba801437bb7655c13
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 801257fd1f0024a719900bbf81d7008a
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 70f2d8e1d6888485a9d2f4ab4c72dd8a
+    spriteTextureTimeStamps:
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 1452624228
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1435499662
+    - 1452627392
+    - 1452627392
+    - 1452627392
+    - 1452627392
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 1529234355
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1612097278
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CrystalsCollection
+    spriteCollectionGUID: f0c3022f83db740d7bc3de824376f906
+    spriteCollectionDataGUID: f890953807eb845e48691b03b65978f3
+    spriteNames:
+    - Cristals/0
+    - Cristals/1
+    - Cristals/2
+    - Cristals/3
+    - Cristals/4
+    - Cristals/5
+    - Cristals/6
+    - Cristals/7
+    - Cristals/8
+    - Cristals/9
+    - Cristals/10
+    - Cristals/11
+    - Cristals/12
+    - Cristals/13
+    - Cristals/14
+    - Cristals/15
+    - Cristals/16
+    - Cristals/17
+    - Cristals/18
+    - Cristals/19
+    - Cristals/20
+    - Cristals/21
+    - Cristals/22
+    - Cristals/23
+    - Cristals/24
+    - Cristals/25
+    - Cristals/26
+    - Cristals/27
+    - Cristals/28
+    - Cristals/29
+    - Cristals/30
+    - Cristals/31
+    - Cristals/32
+    - Cristals/33
+    - Cristals/34
+    - Cristals/35
+    - Cristals/36
+    - Cristals/37
+    - Cristals/38
+    - Cristals/39
+    - Cristals/40
+    - Cristals/41
+    - Cristals/42
+    - Cristals/43
+    - Cristals/44
+    - Cristals/45
+    - Cristals/46
+    - Cristals/47
+    - Cristals/48
+    - CrystalPieceRotating/0
+    - CrystalPieceRotating/1
+    - CrystalPieceRotating/2
+    - CrystalPieceRotating/3
+    - CrystalPieceRotating/4
+    - CrystalPieceRotating/5
+    - CrystalPieceRotating/6
+    - CrystalPieceRotating/7
+    - CrystalPieceRotating/8
+    - CrystalPieceRotating/9
+    - CrystalPieceRotating/10
+    - CrystalPieceRotating/11
+    - CrystalPieceRotating/12
+    - CrystalPieceRotating/13
+    - CrystalPieceRotating/14
+    - CrystalPieceRotating/15
+    spriteTextureGUIDs:
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 18eded9163e5b4768a867141e64d938e
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    - 60eec40b76ae5489a800ab3189fc1b5b
+    spriteTextureTimeStamps:
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424091064
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    - 1424084002
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: ParallaxCollection
+    spriteCollectionGUID: fa196ac90428144f3834d349cf948256
+    spriteCollectionDataGUID: 18a3b73cf5576444097015157d1edc10
+    spriteNames:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - CheckeredFlagSky
+    - SkyGradient_
+    - 
+    - 
+    - 
+    - White4Pix
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - c62382f0a28c94d47b275649ff69d585
+    - 3a2fd55122f81451287ada535a7890c6
+    - 
+    - 
+    - 
+    - dfc7c1ee4959944f19c17745ca3a8f72
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1450910584
+    - 1451650438
+    - 0
+    - 0
+    - 0
+    - 1451651046
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: VehiclesCollection_test
+    spriteCollectionGUID: 3ca51d72fbba440eb940b2dc7f812be6
+    spriteCollectionDataGUID: 4c4cc80451217491a93532fe2c5475fe
+    spriteNames:
+    - TroopCarrierShip00
+    spriteTextureGUIDs:
+    - a4629f520da614db0b5741c411f86b6d
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: TestAntCollection
+    spriteCollectionGUID: 469a59367a7f64251b48b7477cdf46ad
+    spriteCollectionDataGUID: 24d34bea300fd4cfe90a1ccebeeff221
+    spriteNames:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Ant Climb/0
+    - Ant Climb/1
+    - Ant Climb/2
+    - Ant Climb/3
+    - Ant Climb/4
+    - Ant Climb/5
+    - Ant Climb/6
+    - Ant Climb/7
+    - Ant Climb/8
+    - Ant Climb/9
+    - Ant Climb/10
+    - Ant Climb/11
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: AntCollection
+    spriteCollectionGUID: 40103932e37fd4fe4874309927c4f051
+    spriteCollectionDataGUID: 5e122985a39984297a2d2b2be5b5e8cd
+    spriteNames:
+    - Ant/0
+    - Ant/1
+    - Ant/2
+    - Ant/3
+    - Ant/4
+    - Ant/5
+    - Ant/42
+    - Ant/43
+    - Ant/6
+    - Ant/7
+    - Ant/8
+    - Ant/9
+    - Ant/10
+    - Ant/11
+    - Ant/44
+    - Ant/45
+    - Ant/12
+    - Ant/13
+    - Ant/14
+    - Ant/15
+    - Ant/16
+    - Ant/17
+    - Ant/46
+    - Ant/47
+    - Ant/18
+    - Ant/19
+    - Ant/20
+    - Ant/21
+    - Ant/22
+    - Ant/23
+    - Ant/48
+    - Ant/49
+    - Ant/24
+    - Ant/25
+    - Ant/26
+    - Ant/27
+    - Ant/28
+    - Ant/29
+    - Ant/50
+    - Ant/51
+    - Ant/30
+    - Ant/31
+    - Ant/32
+    - Ant/33
+    - Ant/34
+    - Ant/35
+    - Ant/52
+    - Ant/53
+    - Ant/36
+    - Ant/37
+    - Ant/38
+    - Ant/39
+    - Ant/40
+    - Ant/41
+    - Ant/54
+    - Ant/55
+    - Ant/56
+    - Ant/57
+    - Ant/58
+    - Ant/59
+    - Ant/60
+    - Ant/61
+    - Ant/62
+    - Ant/63
+    - Ant/64
+    - Ant/65
+    - Ant/66
+    - Ant/67
+    - Ant/68
+    - Ant/69
+    - Ant/70
+    - Ant/71
+    - Ant/72
+    - Ant/73
+    - Ant/74
+    - Ant/75
+    - Ant/76
+    - Ant/77
+    - Ant/78
+    - Ant/79
+    - Ant/80
+    - Ant/81
+    - Ant/82
+    - Ant/83
+    - Ant/84
+    - Ant/85
+    - Ant/86
+    - Ant/87
+    - Ant/88
+    - Ant/89
+    - WeaponBlueLaser/0
+    - WeaponBlueLaser/1
+    - WeaponBlueLaser/2
+    - WeaponBlueLaser/3
+    - WeaponBlueLaser/4
+    - WeaponBlueLaser/5
+    - WeaponBlueLaser/6
+    - WeaponBlueLaser/7
+    - WeaponBlueLaser/8
+    - WeaponBlueLaser/9
+    - WeaponBlueLaser/10
+    - WeaponBlueLaser/11
+    - WeaponBlueLaser/12
+    - WeaponBlueLaser/13
+    - WeaponBlueLaser/14
+    - Ant/90
+    - Ant/91
+    - Ant/92
+    - Ant/93
+    - Ant/94
+    - Ant/95
+    - Ant/96
+    - Ant/97
+    - Ant/98
+    - Ant/99
+    - Ant/100
+    - Ant/101
+    - WeaponBlueLaser/15
+    - WeaponBlueLaser/16
+    - WeaponBlueLaser/17
+    - WeaponBlueLaser/18
+    - WeaponBlueLaser/19
+    - Ant Hurt/6
+    - WeaponBlueLaser/20
+    - WeaponBlueLaser/21
+    - WeaponBlueLaser/22
+    - WeaponBlueLaser/23
+    - WeaponBlueLaser/24
+    - WeaponBlueLaser/25
+    - WeaponBlueLaser/26
+    - WeaponBlueLaser/27
+    - WeaponBlueLaser/28
+    - WeaponBlueLaser/29
+    - WeaponBlueLaser/30
+    - WeaponBlueLaser/31
+    - WeaponBlueLaser/32
+    - WeaponBlueLaser/33
+    - WeaponBlueLaser/34
+    - Ant/102
+    - Ant/103
+    - Ant/104
+    - Ant/105
+    - Ant/106
+    - Ant/107
+    - Ant/108
+    - Ant/109
+    - Ant/110
+    - Ant/111
+    - Ant/112
+    - Ant/113
+    - AntGrenade/0
+    - AntGrenade/1
+    - AntGrenade/2
+    - AntGrenade/3
+    - AntGrenade/4
+    - AntGrenade/5
+    - AntGrenade/6
+    - AntGrenade/7
+    - AntGrenade/8
+    - AntGrenade/9
+    - AntSwim/84
+    - AntSwim/85
+    - AntSwim/86
+    - AntSwim/87
+    - AntSwim/88
+    - AntSwim/89
+    - AntSwim/90
+    - AntSwim/91
+    - AntSwim/92
+    - AntSwim/93
+    - AntSwim/94
+    - AntSwim/96
+    - AntSwim/97
+    - AntSwim/98
+    - AntSwim/99
+    - AntSwim/100
+    - AntSwim/101
+    - AntSwim/102
+    - AntSwim/103
+    - AntSwim/104
+    - AntSwim/105
+    - AntSwim/106
+    - AntSwim/108
+    - AntSwim/109
+    - AntSwim/110
+    - FlashLight/0
+    - FlashLight/1
+    - FlashLight/2
+    - FlashLight/3
+    - FlashLight/4
+    - FlashLight/5
+    - FlashLight/6
+    - FlashLight/7
+    - FlashLight/8
+    - FlashLight/9
+    - FlashLight/10
+    - FlashLight/11
+    - FlashLight/12
+    - FlashLight/13
+    - FlashLight/14
+    - AntDnc Twist/0
+    - AntDnc Twist/1
+    - AntDnc Twist/2
+    - AntDnc Twist/3
+    - AntDnc Twist/4
+    - AntDnc Twist/5
+    - AntDnc Twist/6
+    - AntDnc Twist/7
+    - AntDnc Twist/8
+    - AntDnc Twist/9
+    - Ant Hanging/0
+    - Ant Hanging/1
+    - Ant Hanging/2
+    - Ant Hanging/3
+    - Ant Hanging/4
+    - Ant Hanging/5
+    - Ant Hanging/6
+    - Ant Hanging/7
+    - Ant Hanging/8
+    - Ant Hanging/9
+    - Ant/114
+    - Ant/115
+    - Ant/116
+    - Ant/117
+    - Ant/118
+    - Ant/119
+    - AntHead/0
+    - AntHead/1
+    - AntHead/2
+    - AntHead/3
+    - AntHead/4
+    - AntHead/5
+    - AntHead/6
+    - AntHead/7
+    - AntHead/8
+    - AntHead/9
+    - AntHead/10
+    - AntHead/11
+    - AntHead/12
+    - AntHead/13
+    - AntHead/14
+    - AntHead/15
+    - AntHead/16
+    - AntHead/17
+    - AntHead/18
+    - AntHead/19
+    - AntHead/20
+    - AntHead/21
+    - AntHead/22
+    - AntHead/23
+    - AntHead/24
+    - GroundMaker/0
+    - GroundMaker/1
+    - GroundMaker/2
+    - GroundMaker/3
+    - GroundMaker/4
+    - GroundMaker/5
+    - GroundMaker/6
+    - GroundMaker/7
+    - GroundMaker/8
+    - GroundMaker/9
+    - GroundMaker/10
+    - GroundMaker/11
+    - GroundMaker/12
+    - GroundMaker/13
+    - GroundMaker/14
+    - GroundMaker/15
+    - GroundMaker/16
+    - GroundMaker/17
+    - GroundMaker/18
+    - GroundMaker/19
+    - GroundMaker/20
+    - GroundMaker/21
+    - GroundMaker/22
+    - GroundMaker/23
+    - GroundMaker/24
+    - GroundMaker/25
+    - GroundMaker/26
+    - GroundMaker/27
+    - GroundMaker/28
+    - GroundMaker/29
+    - GroundMaker/30
+    - GroundMaker/31
+    - GroundMaker/32
+    - GroundMaker/33
+    - GroundMaker/34
+    - AntIldeSticker
+    - AntLivesSticker
+    - RIP
+    - Ant ExtraArms/0
+    - Ant ExtraArms/1
+    - Ant ExtraArms/2
+    - Ant ExtraArms/3
+    - Ant ExtraArms/4
+    - Ant ExtraArms/5
+    - Ant ExtraArms/6
+    - Ant ExtraArms/7
+    - Ant ExtraArms/8
+    - Ant ExtraArms/9
+    - Ant ExtraArms/10
+    - Ant ExtraArms/11
+    - Ant ExtraArms/12
+    - Ant ExtraArms/13
+    - Ant LegsJump/0
+    - Ant LegsJump/1
+    - Ant LegsJump/2
+    - Ant LegsJump/3
+    - Ant LegsJump/4
+    - Ant LegsJump/5
+    - Ant LegsJump/6
+    - Ant LegsJump/7
+    - Ant LegsJump/8
+    - Ant LegsJump/13
+    - Ant LegsJump/14
+    - Ant LegsJump/15
+    - Ant LegsJump/16
+    - Ant LegsJump/17
+    - Ant LegsJump/18
+    - Ant LegsJump/19
+    - Ant LegsJump/20
+    - Ant LegsJump/21
+    - Ant Hurt/0
+    - Ant Hurt/1
+    - Ant Hurt/2
+    - Ant Hurt/3
+    - Ant Hurt/4
+    - Ant Hurt/5
+    - Ant Hurt/9
+    - Ant Hurt/10
+    - Ant Hurt/11
+    - Ant Hurt/12
+    - Ant Hurt/13
+    - Ant Hurt/14
+    - Ant Hurt/7
+    - Ant Hurt/8
+    - Ant Hurt/15
+    - Ant Hurt/16
+    - Ant Hurt/17
+    - Ant Hurt/24
+    - Ant Hurt/25
+    - Ant Hurt/26
+    - AntMissingSticker
+    - GadgetOneArmAim/0
+    - GadgetOneArmAim/1
+    - GadgetOneArmAim/2
+    - GadgetOneArmAim/3
+    - GadgetOneArmAim/4
+    - GadgetOneArmAim/5
+    - GadgetOneArmAim/6
+    - GadgetOneArmAim/7
+    - GadgetOneArmAim/8
+    - GadgetOneArmAim/9
+    - Ant Hanging/10
+    - Ant Hanging/11
+    - Ant Hanging/12
+    - Ant Hanging/13
+    - Ant Hanging/14
+    - Ant Hanging/15
+    - Ant Hanging/16
+    - Ant Hanging/17
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Ant Stress Rays/0
+    - Ant Stress Rays/1
+    - Ant Stress Rays/2
+    - Ant Stress Rays/3
+    - Ant Stress Rays/4
+    - Ant Stress Rays/5
+    - Ant Stress Rays/6
+    - Ant Stress Rays/7
+    - Ant Stress Rays/8
+    - Ant Stress Rays/9
+    - Ant Stress Rays/10
+    - Ant Stress Rays/11
+    - ArmPointing
+    - AntOnLadder/0
+    - AntOnLadder/1
+    - AntOnLadder/2
+    - AntOnLadder/3
+    - AntOnLadder/4
+    - TorsoOnLadder/0
+    - TorsoOnLadder/1
+    - TorsoOnLadder/2
+    - AntOnLadder/5
+    - AntOnLadder/6
+    - AntOnLadder/7
+    - AntOnLadder/8
+    - AntOnLadder/9
+    - TorsoOnLadder/3
+    - TorsoOnLadder/4
+    - TorsoOnLadder/5
+    - TorsoOnLadder/6
+    - TorsoOnLadder/7
+    - TorsoOnLadder/8
+    - TorsoOnLadder/9
+    - AntOnLadderAss/0
+    - AntOnLadderAss/1
+    - AntOnLadderAss/2
+    - AntOnLadderAss/3
+    - AntOnLadderAss/4
+    - AntOnLadderAss/5
+    - AntOnLadderAss/6
+    - AntOnLadderAss/7
+    - AntOnLadderAss/8
+    - AntOnLadderAss/9
+    - AntOnLadderAss/10
+    - AntOnLadderAss/11
+    - AntOnLadderAss/12
+    - AntOnLadderAss/13
+    - AntOnLadderAss/14
+    - AntTorsoOnLadderAss/0
+    - AntTorsoOnLadderAss/1
+    - AntTorsoOnLadderAss/2
+    - AntTorsoOnLadderAss/3
+    - AntTorsoOnLadderAss/4
+    - AntTorsoOnLadderAss/5
+    - AntTorsoOnLadderAss/6
+    - AntTorsoOnLadderAss/7
+    - AntTorsoOnLadderAss/8
+    - AntTorsoOnLadderAss/9
+    - AntTorsoOnLadderAss/10
+    - AntTorsoOnLadderAss/11
+    - AntTorsoOnLadderAss/12
+    - AntTorsoOnLadderAss/13
+    - AntTorsoOnLadderAss/14
+    - Ant ExtraArms/14
+    - Ant ExtraArms/15
+    - Ant ExtraArms/16
+    - Ant ExtraArms/17
+    - Ant ExtraArms/18
+    - Ant ExtraArms/19
+    - Ant ExtraArms/20
+    - Ant ExtraArms/21
+    - Ant ExtraArms/22
+    - Ant ExtraArms/23
+    - Ant ExtraArms/24
+    - Ant ExtraArms/25
+    - Ant ExtraArms/26
+    - Ant ExtraArms/27
+    - AntDnc1/0
+    - AntDnc1/1
+    - AntDnc1/2
+    - AntDnc1/3
+    - AntDnc1/4
+    - AntDnc1/5
+    - AntDnc1/6
+    - AntDnc1/7
+    - AntDnc1/8
+    - AntDnc1/9
+    - AntDnc1/12
+    - AntDnc1/13
+    - AntDnc1/14
+    - AntDnc1/15
+    - AntDnc1/16
+    - AntDnc1/17
+    - AntDnc1/18
+    - AntDnc1/19
+    - AntDnc1/20
+    - AntDnc1/21
+    - AntDnc1/24
+    - AntDnc1/25
+    - AntDnc1/26
+    - AntDnc1/27
+    - AntDnc1/28
+    - AntDnc1/29
+    - AntDnc1/30
+    - AntDnc1/31
+    - AntDnc1/32
+    - AntDnc1/33
+    - AntDnc1/36
+    - AntDnc1/37
+    - AntDnc1/38
+    - AntDnc1/39
+    - AntDnc1/40
+    - AntDnc1/41
+    - AntDnc1/42
+    - AntDnc1/43
+    - AntDnc1/44
+    - AntDnc1/45
+    - AntDnc1/48
+    - AntDnc1/49
+    - AntDnc1/50
+    - AntDnc1/51
+    - AntDnc1/52
+    - AntDnc1/53
+    - AntDnc1/54
+    - AntDnc1/55
+    - AntDnc1/56
+    - AntDnc1/57
+    - AntDnc1/60
+    - AntDnc1/61
+    - AntDnc1/62
+    - AntDnc1/63
+    - AntDnc1/64
+    - AntDnc1/65
+    - AntDnc1/66
+    - AntDnc1/67
+    - AntDnc1/68
+    - AntDnc1/69
+    - AntDnc1/72
+    - AntDnc1/73
+    - AntDnc1/74
+    - AntDnc1/75
+    - AntDnc1/76
+    - AntDnc1/77
+    - AntDnc1/78
+    - AntDnc1/79
+    - AntDnc1/80
+    - AntDnc1/81
+    - AntDnc1/84
+    - AntDnc1/85
+    - AntDnc1/86
+    - AntDnc1/87
+    - AntDnc1/88
+    - AntDnc1/89
+    - AntDnc1/90
+    - AntDnc1/91
+    - AntDnc1/92
+    - AntDnc1/93
+    - AntDnc1/96
+    - AntDnc1/97
+    - AntDnc1/98
+    - AntDnc1/99
+    - AntDnc1/100
+    - AntDnc1/101
+    - AntDnc1/102
+    - AntDnc1/103
+    - AntDnc1/104
+    - AntDnc1/105
+    - AntDnc1/108
+    - AntDnc1/109
+    - AntDnc1/110
+    - AntDnc1/111
+    - AntDnc1/112
+    - AntDnc1/113
+    - AntDnc1/114
+    - AntDnc1/115
+    - AntDnc1/116
+    - AntDnc1/117
+    - AntDnc1/10
+    - AntDnc1/11
+    - AntSwim/0
+    - AntSwim/1
+    - AntDnc1/22
+    - AntDnc1/23
+    - AntSwim/2
+    - AntSwim/3
+    - AntDnc1/34
+    - AntDnc1/35
+    - AntSwim/4
+    - AntSwim/5
+    - AntDnc1/46
+    - AntDnc1/47
+    - AntSwim/6
+    - AntSwim/7
+    - AntDnc1/58
+    - AntDnc1/59
+    - AntSwim/8
+    - AntSwim/12
+    - AntDnc1/70
+    - AntDnc1/71
+    - AntSwim/13
+    - AntSwim/14
+    - AntDnc1/82
+    - AntDnc1/83
+    - AntSwim/15
+    - AntSwim/16
+    - AntDnc1/94
+    - AntDnc1/95
+    - AntSwim/17
+    - AntSwim/18
+    - AntDnc1/106
+    - AntDnc1/107
+    - AntSwim/19
+    - AntSwim/20
+    - AntDnc1/118
+    - AntDnc1/119
+    - AntSwim/24
+    - AntSwim/25
+    - AntSwim/26
+    - AntSwim/27
+    - AntSwim/28
+    - AntSwim/29
+    - AntSwim/30
+    - AntSwim/31
+    - AntSwim/32
+    - AntSwim/36
+    - AntSwim/37
+    - AntSwim/38
+    - AntSwim/39
+    - AntSwim/40
+    - AntSwim/41
+    - AntSwim/42
+    - AntSwim/43
+    - AntSwim/44
+    - AntSwim/48
+    - AntSwim/49
+    - AntSwim/50
+    - AntSwim/51
+    - AntSwim/52
+    - AntSwim/53
+    - AntSwim/54
+    - AntSwim/55
+    - AntSwim/56
+    - AntSwim/9
+    - AntSwim/10
+    - AntSwim/21
+    - AntSwim/22
+    - AntSwim/33
+    - AntSwim/34
+    - AntSwim/45
+    - AntSwim/46
+    - AntSwim/57
+    - AntSwim/58
+    - AntSwim/60
+    - AntSwim/61
+    - AntSwim/62
+    - AntSwim/63
+    - AntSwim/64
+    - AntSwim/65
+    - AntSwim/66
+    - AntSwim/67
+    - AntSwim/68
+    - AntSwim/69
+    - AntSwim/70
+    - AntSwim/72
+    - AntSwim/73
+    - AntSwim/74
+    - AntSwim/75
+    - AntSwim/76
+    - AntSwim/77
+    - AntSwim/78
+    - AntSwim/79
+    - AntSwim/80
+    - AntSwim/81
+    - AntSwim/82
+    - AntSwim/111
+    - AntSwim/112
+    - AntSwim/113
+    - AntSwim/114
+    - AntSwim/115
+    - AntSwim/116
+    - AntSwim/117
+    - AntSwim/118
+    - AntSwim/120
+    - AntSwim/121
+    - AntSwim/122
+    - AntSwim/123
+    - AntSwim/124
+    - AntSwim/125
+    - AntSwim/126
+    - AntSwim/127
+    - AntSwim/128
+    - AntSwim/129
+    - AntSwim/130
+    - AntSwim/11
+    - AntSwim/23
+    - AntSwim/35
+    - AntSwim/47
+    - AntSwim/59
+    - AntSwim/71
+    - AntSwim/83
+    - AntSwim/95
+    - AntSwim/107
+    - AntSwim/119
+    - AntSwim/131
+    - WaterGun/0
+    - WaterGun/1
+    - WaterGun/2
+    - WaterGun/3
+    - WaterGun/4
+    - WaterGun/5
+    - WaterGun/6
+    - WaterGun/7
+    - WaterGun/8
+    - WaterGun/9
+    - WaterGun/10
+    - WaterGun/11
+    - WaterGun/12
+    - WaterGun/13
+    - WaterGun/14
+    - WaterGun/15
+    - WaterGun/16
+    - WaterGun/17
+    - WaterGun/18
+    - WaterGun/19
+    - WaterGun/20
+    - WaterGun/21
+    - WaterGun/22
+    - WaterGun/23
+    - WaterGun/24
+    - WaterGun/25
+    - WaterGun/26
+    - WaterGun/27
+    - WaterGun/28
+    - WaterGun/29
+    - WaterGun/30
+    - WaterGun/31
+    - WaterGun/32
+    - WaterGun/33
+    - WaterGun/34
+    - Ant Climb/0
+    - Ant Climb/1
+    - Ant Climb/2
+    - Ant Climb/3
+    - Ant Climb/4
+    - Ant Hurt/18
+    - Ant Climb/5
+    - Ant Climb/6
+    - Ant Climb/7
+    - Ant Climb/8
+    - Ant Climb/9
+    - Ant Hurt/19
+    - Ant Climb/10
+    - Ant Climb/11
+    - Ant Climb/12
+    - Ant Climb/13
+    - Ant Climb/14
+    - Ant Hurt/20
+    - Ant Climb/15
+    - Ant Climb/16
+    - Ant Climb/17
+    - Ant Climb/18
+    - Ant Climb/19
+    - Ant Climb/20
+    - Ant Climb/21
+    - Ant Climb/22
+    - Ant Climb/23
+    - Ant Climb/24
+    - Ant Climb/25
+    - Ant Climb/26
+    - Ant Climb/27
+    - Ant Climb/28
+    - Ant Climb/29
+    - Ant Hurt/21
+    - Ant Hurt/22
+    - Ant Hurt/23
+    - Ant/120
+    - Ant/121
+    - Ant/122
+    - Ant/123
+    - Ant/124
+    - Ant/125
+    - Ant LegsJump/9
+    - Ant LegsJump/10
+    - Ant LegsJump/22
+    - Ant LegsJump/23
+    - Ant LegsJump/11
+    - Ant LegsJump/12
+    - Ant LegsJump/24
+    - Ant LegsJump/25
+    - Ant ExtraArms/28
+    - Ant ExtraArms/29
+    - Ant ExtraArms/30
+    - Ant ExtraArms/31
+    - Ant ExtraArms/32
+    - Ant ExtraArms/33
+    - Ant ExtraArms/34
+    - Ant ExtraArms/35
+    - Ant ExtraArms/36
+    - Ant ExtraArms/37
+    - Ant ExtraArms/38
+    - Ant ExtraArms/39
+    - Ant ExtraArms/40
+    - Ant ExtraArms/41
+    - AntOnShip/0
+    - AntOnShip/1
+    - AntOnShip/2
+    - AntOnShip/3
+    - AntOnShip/4
+    - AntOnShip/5
+    - AntOnShip/6
+    - AntOnShip/7
+    - AntOnShip/8
+    - AntOnShip/9
+    - AntOnShip_
+    spriteTextureGUIDs:
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - 4599e99ca5c314c52ad109ef975f4ceb
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - 51e30c649de0644a7b785f1f866ece59
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 390501a6ce96f41a3a0dcb5e1339ee57
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - 420e23ad02aac40f29bc6b5689321e77
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 1e55638be38f74483aa878fc62e7a442
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - 067dbd4cd7cd84d0e9fe33dabc8b892a
+    - b0610d218d23b4251a7558578071a7c6
+    - 3698a37708beb4be7815d3236f8a58d4
+    - 7be002ec18c5e4bea8e0a455ad988225
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 8c345050195154163b78888b3ccd1c5a
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - 362980421a53248e5825b8a4d2f0d288
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - cfdea0fc3b1f94e0c827e56907518c07
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 397db27d0e03544bf879df48051d2e23
+    - 777e31f0d9608453a9a7b0ab032e0611
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 1b550c44f418d4007ac1ec7028d5d50f
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 460582d6b920a48d9bbb9d5bef6f8577
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - 0bd07976745684558a655e5940da845f
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - d330bae59cee24000873daddd2a8ee64
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - 9d0d4b5ee29fa4b248cdbd71d704a099
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - fb0006b7f6be547b784d6dfc1000bc0b
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - bcea47e02c4e84b34a1cc43e8682a518
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - b4f3718d85034462baebe9446f373057
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - 1e1aa4465d4bf4c8fac53e99841ae869
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - ffa5864016f564a31867bff8fda8bfd8
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - c4e28c561b3924bb299baa0416fd4823
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - e3b740b694dfa48849ffbb9b9a90e2c4
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - eb91648942df0400f87298dc5801c345
+    - ed2698a1c5f804225b146d7620d741d4
+    spriteTextureTimeStamps:
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1640357809
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1625750529
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1500550924
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1611584591
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629146961
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1643037968
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1611756331
+    - 1642939338
+    - 1462534048
+    - 1612103436
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1638209026
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1611494586
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 1629507649
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1625751522
+    - 1613651216
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1625750822
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1621619086
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750892
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1625750939
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1625751633
+    - 1625751633
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1602849622
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1501498568
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1640357809
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1640357809
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1640357809
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1625750998
+    - 1640357809
+    - 1640357809
+    - 1640357809
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1644341484
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1642856419
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1640690584
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1560463235
+    - 1625751873
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BuildingsCollection
+    spriteCollectionGUID: c030adb50a95e4826b4a33c12e6c7373
+    spriteCollectionDataGUID: 0e909c36d972f4aea80cfb63256d460a
+    spriteNames:
+    - Hangar1
+    - SecurityChecSmall
+    - SecurityCheckMedium
+    - CannonMount
+    - Door1FrameL
+    - Door1l
+    - Hangar1Door1
+    - Hangar1Door2
+    - Hangar1b
+    - Door1r
+    - Door1FrameR
+    - Ladder 6
+    - Ladder 3
+    - Hangar1Black
+    - AlienBarracA0
+    - AlienCommand
+    - AlienFactory
+    - AlienGenerator
+    - AlienStarPort
+    - AlienBarracA 1
+    - AlienBarracA 2
+    - AlienBarracA 3
+    - AlienBarracB 0
+    - AlienBarracB 1
+    - AlienBarracB 2
+    - AlienBarracB 3
+    - CannonPlatform
+    - PowerCables/0
+    - PowerCables/1
+    - PowerCables/2
+    - BatHole
+    - AlienTeleport/0
+    - PowerCables/3
+    - PowerCables/4
+    - PowerCables/5
+    - AlienTeleportRay/0
+    - AlienTeleportRay/1
+    - PowerCables/6
+    - PowerCables/7
+    - PowerCables/8
+    - AlienTeleportRay/2
+    - AlienTeleportRay/3
+    - AlienTeleport/1
+    - CannonPieces/0
+    - CannonPieces/1
+    - CannonPieces/2
+    - CannonPieces/3
+    - CannonPieces/4
+    - CannonPieces/5
+    - CannonPieces/6
+    - CannonPieces/7
+    - Eaters Red Sign
+    - Truck_Tire/0
+    - Truck_Tire/1
+    - Truck_Tire/2
+    - Truck_Tire/3
+    - Truck_Tire/8
+    - Truck_Tire/9
+    - Truck_Tire/10
+    - Truck_Tire/11
+    - Truck_Tire/16
+    - Truck_Tire/17
+    - Truck_Tire/18
+    - Truck_Tire/19
+    - Truck_Tire/24
+    - Truck_Tire/25
+    - Truck_Tire/26
+    - Truck_Tire/27
+    - Truck_Tire/4
+    - Truck_Tire/5
+    - Truck_Tire/6
+    - Truck_Tire/7
+    - Truck_Tire/12
+    - Truck_Tire/13
+    - Truck_Tire/14
+    - Truck_Tire/15
+    - Truck_Tire/20
+    - Truck_Tire/21
+    - Truck_Tire/22
+    - Truck_Tire/23
+    - Truck_Tire/28
+    - Truck_Tire/29
+    - Truck_Tire/30
+    - Truck_Tire/31
+    - Truck_01-RearSuspension
+    - Truck_01-PorpShaft
+    - Rover Stop Letters
+    - Tank1_Body
+    - Tank_Tire/0
+    - Tank_Tire/1
+    - Tank_Tire/2
+    - Tank_Tire/3
+    - Tank_Tire/4
+    - Tank_Tire/5
+    - Tank_Tire/6
+    - Tank_Tire/7
+    - Tank_Tire/8
+    - Tank_Tire/9
+    - Tank_Tire/10
+    - Tank_Tire/11
+    - Tank_Tire/12
+    - Tank_Tire/13
+    - Tank_Tire/14
+    - Tank_Tire/15
+    - Tank_Tire/16
+    - Tank_Tire/17
+    - Tank_Tire/18
+    - Tank_Tire/19
+    - Tank_Tire/20
+    - Tank_Tire/21
+    - Tank_Tire/22
+    - Tank_Tire/23
+    - Tank_Tire/24
+    - Tank_Tire/25
+    - Tank_Tire/26
+    - Tank_Tire/27
+    - Tank_Tire/28
+    - Tank_Tire/29
+    - Tank_Tire/30
+    - Tank_Tire/31
+    - Ground Red Sign
+    - Warning Red Sign
+    - Warning Sign
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - RTS Building0700(back)
+    - RTS HangarA00
+    - RTS HangarB00
+    - RTS HangarC00
+    - RTS Building0300 (Com Tower)
+    - Ladder 1
+    - Ladder 2
+    - RTS Building 04 (mini tower 3)
+    - RTS Building0700
+    - RTS Building0700 (Box Maker Small)
+    - RTS Building0700 (Box Maker Small Back)
+    - GoodGuysTeleport
+    - RTS Building 04 (mini tower 1) head
+    - RTS Building 04 (mini tower 1) Leg
+    - RTS Building 04 (mini tower 1) body
+    - RTS Building 04 (mini tower 1) foot
+    - RTS Building 04 (mini tower 1) platform
+    - RTS Building 04 (mini tower 1) Leg extension
+    - Ufo Area Letters
+    - RTS Building 04 (mini tower 2) Head
+    - RTS Building 04 (mini tower 2) Antena
+    - RTS Building 04 (mini tower 2) Legs extension
+    - RTS Building 04 (mini tower 2) Body
+    - RTS Building 04 (mini tower 2) Foot
+    - RTS Building 04 (mini tower 2) platform
+    - RTS Building 04 (mini tower 2) Diagonal Rod
+    - RTS Building 04 (mini tower 2) Legs
+    - 
+    - FloatingPlatform Small
+    - SecurityCheck
+    - Hangar1a
+    - Hangar1c
+    - Rover_Tire/0
+    - Rover_Tire/1
+    - Rover_Tire/2
+    - Rover_Tire/3
+    - Rover_Tire/4
+    - Rover_Tire/5
+    - Rover_Tire/6
+    - Rover_Tire/7
+    - Rover_Tire/8
+    - Rover_Tire/9
+    - Rover_Tire/10
+    - Rover_Tire/11
+    - Rover_Tire/12
+    - Rover_Tire/13
+    - Rover_Tire/14
+    - Rover_Tire/15
+    - Rover_Tire/16
+    - Rover_Tire/17
+    - Rover_Tire/18
+    - Rover_Tire/19
+    - Rover_Tire/20
+    - Rover_Tire/21
+    - Rover_Tire/22
+    - Rover_Tire/23
+    - Rover_Tire/24
+    - Rover_Tire/25
+    - Rover_Tire/26
+    - Rover_Tire/27
+    - Rover_Tire/28
+    - Rover_Tire/29
+    - Rover_Tire/30
+    - Rover_Tire/31
+    - UfoAreaSign
+    - CheckPointSign
+    - 
+    - CheckPointLetters
+    - 
+    - LandingPodSmall/0
+    - LandingPodSmall/1
+    - 
+    - LandingPodSmall/2
+    - LandingPodSmall/3
+    - 
+    - 
+    - LandingPodSmall/4
+    - LandingPodSmall/5
+    - LandingPod/0
+    - LandingPod/1
+    - LandingPod/2
+    - LandingPod/3
+    - LandingPod/4
+    - LandingPod/5
+    - RoundPlatform/0
+    - RoundPlatform/1
+    - RoundPlatform/2
+    - RoundPlatform/3
+    - RoundPlatform/4
+    - RoundPlatform/5
+    - Generator/0
+    - Generator/1
+    - Generator/2
+    - Generator/3
+    - Generator/4
+    - Generator/5
+    - BaseSign
+    - BaseSign Left
+    - BaseSign Right
+    - BaseSign Right Angled 1
+    - BaseSign Right Angled 2
+    - BaseSign Right Angled 3
+    - RoundPlatformSmall/0
+    - RoundPlatformSmall/1
+    - RoundPlatformSmall/2
+    - RoundPlatformSmall/3
+    - RoundPlatformSmall/4
+    - RoundPlatformSmall/5
+    - RoundPlatformPieces/0
+    - RoundPlatformPieces/1
+    - RoundPlatformPieces/2
+    - RoundPlatformPieces/3
+    - RoundPlatformPieces/4
+    - RoundPlatformPieces/5
+    spriteTextureGUIDs:
+    - 92114b6b127724ef5a66df1f83b87f53
+    - a2a6cc21e8ab948b8b2cffe53b1df625
+    - e998dc314b6fe4e25adbbc80e40d1e6b
+    - f0449aa1f1ce74b1d9e6d5fd40856dad
+    - 13dba7743191d4b1b9da52d566481b86
+    - 2f024657c4804486491aed19587f742c
+    - 25bf502738b91441ea4a79637c04c0ba
+    - 9dc877c5dc05142bcaf7aa40326f497b
+    - 44ed5335494d748d888749664b980b33
+    - 624171af09ec74faea0d6a274ee10839
+    - 62b0db92b79e3426b8e0007d8b003fac
+    - 294dd0c82bde747fd8972395d5c010f3
+    - 56780177a9491470a9435c1496ab88a1
+    - d28a25b754354429383a644f70d196a3
+    - 06f94328b7cf94aa8bc3481dc4c763a1
+    - d8b4e1b62bf05441a83e0d5ddcb4f37c
+    - 380307bdf38d64419adefea528417899
+    - 475ed59b4e7fe4eeab3d10d4321a0d92
+    - bad38e7ee324146c4a3adb3ac7d3a268
+    - 6b42348d1296049909619fa221842404
+    - a8944e874f4db42418380cfd36714c86
+    - 335add243a0f547dc9e676772f49f915
+    - a28c14e7584d74e24b72161fdb817b0c
+    - 911e01e5009794bba84224a684eb4e0c
+    - affbb41a534434098913c53487b7a555
+    - 9c035f363f0ac4770922be6d0d496d6a
+    - 3b458771e547d4eacaac0d17235f4f1e
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 6720819db14104f71b105c25e1d9c110
+    - 42e14b8345e9641e9bedfffbbbd4b464
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 23b50ad62e04b4a608f36cccf01f3790
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 6c858420b24ea4c478fcfae1bd306f2f
+    - 42e14b8345e9641e9bedfffbbbd4b464
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 4ab83decbead543059135c32c6506283
+    - 6bc18e52acf724c68ae0a0f9279c1dd1
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e2de38978548b4bc8a8d2ee8ca0fe6e4
+    - e7e5122f26ff84b2084a434d64c56b6d
+    - b85358938f2034ee59e146e077fd7ad5
+    - e83c1a94babb444cd8a329ceb9cbdc5f
+    - 9a8927036bf444eacaf65b82dc30db34
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - a0b012306adcd4debaf74d561679616f
+    - 95d6c6de19ef64550bb09fd7adfd760f
+    - 4cf26ec08eaea4d7a9783e7ece486649
+    - 3374b4fbee3f24ac8a47f1b237872c04
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 8a33d99d47c684ff7bab02e7bb9767a1
+    - ae33b43075dbb4161a95e5904f5686ad
+    - e6d98ad6d557e4778b8443829aab2bf3
+    - cc8083fddbf234bfaa1c439cd8dcf945
+    - 52d8454629d154fe28c3a6ddb77ba409
+    - fecfb7a0dea5d455583ff327fc1f7b67
+    - 4f00147cd9fcf4b558642919889a948f
+    - c7c74b4ac6131483da614aec687514a6
+    - f8a043afebd9d4f0ea3927f7292d261e
+    - f81d09d28f9f34e7aa88641c3d4a69d2
+    - 50674d35c864b4d62bfd3863247a3d58
+    - d2ee52e66b4b04f81860cb11398e7444
+    - cda622029de5d4968ac8dca631418df9
+    - 060dfc7c613b64974a616c72f9ecb630
+    - d4c66326d11004f91a61088242c14146
+    - 337f0fcfdcbfc483d82e7dd5b9d60609
+    - 7ed91bdf6f7db4c05b9f146acff0b4d7
+    - 26019d854325348bca6b56c343009ecd
+    - e1c4d2f6426fa4fc2b7043dd8129373f
+    - a17030330c4e747afb43e6713874d3e5
+    - 9b681e267847c403e958c289edb71f03
+    - dd07e8b983df44102890d0d6f025fc90
+    - 8ea3a06a5fa364d8b95a6c72e845f069
+    - e4efe4fd53761426eb2c3270ba5629c6
+    - eb6d342ff05fe4ef5af4e224d0cc8a52
+    - a74237afc48f441fe8f861b53a3256da
+    - ff1d06bf63b6443d3a0ae316c1b2fe91
+    - 
+    - 80b5917ba91f7449e8b76a0c91e5fea0
+    - 50cbe79a67df7493497772d1ca2a7e22
+    - c8bf1b0d816d24e6392eda08bf563efe
+    - 2f95b8b9963e44cc2af9d6b28cb5ee8b
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 8aee7b527a9e4450082c736aca0d8215
+    - 90df61635f5aa456d8ee4440bb6f892f
+    - 5a1f517070e5b4eae8f923af43710736
+    - 
+    - a259c053b989847a4b8d53c65b91bcdc
+    - 
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 
+    - 
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 0c6fbc5ec731c47848cc5ea46cb7b4fc
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 7ce4fec40e6b54fb5b4b4d95f9d414c9
+    - 087d10897441042528a5ec062e4236ce
+    - 087d10897441042528a5ec062e4236ce
+    - 087d10897441042528a5ec062e4236ce
+    - 087d10897441042528a5ec062e4236ce
+    - 087d10897441042528a5ec062e4236ce
+    - 087d10897441042528a5ec062e4236ce
+    - d44344baf30f740d09c65620465e3b05
+    - d44344baf30f740d09c65620465e3b05
+    - d44344baf30f740d09c65620465e3b05
+    - d44344baf30f740d09c65620465e3b05
+    - d44344baf30f740d09c65620465e3b05
+    - d44344baf30f740d09c65620465e3b05
+    - 6db216605222343299192d351221455d
+    - 81990688568c24bacbc2731faea627fa
+    - 548ae2b4f53a94d689a04a99299a8fc5
+    - d728f69f3c42747389aef23a4707a615
+    - b14a084d6acfd4f859cb07bf05e8e17e
+    - b174caed7a9fa49019250e872534cb37
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 2ac8503e4b15c4bdeb64a6d85cdf9da3
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    - 35b46c00d2ca74f9dad4e8a8fd9d3b67
+    spriteTextureTimeStamps:
+    - 1553087115
+    - 1480169308
+    - 1480177250
+    - 1425695872
+    - 1480203548
+    - 1480191272
+    - 1567533113
+    - 1569079261
+    - 1553087123
+    - 1480191282
+    - 1480255238
+    - 1595595180
+    - 1595595195
+    - 1426810854
+    - 1442087194
+    - 1547222079
+    - 1436110786
+    - 1442068376
+    - 1442069662
+    - 1442087194
+    - 1442087196
+    - 1442087196
+    - 1442107020
+    - 1442107024
+    - 1442107028
+    - 1442074902
+    - 1460158366
+    - 1441801492
+    - 1441801492
+    - 1441801492
+    - 1612518586
+    - 1520351966
+    - 1441801492
+    - 1441801492
+    - 1441801492
+    - 1449142200
+    - 1449142200
+    - 1441801492
+    - 1441801492
+    - 1441801492
+    - 1449142200
+    - 1449142200
+    - 1520351966
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1442672864
+    - 1629473165
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448756540
+    - 1448743974
+    - 1448747254
+    - 1553423944
+    - 1529576501
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1451913202
+    - 1629473149
+    - 1629478398
+    - 1629472952
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1554843009
+    - 1465265108
+    - 1537908997
+    - 1465329264
+    - 1537791345
+    - 1595595217
+    - 1595595206
+    - 1615219003
+    - 1554980110
+    - 1537461051
+    - 1472251216
+    - 1538503581
+    - 1613918334
+    - 1537794444
+    - 1613918256
+    - 1613917911
+    - 1613918871
+    - 1537794456
+    - 1581343733
+    - 1613918374
+    - 1537794658
+    - 1537794757
+    - 1613919924
+    - 1537794727
+    - 1613918902
+    - 1537794687
+    - 1537794741
+    - 0
+    - 1480108974
+    - 1480168120
+    - 1529073722
+    - 1553087127
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1513516889
+    - 1581344099
+    - 1518868196
+    - 0
+    - 1518863570
+    - 0
+    - 1529075523
+    - 1529075523
+    - 0
+    - 1529075523
+    - 1529075523
+    - 0
+    - 0
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1529075523
+    - 1596064294
+    - 1596062852
+    - 1596062895
+    - 1596066142
+    - 1596067352
+    - 1596068398
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1529075524
+    - 1524355340
+    - 1524355340
+    - 1524355340
+    - 1524355340
+    - 1524355340
+    - 1524355340
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: InteriorsCollection
+    spriteCollectionGUID: 69961cf90c4814f6a8f6be36f7b4ec1f
+    spriteCollectionDataGUID: 1eb1f608316ab40f38bbf859647647be
+    spriteNames:
+    - CorridorSheet1/0
+    - CorridorSheet1/1
+    - CorridorSheet1/2
+    - CorridorSheet1/3
+    - CorridorSheet1/4
+    - CorridorSheet1/5
+    - CorridorSheet1/6
+    - CorridorSheet1/7
+    - InteriorDoor/0
+    - InteriorDoor/1
+    - InteriorDoor/2
+    - InteriorDoor/3
+    - InteriorDoor/4
+    - InteriorDoor/5
+    - InteriorDoor/6
+    - InteriorDoor/7
+    - InteriorDoor/8
+    - InteriorDoor/9
+    - InteriorDoor/10
+    - InteriorDoor/11
+    - InteriorDoor/12
+    - InteriorDoor/13
+    - InteriorDoor/14
+    - InteriorDoor/15
+    - CorridorSheet1/16
+    - CorridorSheet1/17
+    - CorridorSheet1/8
+    - CorridorSheet1/9
+    - CorridorSheet1/10
+    - CorridorSheet1/11
+    - CorridorSheet1/12
+    - CorridorSheet1/13
+    - CorridorSheet1/14
+    - CorridorSheet1/15
+    - CorridorSheet1/18
+    - CorridorSheet1/19
+    - CorridorSheet1/20
+    - CorridorSheet1/21
+    - CorridorSheet1/22
+    - CorridorSheet1/23
+    - CorridorSheet1/24
+    - CorridorSheet1/25
+    - CorridorSheet1/26
+    - CorridorSheet1/27
+    - CorridorSheet1/28
+    - CorridorSheet1/29
+    - CorridorSheet1/30
+    - CorridorSheet1/31
+    - CorridorSheet1/32
+    - CorridorSheet1/33
+    - CorridorSheet1/34
+    - CorridorSheet1/35
+    spriteTextureGUIDs:
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - c481a51313ad84c418c3b0b1f1861af3
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    - 57104e71f46ee40e3ae46ef41477be61
+    spriteTextureTimeStamps:
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1508588836
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    - 1631024529
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

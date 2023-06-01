@@ -1,0 +1,1156 @@
+{
+    "name": "MOD InputActions",
+    "maps": [
+        {
+            "name": "GameplayGamepad",
+            "id": "820890f2-a112-49e1-8dcc-05dfe2e54819",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "f9b66e23-513e-498c-b62b-a21f7eac23b9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "ec3e33fd-d110-46b7-adea-2f663212e3da",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimUpDown",
+                    "type": "Value",
+                    "id": "6cf601da-d8b0-42d0-96b6-89cb3d0972f5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimLeftRight",
+                    "type": "Value",
+                    "id": "1f994fc2-4eaf-47f2-a0b8-b44948a18142",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "92511d6b-82e7-4676-8c89-abff8b7fbcdf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "7391bc66-9aea-43c6-bdc8-0c533fae9c98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Follow Me",
+                    "type": "Button",
+                    "id": "83b54286-7864-46e6-be0e-85ecd1c0c360",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Wait",
+                    "type": "Button",
+                    "id": "e6da5b3e-845b-41f4-a50c-6e0cadb024a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Go Left",
+                    "type": "Button",
+                    "id": "97269a38-19b5-467a-a13b-12ccb2e79dd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Go Right",
+                    "type": "Button",
+                    "id": "b245f92f-6691-4534-aeb0-0d0ecfe730d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Flash Light",
+                    "type": "Button",
+                    "id": "fd108863-eaab-435f-94cd-84416cd12617",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Laser Gun",
+                    "type": "Button",
+                    "id": "cfccde1e-59b8-4a5f-aaa0-bd475643abe6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Ground Maker",
+                    "type": "Button",
+                    "id": "07164911-39b8-4fe0-93a7-b7f9bb85896f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Light Gun",
+                    "type": "Button",
+                    "id": "50a284ee-ab22-478b-b4f4-34c33eef006a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Grenades",
+                    "type": "Button",
+                    "id": "8c266bcd-c20e-462b-be13-efbc749b8313",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Vehicle Button StartStop",
+                    "type": "Button",
+                    "id": "b0bc9b2c-9d0e-4681-ad84-713175759afa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Vehicle Button 1 (Open Door)",
+                    "type": "Button",
+                    "id": "2fdf56e6-1208-4adb-8dfa-ead04d881083",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Vehicle Button 2",
+                    "type": "Button",
+                    "id": "aeecbbc5-2263-4863-962c-832efa7561ec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TruckLeft",
+                    "type": "Button",
+                    "id": "8d8e300e-d2eb-4f7f-a521-5937892a5fa3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TruckRight",
+                    "type": "Button",
+                    "id": "e68d2b83-c218-4285-8344-97205da865d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause Menu",
+                    "type": "Button",
+                    "id": "5569c56b-d73c-4032-be81-5deeff4a9786",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GodRecordingMode",
+                    "type": "Button",
+                    "id": "8de49be9-d4c1-4d36-9147-9889534b0067",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "6e11a4f6-417f-4c56-9c14-03f5ef02a9f1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SlowMotion",
+                    "type": "Button",
+                    "id": "a7e442e4-cec1-40bd-89db-82f85685a56d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8889eb68-9fe8-4b9f-998b-63b7714eb278",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2e1ef35-aab2-45eb-ac04-6090bcb6a53d",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.5)",
+                    "groups": "MainScheme",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcdb4e7f-d461-4e49-8e17-ed9284d68f96",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a5db03a-ac03-443f-92f7-8a5725f90cbe",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "753fb27f-74ed-41f8-8bae-6ac9eb1f4415",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Follow Me",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "beae6db3-6167-4087-a855-e6d9018037a7",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Wait",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "522efdbe-5131-43bb-8d17-c6e896cb04b4",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Go Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecd827a4-ba87-4fee-984b-87bc6b942627",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Go Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c77b9a7-2799-438e-bc03-65ac3679d8ce",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Flash Light",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "965be5d9-8f0b-4503-b788-1181f9ab27a5",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Laser Gun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd5fd184-4558-4da3-96a3-e791f74ad25a",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Ground Maker",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bfc8fe35-608a-454b-8894-c3f1bc2d9bc1",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Light Gun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "959f7d69-648e-455b-87b2-b61f2c747b8a",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Grenades",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d12a95cd-1d4f-4a49-888c-efd6a965688e",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "TruckLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b494aea5-a9c6-4c11-bbaa-5d5778bab747",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "TruckRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ada29453-bd1e-431a-82d5-50fc2ef4fe17",
+                    "path": "<DualShockGamepad>/select",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "GodRecordingMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e67ae0fc-a022-4e5b-bf33-372dee480b53",
+                    "path": "<Gamepad>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button 1 (Open Door)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f011d87-bf1d-46f2-86ef-a5dde80dfd5d",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea50088d-c7e9-40db-b24e-f3beb8c0a63c",
+                    "path": "<Gamepad>/touchpadButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5018cff8-8c70-40dc-a112-bc15e1703c73",
+                    "path": "<Gamepad>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b588eeb0-da4d-4a9f-8253-c42e8747dad2",
+                    "path": "<Gamepad>/leftStickPress",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button StartStop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6041ab01-582f-46f5-a59e-55336a7971c8",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e9520b5-2d54-48f9-9296-3f98b4edcf5c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "SlowMotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "271516e5-608a-4124-8610-e289a42fbbec",
+                    "path": "<Joystick>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "AimUpDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d3ba43b-4f5e-4860-9b27-5fb3a1c3999e",
+                    "path": "<Joystick>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "AimLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd7d5519-5b3b-4690-a4ce-872c6e4a2973",
+                    "path": "<HID::ShanWan USB WirelessGamepad >/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f335ba42-a411-41fd-a94f-a3e16553ffd4",
+                    "path": "<HID::ShanWan USB WirelessGamepad >/button10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GameplayMouseAndKeyboard",
+            "id": "0c272ff9-c21e-423f-9e4d-2ffc21e3cbb3",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "9ac6617d-da53-4e97-a844-7e200b941952",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "886d566f-ac77-41a8-861a-4fd5a19d4ca8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "ab77fd22-f205-49ac-8ea7-5d0154db0cfc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Follow Me",
+                    "type": "Button",
+                    "id": "d45adb2f-155a-4173-b35b-e09e2ca220e3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Wait",
+                    "type": "Button",
+                    "id": "0ee54c46-124b-4421-ae0e-35b52e4ae920",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Go Left",
+                    "type": "Button",
+                    "id": "2f6c53ac-2f99-4d74-8be8-d40952e6a234",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Go Right",
+                    "type": "Button",
+                    "id": "f09e18e8-c4e6-4025-9c56-28fe510da859",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Flash Light",
+                    "type": "Button",
+                    "id": "178ad7fa-dd37-4ba7-972a-a8e8ca1eb8fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Laser Gun",
+                    "type": "Button",
+                    "id": "54c1c0b0-28d6-4ae2-a930-93ea454d679d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Ground Maker",
+                    "type": "Button",
+                    "id": "49b05fc5-fad8-43b2-89be-741c82e1aa30",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Light Gun",
+                    "type": "Button",
+                    "id": "7182aad7-db2e-48ee-be79-024f85ce57b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Draw Grenades",
+                    "type": "Button",
+                    "id": "503bb2d6-c8ed-467f-bdc7-ee9ab7875d6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Vehicle Button StartStop",
+                    "type": "Button",
+                    "id": "628245ee-1d70-4046-845a-9a07e2854faa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Vehicle Button 1 (Open Door)",
+                    "type": "Button",
+                    "id": "3b65e85d-54a7-46c3-9fd4-94b91ab67cbf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Vehicle Button 2",
+                    "type": "Button",
+                    "id": "fe57da26-21a8-4543-a880-fef7b8d671ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause Menu",
+                    "type": "Button",
+                    "id": "fb0effb8-27d5-478d-8c1e-b83df266f8d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveUp",
+                    "type": "Button",
+                    "id": "3bb48185-ef11-4ef9-9cf6-864e6f28cef9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveLeft",
+                    "type": "Button",
+                    "id": "933a6b7a-c593-47bf-bf74-ad593198e361",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveDown",
+                    "type": "Button",
+                    "id": "1b79eab2-d5b3-45b1-a7c7-d4f53f576a95",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "3d7ff0c4-9147-4506-be2c-e4f45343c2b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DirectionalVoiceCommandMode",
+                    "type": "Button",
+                    "id": "4fbd90b9-3888-4162-ab6a-c687552f4d53",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OmnidirectionalVoiceCommandMode",
+                    "type": "Button",
+                    "id": "6d023969-a646-4b43-8a89-01e44f366cf8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "251e36fe-6cd9-44b9-afff-258587118db3",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11a7eb52-cced-43fe-8a73-a7167f2e7da3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3c070cf-9516-487e-8db3-3788b39647da",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49cd2ddd-2f7b-4380-9f27-e7cb402a708e",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Flash Light",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5c73530-11f0-476b-8b93-6cecef74237e",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Laser Gun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38a2e65c-18ac-4367-b1b8-181eb148194e",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Ground Maker",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f873c525-a3d9-44ef-9803-5ab32d79c0d2",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Light Gun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "badd8e97-b5b5-4d96-b2db-9fd05aa5bcef",
+                    "path": "<Keyboard>/4",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Draw Grenades",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5354f54a-b77a-4fc4-9962-186bd06c06f6",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button 1 (Open Door)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37065c6d-2bee-45b3-8127-a10d91a7c91e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "321594d1-02e7-49a1-9acb-252964c1fec1",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Vehicle Button StartStop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27180477-c714-463e-8331-6dd999f7f66c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08a87cb4-4a49-4c46-8ed7-85a4c17109b1",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "781976be-6af8-46b6-b591-cb1b57133caf",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3527caba-3730-4de1-abaa-494a215272bf",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "8b2be0f8-3ffb-4d5a-baec-308f2d4dd7d9",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OmnidirectionalVoiceCommandMode",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "0bc5185e-33b1-44bc-bc8f-11884d9631b9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OmnidirectionalVoiceCommandMode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "092d31ef-1413-4f85-9738-f512a6ebba5e",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OmnidirectionalVoiceCommandMode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ce9cc86f-a89e-4b3f-b37d-7333d2c44006",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DirectionalVoiceCommandMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Menus",
+            "id": "61b00c06-251e-4ab9-8df8-1af931a3ce38",
+            "actions": [
+                {
+                    "name": "MoveGamepagDpad",
+                    "type": "Value",
+                    "id": "1b7e4d6c-ef0d-4c38-a2a0-012e0ade1807",
+                    "expectedControlType": "Dpad",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveGamepadStick",
+                    "type": "Value",
+                    "id": "ce1950de-6a95-481a-98c6-e2577a9b1b80",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveJoystick",
+                    "type": "Value",
+                    "id": "619d0bd4-47d1-4be7-bdad-4bb017b13946",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "aeadfa78-1760-44c3-9991-a1696ab8e573",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "dc9134ca-d0ad-4f64-951c-8f9186b34c4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveJoystickHat",
+                    "type": "Value",
+                    "id": "d9ea2497-27ba-4f22-9544-51e58558be61",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de20527a-953b-46a1-b9d8-a94770781681",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveGamepagDpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "788e179c-4352-4075-a206-da52d1690ace",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25d2a0d8-f7cf-4510-87f3-e784b697ba72",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3567168e-bb67-47f1-87cb-ff09f10c220b",
+                    "path": "<Joystick>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b5dd6cf-44c0-47c6-9144-cfe7da03dcb2",
+                    "path": "<Joystick>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3346c088-ea2b-4350-af90-db1c872d6f2a",
+                    "path": "<Joystick>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0f845ed-8535-4cd1-a79d-2c3781c70b67",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84bcd009-677d-4a5f-aa51-0d486a2a6db0",
+                    "path": "<Gamepad>/touchpadButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dde8ab91-2c71-420b-9b5c-9cac447921d7",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "194bb465-d379-4181-804a-6d41101faa47",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "673fb869-edcc-46fb-805f-6e93cab75390",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6954467-3eda-410d-a952-027bbc6c7e68",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f4a070b-5854-4579-a1fd-fb1e586ed12c",
+                    "path": "<Gamepad>/touchpadButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a57516a-f6e0-4b84-86d2-06a4ddbd59bf",
+                    "path": "<Joystick>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc3c3958-6848-47ba-9d35-577957bc42a5",
+                    "path": "<Joystick>/button10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b692e76d-60b1-489e-843c-63932b46dce9",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveJoystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba658877-f9ea-4ef5-b259-f6b5b5addb65",
+                    "path": "<Joystick>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveJoystickHat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74c224a9-32e8-4c4c-944d-7b1219dcbe04",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MainScheme",
+                    "action": "MoveGamepadStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MainScheme",
+            "bindingGroup": "MainScheme",
+            "devices": []
+        }
+    ]
+}

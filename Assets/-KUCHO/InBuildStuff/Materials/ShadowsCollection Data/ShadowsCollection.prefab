@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1446167299371150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4254314990280662}
+  - component: {fileID: 114597650550633166}
+  m_Layer: 0
+  m_Name: ShadowsCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4254314990280662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446167299371150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114597650550633166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446167299371150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: HangarShadow
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 226, y: 164, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 226, y: 164, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -113, y: -82, z: 0}
+    - {x: 113, y: -82, z: 0}
+    - {x: -113, y: 82, z: 0}
+    - {x: 113, y: 82, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.35547072, y: 0.28711036}
+    - {x: 0.79687303, y: 0.28711036}
+    - {x: 0.35547072, y: 0.44726464}
+    - {x: 0.79687303, y: 0.44726464}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 0c6b4b962fdd741428e7285b658aad86
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: CircleShadow
+    boundsData:
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: 127, y: 127, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -63, y: -64, z: 0}
+    - {x: 64, y: -64, z: 0}
+    - {x: -63, y: 63, z: 0}
+    - {x: 64, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.35547072, y: 0.45117286}
+    - {x: 0.60351366, y: 0.45117286}
+    - {x: 0.35547072, y: 0.57519436}
+    - {x: 0.60351366, y: 0.57519436}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 441133911d0914ce293832ed09a21a31
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Rover_Truck_Shadow
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 288, y: 176, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 288, y: 176, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -144, y: -88, z: 0}
+    - {x: 144, y: -88, z: 0}
+    - {x: -144, y: 88, z: 0}
+    - {x: 144, y: 88, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.48047072, y: 0.0019541015}
+    - {x: 0.48047072, y: 0.28320214}
+    - {x: 0.8242168, y: 0.0019541015}
+    - {x: 0.8242168, y: 0.28320214}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 9d79f68f194f74bd7aaf493df3299446
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RTS Building 04 (mini tower 1) Platform Shadow
+    boundsData:
+    - {x: 1.0000019, y: -15, z: 0}
+    - {x: 76, y: 30, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: -15, z: 0}
+    - {x: 83, y: 30, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -37, y: -30, z: 0}
+    - {x: 39.000004, y: -30, z: 0}
+    - {x: -37, y: 0, z: 0}
+    - {x: 39.000004, y: 0, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8320332, y: 0.0019541015}
+    - {x: 0.9804668, y: 0.0019541015}
+    - {x: 0.8320332, y: 0.031249024}
+    - {x: 0.9804668, y: 0.031249024}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 072cc3702eda44cd79fde937070cb368
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Truck_01_shadow
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 288, y: 176, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 288, y: 176, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -144, y: -88, z: 0}
+    - {x: 144, y: -88, z: 0}
+    - {x: -144, y: 88, z: 0}
+    - {x: 144, y: 88, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.2314463}
+    - {x: 0.003908203, y: 0.51269436}
+    - {x: 0.34765428, y: 0.2314463}
+    - {x: 0.34765428, y: 0.51269436}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 0ac03f8de13a44d83a929ee1019a411f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: WheelInerShadow1
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 120, y: 120, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 120, y: 120, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -60, y: -60, z: 0}
+    - {x: 60, y: -60, z: 0}
+    - {x: -60, y: 60, z: 0}
+    - {x: 60, y: 60, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.5166025}
+    - {x: 0.2382793, y: 0.5166025}
+    - {x: 0.003908203, y: 0.6337881}
+    - {x: 0.2382793, y: 0.6337881}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 7c82e38f90a0b4bc68722ed35de634db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: wheel metal shadow
+    boundsData:
+    - {x: 1.5000038, y: 1, z: 0}
+    - {x: 231, y: 240, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 268, y: 268, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -114, y: -119, z: 0}
+    - {x: 117.00001, y: -119, z: 0}
+    - {x: -114, y: 121, z: 0}
+    - {x: 117.00001, y: 121, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.0019541015}
+    - {x: 0.003908203, y: 0.22753808}
+    - {x: 0.47265428, y: 0.0019541015}
+    - {x: 0.47265428, y: 0.22753808}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 313d4b8de7d3dbf47acfae4ce7d3b8b8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Base Interior Shadow
+    boundsData:
+    - {x: -18.5, y: -15, z: 0}
+    - {x: 37, y: 30, z: 0}
+    untrimmedBoundsData:
+    - {x: -20.5, y: -15, z: 0}
+    - {x: 41, y: 30, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -37, y: -30, z: 0}
+    - {x: 0, y: -30, z: 0}
+    - {x: -37, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8320332, y: 0.035157226}
+    - {x: 0.9042949, y: 0.035157226}
+    - {x: 0.8320332, y: 0.06445215}
+    - {x: 0.9042949, y: 0.06445215}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: c10912f52e87f45bbb8614f4af20439b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 1
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 8e0266a307afc425a8977be57b7abc08, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 2ac73d27f6b12454b97c3fa30d68ed3d
+  spriteCollectionName: ShadowsCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 805080251
+  dataGuid: b95d1663f53cb4ea7aae0a4222d0256b
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

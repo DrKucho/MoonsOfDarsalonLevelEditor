@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f0d4a54f6b74bb994094e180c127a1, type: 3}
+  m_Name: Levels Data
+  m_EditorClassIdentifier: 
+  showTrailerBeforeQuit: 0
+  masterTapeLoadFxAndC64Switch: 1
+  includedInLastBuild: 21
+  levelData:
+  - fullName: Level TAKE ME HOME
+    title: TAKE ME HOME
+    preview: {fileID: 2800000, guid: d442870af88b84f04905c380edf562d5, type: 3}
+    menNeeded: 1
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level THE DESCENT
+    title: THE DESCENT
+    preview: {fileID: 2800000, guid: d0108834bf2914f0ca8759911e85aba5, type: 3}
+    menNeeded: 2
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level EVERYBODY FOLLOW ME
+    title: EVERYBODY FOLLOW ME
+    preview: {fileID: 2800000, guid: d4164c9606a9145d5b5e8cc51cd4be53, type: 3}
+    menNeeded: 4
+    specialGoal1:
+      type: 9
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level LASER GUN
+    title: LASER GUN
+    preview: {fileID: 2800000, guid: 176d654ec55bc4a70b180a7c648b18ff, type: 3}
+    menNeeded: 3
+    specialGoal1:
+      type: 3
+      minutes: 2
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level GROUND MAKER
+    title: GROUND MAKER
+    preview: {fileID: 2800000, guid: 02a6e06523b0642749c91bca9e09e82a, type: 3}
+    menNeeded: 3
+    specialGoal1:
+      type: 9
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level JET PACK
+    title: JET PACK
+    preview: {fileID: 2800000, guid: fbf89dd9491e446488ec40a751961607, type: 3}
+    menNeeded: 4
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 6
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level TELEPORTS
+    title: TELEPORTS
+    preview: {fileID: 2800000, guid: 71b5c5e00fb40434d855a1234be161ff, type: 3}
+    menNeeded: 5
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 7
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level LEARNING TO FLY
+    title: LEARNING TO FLY
+    preview: {fileID: 2800000, guid: db331e42fb238425d95e54a67c289f70, type: 3}
+    menNeeded: 4
+    specialGoal1:
+      type: 4
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 5
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level BETTER THAN WALKING
+    title: BETTER THAN WALKING
+    preview: {fileID: 2800000, guid: c89ec6571dcd3467faefc5d9ab1f77ed, type: 3}
+    menNeeded: 5
+    specialGoal1:
+      type: 10
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level HOLY SHIP
+    title: HOLY SHIP
+    preview: {fileID: 2800000, guid: e58e8068dd5854e00a6837b3bb3ceab0, type: 3}
+    menNeeded: 9
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level LIGHT GUN
+    title: LIGHT GUN
+    preview: {fileID: 2800000, guid: d7ec6d340d2f4497680433421a651231, type: 3}
+    menNeeded: 13
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level LONG WAY HOME
+    title: LONG WAY HOME
+    preview: {fileID: 2800000, guid: 22eb67b2563684d59bd754cf6711f7d9, type: 3}
+    menNeeded: 2
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level GROUND CHEMISTRY
+    title: GROUND CHEMISTRY
+    preview: {fileID: 2800000, guid: cc6e34658caea4b5b883cea4dcc7a34f, type: 3}
+    menNeeded: 2
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level WATERFALL
+    title: WATERFALL
+    preview: {fileID: 2800000, guid: 4dc635f0cc9194fdc8299c3c1b58aca9, type: 3}
+    menNeeded: 3
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level DIG DUG
+    title: DIG DUG
+    preview: {fileID: 2800000, guid: 47fe25172450d4d1280ca5d143e27031, type: 3}
+    menNeeded: 2
+    specialGoal1:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 2
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level RUN FOR IT
+    title: RUN FOR IT
+    preview: {fileID: 0}
+    menNeeded: 5
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level TANK YOU
+    title: TANK YOU
+    preview: {fileID: 2800000, guid: 4504bb7483c6f4f3e8f96eb5c97886ec, type: 3}
+    menNeeded: 5
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level SAUCER CHASE
+    title: SAUCER CHASE
+    preview: {fileID: 0}
+    menNeeded: 3
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level SPACE INVADERS
+    title: SPACE INVADERS
+    preview: {fileID: 0}
+    menNeeded: 3
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 3
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level DIGGER DRONES STRIKE BACK
+    title: DIGGER DRONES STRIKE BACK
+    preview: {fileID: 2800000, guid: f59ab91900fae4cecb026d5449ecc9f8, type: 3}
+    menNeeded: 1
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0
+  - fullName: Level THE ONLY WAY IS UP
+    title: THE ONLY WAY IS UP
+    preview: {fileID: 0}
+    menNeeded: 3
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+    startsNeeded: 0

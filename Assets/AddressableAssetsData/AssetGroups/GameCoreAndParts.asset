@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameCoreAndParts
+  m_EditorClassIdentifier: 
+  m_GroupName: GameCoreAndParts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 748820f24cf5d4015bd4d2ef96357a68
+  m_SerializeEntries:
+  - m_GUID: 2febde1b73eb84bcc86d61d46059a552
+    m_Address: Assets/-KUCHO/InBuildStuff/GameParts/DECO (GamePart).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deb102a5634224e44a25c65eba1b9e41
+    m_Address: Assets/-KUCHO/InBuildStuff/GameParts/DecoManagers (GamePart).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bac81f98d64cb4019ba911a27b35093d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1f2d2ed60fbad4bb8bdd4e4ea98938ee, type: 2}
+    - {fileID: 11400000, guid: 72f542e86937344fc8ce060cd1571f29, type: 2}

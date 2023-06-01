@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InteriorDoorMat_0_(DoorssYellowSand)
+  m_Shader: {fileID: 4800000, guid: f82331e6a2ad041b0897918c01ffc8fb, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b48b7b71372a445ad8481fae978a8911, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _Add: 0
+    - _Alpha: 1
+    - _Col1Boost: 3.71
+    - _Col1Range: 1
+    - _Col2Boost: 3.34
+    - _Col2Range: 1.069
+    - _Col3Boost: 4.62
+    - _Col3Range: 1
+    - _Contrast: 1.408
+    - _EnableExternalAlpha: 0
+    - _GlassColBoost: 0.574
+    - _GlassColRange: 0.714
+    - _GlassGreyScaleBoost: 0
+    - _GlassGreyScaleShift: -0.915
+    - _SkyColorIntensity: 1
+    - _nothing: 0
+    m_Colors:
+    - _Col1: {r: 0.034482475, g: 0, b: 1, a: 1}
+    - _Col1Dest: {r: 0.49699998, g: 0.333984, b: 0.3946259, a: 1}
+    - _Col2: {r: 0, g: 1, b: 0.25626755, a: 1}
+    - _Col2Dest: {r: 0.49264705, g: 0.3527473, b: 0.3115268, a: 1}
+    - _Col3: {r: 1, g: 0, b: 0, a: 1}
+    - _Col3Dest: {r: 0.5299923, g: 0.534, b: 0.24344118, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _GlassCol: {r: 0.9034482, g: 1, b: 0, a: 1}
+    - _GlassColDest: {r: 0.41176468, g: 1, b: 0.780933, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SkyColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2878535030312014262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2242275110611354225}
+  - component: {fileID: 8292215946703644685}
+  m_Layer: 0
+  m_Name: USER 2 - BACKGROUND 3D MODELS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2242275110611354225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878535030312014262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8292215946703644685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878535030312014262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0471c6db6b64296a94775dbe530d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setIndex: 0
+  elements: Stylizedrock_1/Stylizedrock_2/Stylizedrock_3/Stylizedrock_4/Stylizedrock_4
+    Vert/Stylizedrock_4 flipped/Stylizedrock_5/Stylizedrock_6/Stylizedrock_7/Stylizedrock_8/Stylizedrock_9/Stylizedrock_10/Stylizedrock_11/
+  list:
+    name: Stylized Rocks
+    gos:
+    - {fileID: 1925476929971972, guid: 63986140d4f9f204bae482e71e476ab9, type: 3}
+    - {fileID: 1035615090414494, guid: 48e6c6d70aab02945a27d38f08dad8c3, type: 3}
+    - {fileID: 1621803541560660, guid: 42a7c9ad8a311fa41a8e01b4d2cbc5a2, type: 3}
+    - {fileID: 1523670424354220, guid: b022a656af4771145a2707351f303f8c, type: 3}
+    - {fileID: 1523670424354220, guid: 997f03156e6b54c9d99f4771e100c4f9, type: 3}
+    - {fileID: 1523670424354220, guid: 3d8436bd612d94fff8ce783010812e28, type: 3}
+    - {fileID: 1737729914392172, guid: 385a9b1fbd327524dad93b19cee68111, type: 3}
+    - {fileID: 1566370733785412, guid: e42f0af21f001234f815cc7b96f04983, type: 3}
+    - {fileID: 1176299219347018, guid: 221b67e47f4ace24dbdb331e3c0a12f1, type: 3}
+    - {fileID: 1095142470104616, guid: 5eac55d0cf833734f8e5e676aeb8ab75, type: 3}
+    - {fileID: 1894650412641020, guid: ba32bbbc064f5ae4e803c12fa336a8db, type: 3}
+    - {fileID: 1239937682956344, guid: 5c0c72464aaaab44fb128dfeb3c5ce4e, type: 3}
+    - {fileID: 1239937682956344, guid: f6cd38d178ac345e6b12ac296ebab4e1, type: 3}
+    i: 7

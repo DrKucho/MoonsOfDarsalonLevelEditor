@@ -1,0 +1,841 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c38b9b94c9e42e081c4ed25bd5f660, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  buildType: 0
+  isMother: 0
+  ccStaticData: {fileID: 0}
+  levelObjects: {fileID: 11400000, guid: 7e9da73501d4c4de1ac4d12319cf5962, type: 2}
+  masterTapeLoadFxAndC64Switch: 1
+  lastOSXVersion: Jan 2022 563
+  lastWINVersion: Jan 2022 558
+  isDemo: 0
+  isLevelEditor: 1
+  userIsDeveloper: 0
+  steamFullGameAppId: 1234180
+  steamDemoAppId: 1644702
+  steamLevelEditorAppId: 2458400
+  forceDoSteamProtection: 0
+  expireData:
+    _elapsedTimeFileName: Levels
+    runTimeFullDays: 0
+    runTimeHours: 4
+    runTimeFullSeconds: 14400
+    lifeDays: 30
+  version: Jan 2022 486
+  levelCountInLastBuild: 31
+  playerTips:
+  - THEY WILL ALWAYS TRY TO LINE UP AFTER YOU
+  - YOU CAN TELL THEIR HEALTH BY HOW THEY WALK
+  - 'KEEP REPEATING "FOLLOW ME" COMMANDS WON''T HELP, JUST ONE IS ENOUGH '
+  - THEY NEED VISUAL CONTACT TO KNOW WHERE YOU ARE
+  - IF A DARSANAUT IS NOT DOING WHAT YOU WANT, BLAME THE DEVELOPER! OR YOU CAN LEARN
+    HOW TO PLAY
+  - ARE YOU USING THE "WAIT" COMMAND? IT LOOKS WORTHLESS  BUT IT IS SO USEFULL
+  - THEY REMEMBER THE LAST PLACE THEY SAW YOU, AND WILL STAY AROUND IT WAITING FOR
+    YOUR RETURN
+  - VOICE COMMANDS CAN GO TROUGH WALLS .... BOOM!  MIND BLOW!
+  - LEAVE A REVIEW ON STEAM AND GET A 15% DISCOUNT ON YOUR NEXT REVIEW, THIS OFFER
+    IS NOT CUMMULATIVE
+  - ENEMY TROOPERS CAN'T DETECT YOU TROUGH ANY TERRAIN
+  - GO LEFT OR RIGHT COMMANDS ARE TEMPORARY, AFTER A FEW SECONDS THEY WILL RETURN
+    TO THEIR PREVIOUS BEHABIOUR
+  - THEY CAN ALSO FIGURE OUT YOUR POSITION BY THE SOUND OF YOUR VOICE
+  - SOMETIMES IS BETTER TO TRY SECONDARY MISSIONS ONE BY ONE
+  - ENEMIES ALSO REMEMBER WHERE THEY SAW YOU LAST TIME
+  - IF A DARSANAUT DOESN'T SEE YOU, HE WILL TRY TO FOLLOW OTHER DARSANAUT THAT DOES
+    SEE YOU
+  - FIGHT ENEMY SHIPS FROM THEIR TOP, THEIR GUN IS ON THE BOTTOM... MIND BLOW!
+  - CRASHING WITH JET PACK ALL THE TIME? BLAME THE CONTROLS, IT'S A CLASSIC ... OR
+    YOU CAN LEARN HOW TO FLY
+  - IN PLANET DARSALON'S SYSTEM MINUTES HAVE 67 SECONDS
+  - ENEMY SHIPS CAN DETECT YOU TROUGH DESTRUCTIBLE TERRAIN
+  starsNeededIncPerLevel: 6
+  levelData:
+  - fullName: Level TAKE ME HOME
+    title: TAKE ME HOME
+    starsneeded: 0
+    preview: {fileID: 2800000, guid: d442870af88b84f04905c380edf562d5, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.719
+      thresholds: {x: 1, y: 1, z: 1}
+      menCount: 1
+      allSubLevelsMenCount: 1
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level THE DESCENT
+    title: THE DESCENT
+    starsneeded: 3
+    preview: {fileID: 2800000, guid: d0108834bf2914f0ca8759911e85aba5, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.505
+      thresholds: {x: 1, y: 2, z: 3}
+      menCount: 3
+      allSubLevelsMenCount: 3
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level EVERYBODY FOLLOW ME
+    title: EVERYBODY FOLLOW ME
+    starsneeded: 6
+    preview: {fileID: 2800000, guid: d4164c9606a9145d5b5e8cc51cd4be53, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.485
+      thresholds: {x: 3, y: 5, z: 7}
+      menCount: 7
+      allSubLevelsMenCount: 7
+    specialGoal1:
+      type: 9
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level LASER GUN
+    title: LASER GUN
+    starsneeded: 12
+    preview: {fileID: 2800000, guid: 176d654ec55bc4a70b180a7c648b18ff, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 4}
+      menCount: 4
+      allSubLevelsMenCount: 4
+    specialGoal1:
+      type: 3
+      minutes: 2
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level GROUND MAKER
+    title: GROUND MAKER
+    starsneeded: 18
+    preview: {fileID: 2800000, guid: 02a6e06523b0642749c91bca9e09e82a, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 4}
+      menCount: 4
+      allSubLevelsMenCount: 4
+    specialGoal1:
+      type: 9
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level JET PACK
+    title: JET PACK
+    starsneeded: 24
+    preview: {fileID: 2800000, guid: fbf89dd9491e446488ec40a751961607, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 5}
+      menCount: 5
+      allSubLevelsMenCount: 5
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 6
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 2
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level TELEPORTS
+    title: TELEPORTS
+    starsneeded: 30
+    preview: {fileID: 2800000, guid: 71b5c5e00fb40434d855a1234be161ff, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.428
+      thresholds: {x: 2, y: 4, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 7
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level LEARNING TO FLY
+    title: LEARNING TO FLY
+    starsneeded: 36
+    preview: {fileID: 2800000, guid: db331e42fb238425d95e54a67c289f70, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 3, y: 4, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 4
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 5
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 3
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level BETTER THAN WALKING
+    title: BETTER THAN WALKING
+    starsneeded: 42
+    preview: {fileID: 2800000, guid: c89ec6571dcd3467faefc5d9ab1f77ed, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.74
+      thresholds: {x: 4, y: 5, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 10
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level LIGHT GUN
+    title: LIGHT GUN
+    starsneeded: 48
+    preview: {fileID: 2800000, guid: d7ec6d340d2f4497680433421a651231, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.419
+      thresholds: {x: 8, y: 14, z: 20}
+      menCount: 20
+      allSubLevelsMenCount: 20
+    specialGoal1:
+      type: 0
+      minutes: 3
+      seconds: 67
+    specialGoal2:
+      type: 13
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 2
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level LONG WAY HOME
+    title: LONG WAY HOME
+    starsneeded: 54
+    preview: {fileID: 2800000, guid: 22eb67b2563684d59bd754cf6711f7d9, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 5}
+      menCount: 5
+      allSubLevelsMenCount: 5
+    specialGoal1:
+      type: 0
+      minutes: 11
+      seconds: 67
+    specialGoal2:
+      type: 2
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level HOLY SHIP
+    title: HOLY SHIP
+    starsneeded: 60
+    preview: {fileID: 2800000, guid: e58e8068dd5854e00a6837b3bb3ceab0, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 6, y: 9, z: 12}
+      menCount: 12
+      allSubLevelsMenCount: 12
+    specialGoal1:
+      type: 10
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level GROUND CHEMISTRY
+    title: GROUND CHEMISTRY
+    starsneeded: 66
+    preview: {fileID: 2800000, guid: cc6e34658caea4b5b883cea4dcc7a34f, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 3, y: 4, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level WATERFALL
+    title: WATERFALL
+    starsneeded: 72
+    preview: {fileID: 2800000, guid: 4dc635f0cc9194fdc8299c3c1b58aca9, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 3, y: 5, z: 7}
+      menCount: 7
+      allSubLevelsMenCount: 7
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level LESS IS MORE
+    title: LESS IS MORE
+    starsneeded: 78
+    preview: {fileID: 2800000, guid: 3b4c9d542ff43481bb7f85b975f279c5, type: 3}
+    mainGoal:
+      type: 2
+      sucessRatio: 0.25
+      thresholds: {x: 1, y: 1, z: 0}
+      menCount: 0
+      allSubLevelsMenCount: 0
+    specialGoal1:
+      type: 7
+      minutes: 2
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal3:
+      type: 0
+      minutes: 0
+      seconds: 67
+    includedInBuild: 1
+  - fullName: Level RUN FOR IT
+    title: RUN FOR IT
+    starsneeded: 84
+    preview: {fileID: 2800000, guid: 049ee246f37f1457488efbda3b055f6b, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.348
+      thresholds: {x: 2, y: 4, z: 7}
+      menCount: 7
+      allSubLevelsMenCount: 7
+    specialGoal1:
+      type: 0
+      minutes: 6
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 4
+      seconds: 67
+    specialGoal3:
+      type: 3
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level DIG DUG
+    title: DIG DUG
+    starsneeded: 90
+    preview: {fileID: 2800000, guid: 47fe25172450d4d1280ca5d143e27031, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 1, y: 2, z: 3}
+      menCount: 3
+      allSubLevelsMenCount: 3
+    specialGoal1:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 2
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level TANK YOU
+    title: TANK YOU
+    starsneeded: 96
+    preview: {fileID: 2800000, guid: 4504bb7483c6f4f3e8f96eb5c97886ec, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 4, y: 6, z: 8}
+      menCount: 8
+      allSubLevelsMenCount: 8
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level SAUCER CHASE
+    title: SAUCER CHASE
+    starsneeded: 102
+    preview: {fileID: 2800000, guid: c0296d4cc2ef24396a0403d7e0b5984d, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 4}
+      menCount: 4
+      allSubLevelsMenCount: 4
+    specialGoal1:
+      type: 0
+      minutes: 4
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    specialGoal3:
+      type: 6
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level SPACE INVADERS
+    title: SPACE INVADERS
+    starsneeded: 108
+    preview: {fileID: 2800000, guid: 0d4611e845a524ca8ac78b7f845dd4f0, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 4}
+      menCount: 4
+      allSubLevelsMenCount: 4
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 3
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level DIGGER DRONES STRIKE BACK
+    title: DIGGER DRONES STRIKE BACK
+    starsneeded: 114
+    preview: {fileID: 2800000, guid: f59ab91900fae4cecb026d5449ecc9f8, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 1, y: 1, z: 2}
+      menCount: 2
+      allSubLevelsMenCount: 2
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level THE ONLY WAY IS UP
+    title: THE ONLY WAY IS UP
+    starsneeded: 120
+    preview: {fileID: 0}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 4}
+      menCount: 4
+      allSubLevelsMenCount: 4
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level JUST A GUN
+    title: JUST A GUN
+    starsneeded: 126
+    preview: {fileID: 2800000, guid: 176d654ec55bc4a70b180a7c648b18ff, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 3, y: 4, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 3
+      minutes: 2
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 2
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level NUEVO SUBIR
+    title: NUEVO SUBIR
+    starsneeded: 132
+    preview: {fileID: 0}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 2, y: 3, z: 5}
+      menCount: 5
+      allSubLevelsMenCount: 5
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level BATS AND DRONES
+    title: BATS AND DRONES
+    starsneeded: 138
+    preview: {fileID: 2800000, guid: 4dc635f0cc9194fdc8299c3c1b58aca9, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 3, y: 4, z: 6}
+      menCount: 6
+      allSubLevelsMenCount: 6
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level DYING CYCLE DEBUG
+    title: DYING CYCLE DEBUG
+    starsneeded: 144
+    preview: {fileID: 0}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 1, y: 1, z: 1}
+      menCount: 1
+      allSubLevelsMenCount: 1
+    specialGoal1:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level USER 1
+    title: USER 1
+    starsneeded: 150
+    preview: {fileID: 2800000, guid: d442870af88b84f04905c380edf562d5, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.719
+      thresholds: {x: 1, y: 1, z: 1}
+      menCount: 1
+      allSubLevelsMenCount: 1
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level USER 2
+    title: USER 2
+    starsneeded: 156
+    preview: {fileID: 2800000, guid: d442870af88b84f04905c380edf562d5, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.719
+      thresholds: {x: 1, y: 1, z: 0}
+      menCount: 0
+      allSubLevelsMenCount: 0
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level USER 3
+    title: USER 3
+    starsneeded: 162
+    preview: {fileID: 2800000, guid: d442870af88b84f04905c380edf562d5, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.719
+      thresholds: {x: 1, y: 1, z: 1}
+      menCount: 1
+      allSubLevelsMenCount: 1
+    specialGoal1:
+      type: 8
+      minutes: 0
+      seconds: 67
+    specialGoal2:
+      type: 0
+      minutes: 0
+      seconds: 67
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level USER 4
+    title: USER 4
+    starsneeded: 168
+    preview: {fileID: 2800000, guid: 47fe25172450d4d1280ca5d143e27031, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 1, y: 2, z: 3}
+      menCount: 3
+      allSubLevelsMenCount: 3
+    specialGoal1:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 2
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  - fullName: Level USER 5
+    title: USER 5
+    starsneeded: 174
+    preview: {fileID: 2800000, guid: 47fe25172450d4d1280ca5d143e27031, type: 3}
+    mainGoal:
+      type: 0
+      sucessRatio: 0.5
+      thresholds: {x: 1, y: 1, z: 0}
+      menCount: 0
+      allSubLevelsMenCount: 0
+    specialGoal1:
+      type: 0
+      minutes: 1
+      seconds: 67
+    specialGoal2:
+      type: 2
+      minutes: 0
+      seconds: 0
+    specialGoal3:
+      type: 11
+      minutes: 0
+      seconds: 0
+    includedInBuild: 1
+  sun: {fileID: 7875312792978315215, guid: e346e24c045fe4c09852618ec33a6cbf, type: 3}
+  stickerModels: {fileID: 11467054, guid: 90f67f86bb0114c00bc9e04d70ef09e4, type: 3}
+  groundEdit: {fileID: 1529076242942760, guid: b2a8badec893a4f20b63474f5ae8975c, type: 3}
+  farBackgroundData: {fileID: 11400000, guid: 27ae64a9ab4e44b1292587dfe978f019, type: 2}
+  materialDataBase: {fileID: 11400000, guid: 44b9d58695433476dbf886c321ef9db1, type: 2}
+  shaderDataBase: {fileID: 11400000, guid: 283998bc8b37045cfbd1c0f26a0f4c70, type: 2}
+  meshDataBase: {fileID: 11400000, guid: 67bb4b6065a46482dad999d77b439edb, type: 2}
+  soundDataBase: {fileID: 0}
+  animationDataBase: {fileID: 0}
+  walkerSpeedToDamage:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.000006914139
+      value: 0.07251021
+      inSlope: 0.33134666
+      outSlope: 0.33134666
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.04745722
+    - serializedVersion: 3
+      time: 0.99980104
+      value: 0.9996617
+      inSlope: 1.4328045
+      outSlope: 1.4328045
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.020039095
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  palleteAdjustOSX:
+    name: OSX
+    preBrightness: 1
+    preContrast: 1
+    preSaturation: 1
+    paletteBoost: 0.1
+    darkThreshold: 0.5
+    darkBoost: 0
+    brightness: 1
+    contrast: 1
+    saturation: 1
+  palleteAdjustWIN:
+    name: WIN
+    preBrightness: 1
+    preContrast: 1
+    preSaturation: 1
+    paletteBoost: 0.1
+    darkThreshold: 0.5
+    darkBoost: 0
+    brightness: 1
+    contrast: 1
+    saturation: 1
+  testFloat: 0.13
+  testFloat2: 2
+  testFloat3: 500
+  testFloat4: 0.112
+  testFloat5: 0.211
+  testInt: 30
+  testBool1: 0
+  testBool2: 1
+  testValues: {fileID: 11400000, guid: 8d82f19da964d47f48940638f378bc4d, type: 2}

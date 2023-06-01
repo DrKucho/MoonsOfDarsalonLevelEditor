@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf7aecddc9d804d05bfa553ef08d42fb, type: 3}
+  m_Name: MaterialData
+  m_EditorClassIdentifier: 
+  terrainGenerationData: []
+  terrainMaterialPresets:
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: aefe3105d05754da297eaef892866321, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: f9f5376c9072449b9a32a87ed87cbc5a, type: 2}
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 59bdfc9b390104ed097aa453774051ca, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: c69a04f49ff9f46d1b43f69725a7f434, type: 2}
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 005ddb41fbde248f3acfe9674da1372a, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 79bd76065b56140b78e2144ca4f3a481, type: 2}
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 332e4c93cf87d492fb991b57d610b2c1, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 64b59f6018ed1430b84022a4eb175632, type: 2}
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: c940869cdfa15420ebec723434faf857, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 5cc204266859b4d3482c5ee0d5f0c9bc, type: 2}
+  - groundType: 0
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 26c6e0dacd86a4078a2bf8e634ed0e2d, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 845c2452c18eb4caaae69e9d0c9e4653, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: aefe3105d05754da297eaef892866321, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: dbcabf5df5e0b4c4185ec9e27576a4a7, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 8bf10a2ebbbdb4437857b602f7dabbb5, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 44569c4707123488988031a4b582aed6, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 3f62a6e9fabda4ce58d240ef8f927e54, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 70dae9c77fd674bd8bf9e730547fe9ae, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 77ae38ddece834fdea83604cce6381fb, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: f00996a88ec5d4cf19da89a56a813db3, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 3f62a6e9fabda4ce58d240ef8f927e54, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 00b735b6e9ed04e02b8a832a52f132cd, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 332e4c93cf87d492fb991b57d610b2c1, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 6ce53d993dea348259c9693ca12dac56, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: c940869cdfa15420ebec723434faf857, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 41eae98a9c3a24a47bd195bbcfc3a754, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 77ae38ddece834fdea83604cce6381fb, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 3c8359fe8d3f64617bb4bf16f199ec28, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 8bf10a2ebbbdb4437857b602f7dabbb5, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 5237df5dba4d64d8b8f61fb7a6f6894d, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 77ae38ddece834fdea83604cce6381fb, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 4fb7fb76e2bbd4af6afeff2e6195aa63, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 26c6e0dacd86a4078a2bf8e634ed0e2d, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 26ca6620cda9c4acc9af36125b96cbfb, type: 2}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 8bf10a2ebbbdb4437857b602f7dabbb5, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 36fbefb65994e4df1b24aeef8a740bbc, type: 2}
+  - groundType: 2
+    backgroundType: 1
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: 77b23e4097a7546579bc948e25022a08, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: f5e368ba860fc4d3989354774574d33a,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 9ebe6ae2403ac4b8aac9aa3bc54b6d8d,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 6d94f5fe750174010a8317c7595213d3,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: ae50b0da8443d4921bddd23d4590eadf,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 27adcd8fc217e4049926e6912416f82e,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 0d8a263995cba42308fcc5185e837578,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 86468596a38d84b84a74b457a6bcf121,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 2
+    backgroundType: 2
+    tile: {fileID: 0}
+    tileMapMaterial: {fileID: 2100000, guid: db3f5c9d97214431886c37cbf2c35bcd, type: 2}
+    cam3DtoSpriteMaterial: {fileID: 2100000, guid: 9b07f43b4819c40d2b8143156e27ff3d,
+      type: 2}
+    tileMaterial: {fileID: 0}
+  - groundType: 1
+    backgroundType: 0
+    tile: {fileID: 2800000, guid: 332e4c93cf87d492fb991b57d610b2c1, type: 3}
+    tileMapMaterial: {fileID: 0}
+    cam3DtoSpriteMaterial: {fileID: 0}
+    tileMaterial: {fileID: 2100000, guid: 47a4a831a6e45415f97e24a99e963bf2, type: 2}
+  terrainLightObstacleMaterial: {fileID: 2100000, guid: 8cb7d964834ee45d680ac46466ed9587,
+    type: 2}
+  worldWallLightObstacleMaterial: {fileID: 2100000, guid: 0a8c132f813f5514b9f5b48ff3956482,
+    type: 2}
+  foregroundTerrainShaders:
+  - {fileID: 4800000, guid: 2c7f0fdb224b840f09488dddd1bf71d6, type: 3}
+  - {fileID: 4800000, guid: b5fe90a3b87c441cbb983fbdeaf2d5c5, type: 3}
+  - {fileID: 4800000, guid: 32fe7aed4b2da4b2988ba64c711f71be, type: 3}
+  - {fileID: 4800000, guid: af9ed20b87ff3419f9df8d2da031a8aa, type: 3}
+  backgroundTerrainShaders:
+  - {fileID: 4800000, guid: a18601b6506974c00ae771ade79bb8ac, type: 3}
+  - {fileID: 4800000, guid: a01b8a00ef7e446cc8fb758e3b36540d, type: 3}
+  - {fileID: 4800000, guid: 99edab186e1614a34b38a4acdcfadd76, type: 3}
+  - {fileID: 4800000, guid: 6389215ba845240fe83614f622bace88, type: 3}
+  - {fileID: 4800000, guid: 3ffa5740ad84b4f848d430ac1e876cfe, type: 3}
+  - {fileID: 4800000, guid: d8bfd23c61e5c4418a3e1f26ed2723f1, type: 3}
+  - {fileID: 4800000, guid: cc3e5629741b541d7bb27df9cf926701, type: 3}
+  - {fileID: 4800000, guid: a5332877fcf8946c9a06cb776fffdeb2, type: 3}
+  - {fileID: 4800000, guid: 3744509f724bd4a3b9754b8fbf0fbcc3, type: 3}
+  - {fileID: 4800000, guid: 5deb4b1c20a294940a6b6dd90f821f6f, type: 3}
+  defaultSpritesMat: {fileID: 2100000, guid: 6d5f8bdb749bb40a0b3d79b1565414a4, type: 2}
+  grassMat: {fileID: 2100000, guid: 3df06a95bf69b49be88f807c86a71481, type: 2}
+  grassExploMat: {fileID: 2100000, guid: b306f858d10f54ff3b78c7c6f6e7d5e1, type: 2}
+  grass:
+    size:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.002614553
+        value: -0.004753828
+        inSlope: 2.825462
+        outSlope: 2.825462
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.09757083
+        outWeight: 0.052978244
+      - serializedVersion: 3
+        time: 0.91104704
+        value: 1.0058295
+        inSlope: 0.24089745
+        outSlope: 0.24089745
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.052445155
+        outWeight: 0.29617447
+      - serializedVersion: 3
+        time: 1.0054545
+        value: 1.0098917
+        inSlope: 0.05174481
+        outSlope: 0.05174481
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.16606137
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    destructibleSize: 1
+    inDestructibleSize: 1
+    color: {r: 0.21595849, g: 0.49056602, b: 0.108757555, a: 0.5686275}
+    individualColor: 0.2
+    alphaCut: 0.74
+    alphaPush: 1.359
+  smokeMat: {fileID: 2100000, guid: b8ab4ad6a421f4fdc9bdacce763a0264, type: 2}
+  miscMaterials:
+  - {fileID: 2100000, guid: f98f1648139c0459fbf82ddaaed380f3, type: 2}
+  - {fileID: 2100000, guid: dc9e5983800a74e42869a31f7122b49e, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6eeafc85f513746e9aaefefe51e0f4ae, type: 2}
+  - {fileID: 2100000, guid: 3e85c0e23f57b46a28bcc6629bd57aed, type: 2}
+  - {fileID: 2100000, guid: 6d5f8bdb749bb40a0b3d79b1565414a4, type: 2}
+  - {fileID: 2100000, guid: 7160db7b95d6f4a938d17ea7fbaa426b, type: 2}
+  - {fileID: 2100000, guid: 0831e1193b83442aea50acd8b7cda4f9, type: 2}
+  - {fileID: 2100000, guid: 81755436ce15d4f15aa7937df478e350, type: 2}
+  - {fileID: 2100000, guid: 95dff5450877640558c00df1f6211678, type: 2}
+  - {fileID: 2100000, guid: ea842ff7b8f2b41fb9d83eb635c98338, type: 2}
+  - {fileID: 2100000, guid: 8cb7d964834ee45d680ac46466ed9587, type: 2}
+  - {fileID: 2100000, guid: 0a8c132f813f5514b9f5b48ff3956482, type: 2}
+  - {fileID: 2100000, guid: 4c8664d8f4b044e5e959add9140bed69, type: 2}
+  - {fileID: 2100000, guid: 4ba1c546c5a3848788aea9248e4e7182, type: 2}
+  - {fileID: 2100000, guid: dacd1209cd87a414f96d088291c27bc9, type: 2}
+  - {fileID: 2100000, guid: 7437a030919834deca08c114f45b23bd, type: 2}
+  singlePixelCenter: {fileID: 21300000, guid: 76ca34652a99041f6a1e1117fef3ccaf, type: 3}

@@ -1,0 +1,11 @@
+Logs/
+Library/
+Temp/
+Build/
+obj/
+*.csproj
+.idea
+.DS_Store
+Assets/-LEVELS
+Assets/-LEVELS.meta
+Assets/-Kucho/Background3DModelPrefabs(UserLevels)

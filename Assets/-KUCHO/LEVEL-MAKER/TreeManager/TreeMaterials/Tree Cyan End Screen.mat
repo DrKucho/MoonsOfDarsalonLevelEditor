@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree Cyan End Screen
+  m_Shader: {fileID: 4800000, guid: 251cdf35331df46348af8be2a1673363, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e9b508f1f311840e4b1a3a709a0d133d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _Add: 0
+    - _Alpha: 0.389
+    - _BumpScale: 1
+    - _Col1Boost: 1.08
+    - _Col1Cont: 1.08
+    - _Col1Range: 1
+    - _Col2Boost: 1.159
+    - _Col2Cont: 1
+    - _Col2Range: 0.8
+    - _Contrast: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Glossiness: 0.5
+    - _HueShift: 8
+    - _LowDark: 0.269
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Sat: 0.53
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _Val: 0.88
+    - _ZWrite: 1
+    - _nothing: 0
+    m_Colors:
+    - _Col1: {r: 0, g: 0.6476083, b: 1, a: 1}
+    - _Col1Dest: {r: 0.7355601, g: 1, b: 0.6933962, a: 1}
+    - _Col2: {r: 0.7075472, g: 0.56403524, b: 0.56403524, a: 1}
+    - _Col2Dest: {r: 0.5754717, g: 0.451815, b: 0.371885, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DitherColor: {r: 0.11320752, g: 0.05393377, b: 0.05393377, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

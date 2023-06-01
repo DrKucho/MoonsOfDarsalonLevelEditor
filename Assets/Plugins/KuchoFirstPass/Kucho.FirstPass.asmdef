@@ -1,0 +1,19 @@
+{
+    "name": "Kucho.FirstPass",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:de14014a0c7c44b3790fef69bdc01224",
+        "GUID:033baa054853b451182c4d1a185bde37",
+        "GUID:58510be1b98234582a4d9bed0f740fa9",
+        "GUID:b42d3f2b4b2024b0fb4b93601f0faf4c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

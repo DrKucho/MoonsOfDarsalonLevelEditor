@@ -1,0 +1,1205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DuoShared
+  m_EditorClassIdentifier: 
+  m_GroupName: DuoShared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f8fc309a3e7984fe8b2d22c31e55dcdb
+  m_SerializeEntries:
+  - m_GUID: 6043cd1e70cc3464c8e13e9d08e404e0
+    m_Address: Handle Horizontal 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a045ad315914d4707b8e2e878b5d2ce1
+    m_Address: Handle Horizontal 0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce10359cf70a84c80bb5326e20e2ea04
+    m_Address: WhiteArrowDown ForTreeManager
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f1d3b52b846c5d499bedfc8e058601d
+    m_Address: rock_9-11_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e77211bae00313645945002112d985b0
+    m_Address: rock_9-11_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d98271b909cb72c4fa3fa4b9f0e92cc4
+    m_Address: rock_8_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b5d7cd78bdfc8b4fbea7d55d73be4e3
+    m_Address: rock_8_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b36190a95dc93ac4a8e530974dce174e
+    m_Address: rock_7_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d991d8c9bb26f23429a5dea2097ba254
+    m_Address: rock_7_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fef2ac49a4ba12449cde61a183a7ecd
+    m_Address: rock_6_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bcc29b0bbecc3e44a0cf17ef5a938a7
+    m_Address: rock_6_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7378020e6c936474d9cd94c8d993673d
+    m_Address: rock_5_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6026ee421f68d1641a8ca2d874077b31
+    m_Address: rock_5_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2265a4f5588acaf44a0f29ba73e7a330
+    m_Address: rock_4_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6982f7d8ec060b478a19a275e317387
+    m_Address: rock_4_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7314207fc6785240b74c3f9a202a139
+    m_Address: rock_3_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0ddf8ac919c1b04696336bff98898c3
+    m_Address: rock_3_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4cba05d98d5d9949bb429640f5f93a7
+    m_Address: rock_2_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7073c5c8a8d7b514d969fd12e4242c8a
+    m_Address: rock_2_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25af6e4ba721ee74182b2e897b5deca2
+    m_Address: rock_1_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a1530c38015b2b49a7d95db1c551b5a
+    m_Address: rock_1_basecolor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5048b8ba3627749ca97fb49b9bda9f00
+    m_Address: rocks_nm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72e47387450438641a4f518987f8f600
+    m_Address: Smoke5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6da38d0973c694a89a67f9feb125be
+    m_Address: Flash3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a2867ff4999dd940b4f11bd7c7570b2
+    m_Address: Flash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9b508f1f311840e4b1a3a709a0d133d
+    m_Address: PlantsAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5e2089895884405eb78fd41467a52aa
+    m_Address: atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bdb5b41b830b44e5b9e00b56a1d8db5
+    m_Address: atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 068e00dbe98ac47528c0eddb500ca3d6
+    m_Address: DefaultUGCLevelPreview
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 674d00bb7527b4706bfa6a5c09584781
+    m_Address: OrbsAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cf479aaf677c4877a99cc1a33308d90
+    m_Address: coin sticker
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d1e946dbedb43ba95ad262fd2d0a14
+    m_Address: GoodGuysShip Sticker 70
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5865d1b3a969429d808f0872fd00ba6
+    m_Address: Ammo Dispenser Verde 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 365f81a3648774fc181add4014546cab
+    m_Address: Ammo Dispenser Verde 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a027def82b27e452297faa22b623536d
+    m_Address: Ammo Dispenser Rojo 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b419b4d890ffb4740ba578bc3971eb44
+    m_Address: Ammo Dispenser Rojo 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a14ea4dc5660d47dc932e18f3528c09c
+    m_Address: Ammo Dispenser Naranja 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4888a39340a8345dd8cfe62bb6944450
+    m_Address: Ammo Dispenser Naranja 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be8e3acb3ce504a6aacd3abb549bc24b
+    m_Address: Ammo Dispenser Marron 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901ede991c77b4af5bf102b402870c76
+    m_Address: Ammo Dispenser Marron 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b60420b159c749c89164d61601f4bd9
+    m_Address: Ammo Dispenser Azul 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 104fb65f03f07481982e5300f2a52ebe
+    m_Address: Ammo Dispenser Azul 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c40210eb686964f9697bd256192cc401
+    m_Address: Ammo Dispenser Amarillo 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0cc4d087b6d34524885ff3b80050021
+    m_Address: Ammo Dispenser Amarillo 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e08dc670766c71a48963d77137181383
+    m_Address: rock_9-11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba8860b57b6be2c4685cf6ce92ee8951
+    m_Address: rock_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63f1c110417d6d5489f28f864d1d5cb7
+    m_Address: rock_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86ef6040c6f6a924a965414fc0f1f5f9
+    m_Address: rock_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7a0a7c178af49a43b9390ede6817031
+    m_Address: rock_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b20d9ffe1420054fb88a260d7eb6470
+    m_Address: rock_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af96e99055550d446ac2542871175d91
+    m_Address: rock_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad62b18579fbaae43a673ae64bee739c
+    m_Address: rock_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f66ffe17447c27f49bfb37a5d4c14b9a
+    m_Address: rock_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a8947d6fc5fc402bb94393c329b2584
+    m_Address: Plank Kucho No Reflections
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25c85fb524f04ea5b7f96dd8eb6cebf
+    m_Address: rocks
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce2e2551ccfafb647af9e517a1a80ca5
+    m_Address: Super Alien 6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aac35419914a3d04d83ea5e372dc7a9b
+    m_Address: Super Alien 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cebaf33b4f70c345863e26d1b40e167
+    m_Address: Super Alien 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d82255b5eee2044b35218d9a09b1f7
+    m_Address: Super Alien 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b409bf9e01f4e64184423c87278f928
+    m_Address: Super Alien 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8374e9ff8ec64bc6bfce4f90360f814
+    m_Address: TeleportParticlesFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 464c403e9a2774971bce09924e9c06f5
+    m_Address: TeleportLight2D
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a0e97826810b4bb589b429eb31b3a6e
+    m_Address: Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e33c0d66f41ee4c9a6f94ed7c73160
+    m_Address: Smoke5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b800d39fd2d4f88498c4a85b29f62906
+    m_Address: Flash3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b50e61b749b338478dc4441f0ab6bbf
+    m_Address: Flash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8ab4ad6a421f4fdc9bdacce763a0264
+    m_Address: SmokeSheet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e8df6cfd3e8e4d36a3c865416d97bd5
+    m_Address: SD hangar B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edb70a76cd8474a89be525fd943ca85a
+    m_Address: SD Scifi Building 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2422c5767ac454bf38e2ed6a5caaed9e
+    m_Address: SD Scifi Building 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55cdff34ae09e4ff0a4bf0f171b43bda
+    m_Address: SD Generator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44845603d766f44229dd9d86c35d7e18
+    m_Address: SD Com tower mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3571c5b91b0de48049309884d64c0728
+    m_Address: SD Alien Building 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2c1b48e123349559acdcbe6b37499f
+    m_Address: SD Alien Trees
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a9ce009bde44486aa39a8e3cf1e19c
+    m_Address: RootMatEndScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f98f1648139c0459fbf82ddaaed380f3
+    m_Address: PlantsMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95dff5450877640558c00df1f6211678
+    m_Address: PickupsCollection material
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c33d7d549fb2459ebe2cc64ee6ca7d1
+    m_Address: Ship white
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c525a1367822548e9a63b9423b347100
+    m_Address: Ship color 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77fa4b59690c441718dac22fad81d3b8
+    m_Address: Ship color 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d996a6249a904429a2995e2841721f1
+    m_Address: Ship Panels
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 343d78afbad3b43739a3d3db9b1e65a3
+    m_Address: Ship Grey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 049d8efdcfa5c4db39b9235716b9feca
+    m_Address: Ship Glass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaf78827483344dc8baf39bfbd3da1c8
+    m_Address: Ship Floors_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b8a8cd7829d44ac8b5def3db9bbc838
+    m_Address: Ship DoorScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1069310d97dca4dd8ab6400e6a5dd09d
+    m_Address: Ship Dark Grey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ee3a8344cbb447b5a813d780c946691
+    m_Address: Ship Black
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 096b79262608f4ee58b3698be06bcc10
+    m_Address: LiftPlatformGrey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d3a1757d52414c209a11f655e394a7a
+    m_Address: Landing Port 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a141591013984645903268649b8b0b1
+    m_Address: Landing Port 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99df34b1b6a6449558a66e4c8286660a
+    m_Address: Floating Platform grey 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ba9326ef17364846897bb2836dc23a9
+    m_Address: Floating Platform Orange
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1efc1555b4c545818d55e570a6d8b21
+    m_Address: Floating Platform Orange 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8eea6e8d2fbf544069dc748b495e6df2
+    m_Address: Floating Platform Light Grey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0ea42d332bcc4409a4c4463b7bb08c5
+    m_Address: Floating Platform Dark Grey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eeafc85f513746e9aaefefe51e0f4ae
+    m_Address: BuildingsCollection material
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6d69ce963cd64121940007081894d62
+    m_Address: Tree Tianzi Green 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2baf1c528f4a341ada6154dff77e6e91
+    m_Address: Tree Cyan Mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8c83547e1ed84b10ab6b7139ae7799c
+    m_Address: Tree Cyan Mat Yellow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b18ada5ce5400470ba598eb4266e85d5
+    m_Address: Tree Cyan Mat Space Invaders
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e2055a548abe4ed4aea487a7ab36a7a
+    m_Address: Tree Cyan Mat Rover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a1966051c884c37a1d4664ae1fa0e3
+    m_Address: Tree Cyan Mat Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe7f6a8fb987b44f0b93be83ae0586c4
+    m_Address: Tree Cyan Mat Green
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75a91e64ed4f84571b3179b1e82740a2
+    m_Address: Tree Cyan Mat Dig Dug
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30a5a9167c94e4af791ca14b55293b55
+    m_Address: Tree Cyan Mat Cyan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3872d3e1d0db40bf8a2c3a20d258993
+    m_Address: Tree Cyan End Screen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1478a1126a6e4685afbb4ceb23ce04d
+    m_Address: Tree C Pink Mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81755436ce15d4f15aa7937df478e350
+    m_Address: Tree C Pink - Green Mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00b735b6e9ed04e02b8a832a52f132cd
+    m_Address: indestructible Tianzi Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70dae9c77fd674bd8bf9e730547fe9ae
+    m_Address: indestructible Tianzi Rock Dig Dug
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27adcd8fc217e4049926e6912416f82e
+    m_Address: Tianzi 3d objectsTo Sprite (Brown)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ebe6ae2403ac4b8aac9aa3bc54b6d8d
+    m_Address: Tianzi 3d objectsTo Sprite (Brown) Evitando Brillos Excesivos
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db3f5c9d97214431886c37cbf2c35bcd
+    m_Address: Mosh Dun RealRocksBackGroundTiles RedChannelOnly AllShadowMaking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fb7fb76e2bbd4af6afeff2e6195aa63
+    m_Address: Mosh Dun Indestructible TakeMeHome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8359fe8d3f64617bb4bf16f199ec28
+    m_Address: Mosh Dun Indestructible Original (creo)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00996a88ec5d4cf19da89a56a813db3
+    m_Address: Mosh Dun Indestructible Azul
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c69a04f49ff9f46d1b43f69725a7f434
+    m_Address: Mosh Dun Destructible
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86468596a38d84b84a74b457a6bcf121
+    m_Address: Mosh Dun 3d objectsTo Sprite (light gun level)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39581df6ad06c4e839bfae38080df423
+    m_Address: Mosh Dun 3d objectsTo Sprite (So Cool To Fly)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5e368ba860fc4d3989354774574d33a
+    m_Address: Mosh Dun 3d objectsTo Sprite (Mag Brown)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae50b0da8443d4921bddd23d4590eadf
+    m_Address: Mosh Dun 3d objectsTo Sprite (Dig Dug)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d94f5fe750174010a8317c7595213d3
+    m_Address: Mosh Dun 3d objectsTo Sprite (Dig Dug Easy)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d8a263995cba42308fcc5185e837578
+    m_Address: Mosh Dun 3d objectsTo Sprite (Dark Brown) 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ca6620cda9c4acc9af36125b96cbfb
+    m_Address: Indestructible ValleyOfTheGods 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbcabf5df5e0b4c4185ec9e27576a4a7
+    m_Address: Indestructible Stone 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5237df5dba4d64d8b8f61fb7a6f6894d
+    m_Address: Indestructible Natural Rock 3 Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44569c4707123488988031a4b582aed6
+    m_Address: Indestructible Natural Rock 3 Blue (dig Dug Easy)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36fbefb65994e4df1b24aeef8a740bbc
+    m_Address: Indestructible Natural Rock 3 B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41eae98a9c3a24a47bd195bbcfc3a754
+    m_Address: Indestructible Natural Rock 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47a4a831a6e45415f97e24a99e963bf2
+    m_Address: Indestructible Fracture 5_
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ce53d993dea348259c9693ca12dac56
+    m_Address: Indestructible Fracture 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c8bb5b2c5209421ab7c84529ceabab3
+    m_Address: Indestructible Alien Crap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 845c2452c18eb4caaae69e9d0c9e4653
+    m_Address: Destructible ValleyOfTheGods 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9f5376c9072449b9a32a87ed87cbc5a
+    m_Address: Destructible Stone 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cc204266859b4d3482c5ee0d5f0c9bc
+    m_Address: Destructible Natural Rock 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b59f6018ed1430b84022a4eb175632
+    m_Address: Destructible Fracture 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79bd76065b56140b78e2144ca4f3a481
+    m_Address: Destructible BluRock 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7de0a33ddd547828aafc3c44fa19ab
+    m_Address: Destructible Alien Crap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77b23e4097a7546579bc948e25022a08
+    m_Address: Background RealRocksTilesWithInnerShadowMaking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3250008ea25604a64bbe6847f2fba6f6
+    m_Address: Alien Crap 3d objectsTo Sprite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b07f43b4819c40d2b8143156e27ff3d
+    m_Address: 3d objects to Sprites Take Me Home
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e85ff5e781bd40ccbe81ce37f0b06a4
+    m_Address: WhiteMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4763a16c7f3b485cafff0497cca2fa8
+    m_Address: TroopCarrierDoorMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab289ebe080f748faa6b8a2c3bb38337
+    m_Address: TroopCarrierDarkerMagMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0793f12b1b6de41cda5dc8d767d52675
+    m_Address: Tower lights
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b5a6606ac9064100954b1857cd7bf29
+    m_Address: ShipYellowMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27a2adf76fb8144c0a87cedc1ac4d4e7
+    m_Address: ShipMagentaMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddbd836d2a8a0439ea14e5b6c9008365
+    m_Address: RTS HangarC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ae0ea9bd23914723bfdd4972ce674dd
+    m_Address: RTS HangarB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7b82c4c5c7564b9ea553dbcc518eb63
+    m_Address: RTS HangarA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 345f472e74bfb445c963c4e22209867b
+    m_Address: PatrolPointArrowMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f15a862e27db444c98b0f7c2ed14b2d
+    m_Address: LampLight(NoHalo)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90eaa5b09dbab45c6b29e15e1d9f8fc1
+    m_Address: OrbsMat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89bb8c3cd01484bc69760fb72351501a
+    m_Address: Light30Points(AlienTeleportRay)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc94df91d861a42828d86f16da5f715a
+    m_Address: LandingPodsLiftPlatformsYGenerator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93ee20425115b4901abf89a54c1f68b3
+    m_Address: ExplosionLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c8664d8f4b044e5e959add9140bed69
+    m_Address: Light15Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b50d9f8767cfd43e69934f96add855d7
+    m_Address: Dispenser Square tube_
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6638905524a954be5a7d7e6fdc3e9a23
+    m_Address: DISPENSER squareTube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 996cf8307229b4650a5295f3f093deea
+    m_Address: Ammo Dispenser Pipes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45345fbdc9b26490c859805fe8ed0713
+    m_Address: Ammo Dispenser Body
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e618067d2b6a479891783ed5da30561
+    m_Address: RoundedPlatform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c40a45b19d3149a49b20e11b1e669e1
+    m_Address: MidCyl
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c1101f09f9254ba49f2617eb13476b7
+    m_Address: MidCyl(Clone)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c2cff9c11a0b4a40b8bc828c9ce7380
+    m_Address: Cylinder Part
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e341b10db26dc4f66ae46c39dc137d31
+    m_Address: Curved Leg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4c20aa361dc94864a44f1d28796b24d
+    m_Address: muelle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 577b161d328464485a942eb8d35b28c0
+    m_Address: muelle 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bf69c4db381b44bc8dbb2b209e4e0fb
+    m_Address: landing port 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2d96780c6ce54abbbe1234a3ee84d86
+    m_Address: landing port 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 462e473a7745a4438bfb0a96f65c0e14
+    m_Address: Landing Port Arc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae5a8d80f876b4d0ca1b4aa5d775efb5
+    m_Address: Barrel piece (cut)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4d6ae4242c12446da95743ff8614d40
+    m_Address: floating platform torus fake plate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6bcf3ebdf6d04b95ab553d8d76ddb43
+    m_Address: floating platform base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa63825431043460d85ba5ea0f3d89e8
+    m_Address: floating platform ball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c6f4821da22f418d953e78121376ea6
+    m_Address: floating platform LowerBigCutBall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73cfeef1a4b17486fab82b1bfcb9f69e
+    m_Address: Platform legs 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cff9f1a774f34591a971da11b530966
+    m_Address: Platform Legs Extension 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23802dffbd8414b4bb35d682735cc951
+    m_Address: Floating Platform torus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aaad6850583c451f8af1e0222312a1b
+    m_Address: Blue Ball Optimized
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d1637b02a05430c86e09eb1277b935
+    m_Address: Alien Generator Top cone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74c6e5bfaccde45e3b4d447d3e58ef8e
+    m_Address: Alien Generator Top Helix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9657487ba877b4c9589d3872bc680b0e
+    m_Address: Alien Generator Pipe Corner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b8bdc0be9f0409f893ab374b8ccef3
+    m_Address: Alien Generator Cylinder 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d329723217bc4ad98763b54691b5836
+    m_Address: Alien Generator Cylinder 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a5af67b358bb434c82352455e134036
+    m_Address: Simplified RTS body Extension 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13e291eba36114a68a5b0ae509984351
+    m_Address: Simplified RTS body 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2f4167836b01434d9b4d25b95647fec
+    m_Address: RTS lights 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cfa3c6427434415a9a56dab2db30e39
+    m_Address: OptimizedCylinderCenter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c02b22a72262247688b686a3a6290859
+    m_Address: OptimizedCylinderBottom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a175bc87791764284af24ab3ea838e18
+    m_Address: Cone for big lamp 3D
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f1350d2ce9f44ce3b23c2b28ee50993
+    m_Address: ButtonRoundedCylinder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8b390c28db7f4f66a54b4dbc6289518
+    m_Address: Handle Horizontal 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 268d9640e1b8f401eb2bfed1669e0cc2
+    m_Address: Handle Horizontal 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 521bddb93e2274daebeaf0f821cea679
+    m_Address: Handle Vertical 0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 237f499c061744b46badb65345a68aeb
+    m_Address: Handle Vertical 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2785e9c45a0b4f1988fdcec2a721308
+    m_Address: Handle Vertical 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7240da4143584b24a90a61333898d0d
+    m_Address: Handle Vertical 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76ca34652a99041f6a1e1117fef3ccaf
+    m_Address: SinglePixelCenter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82cfb5ecaa15c45d18a789197662c4cb
+    m_Address: Door1terrainL
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb799143202ce4f1bb1ab4ef5d69c920
+    m_Address: Door1terrainR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 005ddb41fbde248f3acfe9674da1372a
+    m_Address: BluRock_04 K Edit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59bdfc9b390104ed097aa453774051ca
+    m_Address: Destructible
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 332e4c93cf87d492fb991b57d610b2c1
+    m_Address: Fracture_Rock_04_ K Edit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77ae38ddece834fdea83604cce6381fb
+    m_Address: Mosh Dun Indestructible Original
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c940869cdfa15420ebec723434faf857
+    m_Address: Natural_rock_02 K Edit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bf10a2ebbbdb4437857b602f7dabbb5
+    m_Address: Natural_rock_03 K Edit B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f62a6e9fabda4ce58d240ef8f927e54
+    m_Address: Rocas Foreground Tianzi
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aefe3105d05754da297eaef892866321
+    m_Address: Stone_05 K Edit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26c6e0dacd86a4078a2bf8e634ed0e2d
+    m_Address: ValleyOfTheGods_02 K Edit C
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 856370bef415844b5bbf2386818f8888
+    m_Address: SD Alien Tree 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f26ab2ab870342679cc603c308bee02
+    m_Address: SD Alien Tree 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9426a17db05a4403e930f72e28e5e840
+    m_Address: SD Alien Tree 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c229e88c3960840f9941a1e5dc8812de
+    m_Address: SD Alien Tree 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14356bb7f86cb4817a004f9a95a24c6c
+    m_Address: SD Alien Tree 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0915bfcff838f4646b46a233fb5e9211
+    m_Address: SD Alien Building 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f2d8a088dfb3467483ae02d7518ab93
+    m_Address: SD Alien building 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f591ce552312042d0bb215975f1b3b79
+    m_Address: SD Generator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e7c8c508908e41178a547e6f12ea362
+    m_Address: SD Hangar B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8aacce4002124065abb9a4caa866d31
+    m_Address: SD Scifi Building 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c2b3ea5be45f48ee95a6164c4e2d880
+    m_Address: SD Scifi Building 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7440a2e0ac2de4a39b527f4f53241ca0
+    m_Address: SD Scifi Building Com Tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dccd333c3d32481b97a92a50f84fa0b
+    m_Address: SmokeSheet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca30cbc13737447019e6223506806578
+    m_Address: SpaceShipMiniLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2ee52e66b4b04f81860cb11398e7444
+    m_Address: Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0b60299c3e9c4302a056fc52f087c41
+    m_Address: TeleportMiniLight 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba876b81a9b584eb2b7449b2eada2f9f
+    m_Address: TeleportMiniLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3204f01eb11e546098a4b12375196066
+    m_Address: TeleportMiniLightWithHalo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c589aad32ebf94af2bc76bea08d62bca
+    m_Address: rocks_diff_spec
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b724661ebdd3dad4da00e6bc038babe3
+    m_Address: Plank_color
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b1b6bf0586554a3fb24a94bc370b25a
+    m_Address: Ammo Dispenser Panels
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4c881f218d1ff44b8f45895a8e4ffe2
+    m_Address: Super Alien 1_color
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e80b37fa8e7244878f4a6ed7ddc6221
+    m_Address: Super Alien 1_normalsMOD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f8700b585aa52940bdef3b36153683d
+    m_Address: Super Alien 3_color
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91aae702438f94bbb9538b531fa2b0ba
+    m_Address: TowerLights
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e68990cfb994a4889b62298abf4cc6
+    m_Address: SmokeShader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bac81f98d64cb4019ba911a27b35093d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 305fa642aaf194109b8b0cf5efa60420, type: 2}
+    - {fileID: 11400000, guid: a335b056c9eea4a298f86ff820712929, type: 2}

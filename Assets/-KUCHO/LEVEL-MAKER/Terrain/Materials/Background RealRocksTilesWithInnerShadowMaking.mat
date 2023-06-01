@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Background RealRocksTilesWithInnerShadowMaking
+  m_Shader: {fileID: 4800000, guid: 3744509f724bd4a3b9754b8fbf0fbcc3, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AllShadowsIntensity: 1.24
+    - _Alpha: 1
+    - _Angle: 0
+    - _Bottom_Clamp: 0.104
+    - _Bottom_Distance: 2.69
+    - _Bottom_Distance_Factor: 1
+    - _Bottom_Intensity: 0.73
+    - _Bottom_Intensity_Factor: 1
+    - _BumpScale: 1
+    - _ColorAddAmount: 0.04783456
+    - _ColorAddMult: 0
+    - _ColorAddMultiplica: 0
+    - _ColorMultAmount: 6.0257683
+    - _ColorSpecialAdd: 0.088561825
+    - _ColorSpecialMult: 0.52771133
+    - _Contrast: 1.082
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _General_Clamp: 0.105
+    - _Glossiness: 0.5
+    - _HueShift: -111
+    - _Long_Clamp: 1
+    - _Long_Distance: 0
+    - _Long_Distance_Factor: 1
+    - _Long_Intensity: 2.19
+    - _Long_Intensity_Factor: 1
+    - _Long_Steps: 7
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Sat: 0.74
+    - _Sharpness: 1
+    - _Side_Clamp: 0.1
+    - _Side_Distance: 1.8
+    - _Side_Distance_Factor: 1
+    - _Side_Intensity: 0.48
+    - _Side_Intensity_Factor: 1
+    - _SrcBlend: 1
+    - _TextAspectRatio: 1
+    - _Top_Clamp: 0.104
+    - _Top_Distance: 1.97
+    - _Top_Distance_Factor: 1
+    - _Top_Intensity: 0.19
+    - _Top_Intensity_Factor: 1
+    - _UVSec: 0
+    - _Val: 0.36
+    - _ZWrite: 1
+    - _nothing: 0
+    m_Colors:
+    - _AlphaOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AlphaScale: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.878147, g: 0.88235295, b: 0.57742214, a: 1}
+    - _ColorAdd: {r: 0.467, g: 0.533, b: 0.043727234, a: 0.533}
+    - _ColorSpecial: {r: 0.11510681, g: 0.15454605, b: 0.11349917, a: 0.46278366}
+    - _DitherColor: {r: 1, g: 0.6827587, b: 0, a: 0.022}
+    - _DitherColor56: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TexSize: {r: 4096, g: 512, b: 0, a: 0}

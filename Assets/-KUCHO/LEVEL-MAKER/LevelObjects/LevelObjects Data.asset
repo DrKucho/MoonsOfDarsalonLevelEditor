@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586071e3a9a1e4079b5c3f38fa7b06b2, type: 3}
+  m_Name: LevelObjects Data
+  m_EditorClassIdentifier: 
+  find: Rover
+  darsanautsAndPickups:
+    name: Darsanauts And Pickup Level Objects
+    gos:
+    - {fileID: 9185372313974901935, guid: 7c446bd06246040b9bf715b0faa98fc5, type: 3}
+    - {fileID: 8174325947737146027, guid: 1b11d1ab17f6542a2a4ca613c013621d, type: 3}
+    - {fileID: 34496159668128118, guid: c6d66bc4e4f8440c89c63891eac422aa, type: 3}
+    - {fileID: 1132402339538831920, guid: cc673d8668c6f46efb7546072e88969b, type: 3}
+    - {fileID: 8515075746909666679, guid: c960c35cf97c441e396135dd38b7575e, type: 3}
+    - {fileID: 1580284467586187075, guid: 5be0e81c8b74d410cae1041a723602fd, type: 3}
+    - {fileID: 9073201418194453089, guid: f6c09e2f544bf47c7a085f5728de4803, type: 3}
+    - {fileID: 7690855521751439737, guid: cee6ef11f0e6b4de7bbcbfb2706f5889, type: 3}
+    - {fileID: 2999510975463804423, guid: e7b898d4fb75046f6bb1ce92668ac8a1, type: 3}
+    - {fileID: 7257059153921796172, guid: 5dcc7582c26c7440882e48e1d43083a4, type: 3}
+    - {fileID: 8252781617230526106, guid: 0e48fe9191b3d426d84f558b2aa20793, type: 3}
+    - {fileID: 1295871755266865968, guid: 620d22b3c5dbf4c5f97221433ff268b7, type: 3}
+    - {fileID: 8968761166782937839, guid: f30927a3b605048928322927ca1246be, type: 3}
+    - {fileID: 7708681708795321034, guid: 2d34b8f3275104672b1bcf6def855af3, type: 3}
+    - {fileID: 6987005794373017651, guid: 08d9fd6eed0524c0b91151d3c8498521, type: 3}
+    - {fileID: 9073201418194453089, guid: 49e21a3e7f5854cafa691c6e242a9b8f, type: 3}
+    i: 9
+  darsanautsVehiclesAndKeyBuildings:
+    name: Darsanaut Vehicles And Key Buildings Level Objects
+    gos:
+    - {fileID: 1536523991947120107, guid: 74e92d24b3d104f2196dae8a65adda8e, type: 3}
+    - {fileID: 145470, guid: 4be874fb5f0a54412a86b1bb27fd2dd8, type: 3}
+    - {fileID: 5368210508204163205, guid: a77ecf6c9e62d4b9f8f51d030e62a865, type: 3}
+    - {fileID: 8996943499875050246, guid: 55f985d9205b9482a8b495335b60eeb0, type: 3}
+    - {fileID: 220428977483251709, guid: d30530b47fc2f43cd9f4f5099226f41f, type: 3}
+    - {fileID: 324733058933764833, guid: 17ffa3406cf634550a7f77bad294549e, type: 3}
+    - {fileID: 984848408822379314, guid: 86d51c7b2b5e14c52b0d37ace33b998d, type: 3}
+    - {fileID: 7590274420377798941, guid: a48acc6c7c85941138fd5e7dd07be1cc, type: 3}
+    - {fileID: 2801194199114701708, guid: aa7fd58fd4aaf48888e7bcdaf50e9124, type: 3}
+    - {fileID: 705647299841819893, guid: c2251030e591d4ababfa181f17e24216, type: 3}
+    - {fileID: 705647299841819893, guid: ed861103799534814a6f9248e2270243, type: 3}
+    - {fileID: 2724039705458396106, guid: a4bee1e28f004439793de407808498cc, type: 3}
+    - {fileID: 705647299841819893, guid: 62c41fa635641497693cd09e29f97835, type: 3}
+    - {fileID: 2724039705458396106, guid: b09b6c73e20bf46e7ad713a576ec1c56, type: 3}
+    i: 9
+  enemies:
+    name: Enemies Level Objects
+    gos:
+    - {fileID: 128448, guid: 8bc90edfde8784731967d35aff0181d4, type: 3}
+    - {fileID: 185288, guid: 0f647f3ede43f4baeb5ed330ea8cbae8, type: 3}
+    - {fileID: 72975026232268448, guid: 2e6f66375f84340e5a471662b34c67a6, type: 3}
+    - {fileID: 7112882924855491031, guid: c34336fddfa5a4156b17ab13911223b9, type: 3}
+    - {fileID: 8174325947737146027, guid: 56fc80acdc6c04f6ba27dd6aef9f3a71, type: 3}
+    - {fileID: 6369314300283396144, guid: 4c3255e29cfe044cc837d85aeb3d7479, type: 3}
+    - {fileID: 6369314300283396144, guid: e9d5e51291f944cc1a74e4d04d528e48, type: 3}
+    - {fileID: 6369314300283396144, guid: c11e6323629a04560b41b7472538f70f, type: 3}
+    - {fileID: 6369314300283396144, guid: b24f15d2e5d2f4b328d113be5b0de9c3, type: 3}
+    - {fileID: 131496210436269414, guid: bf49fe864838c46cd99d0a503148b52d, type: 3}
+    - {fileID: 895158182904533571, guid: e650011ffedd8475fa59251ec5c24220, type: 3}
+    - {fileID: 1037041037538472, guid: af114e0ece05940fd9c0e22832468a24, type: 3}
+    - {fileID: 1037041037538472, guid: afd36aba7cf8a41658f5fd59af3e03fd, type: 3}
+    - {fileID: 6369314300283396144, guid: b24f15d2e5d2f4b328d113be5b0de9c3, type: 3}
+    i: 12
+  platforms:
+    name: Platforms Level Objects
+    gos:
+    - {fileID: 1818085732228884, guid: cf3b81ac46b13470b95926cbec0dd2ea, type: 3}
+    - {fileID: 1402607905029922, guid: 4c1cd38422dbe4242bf65908408b1176, type: 3}
+    - {fileID: 6381322310734281727, guid: f3d48fa45cebb4946b829ba466898430, type: 3}
+    - {fileID: 4077820497611723564, guid: 775ddc309d3a5407e9d139c7919e8c73, type: 3}
+    - {fileID: 4077820497611723564, guid: b2e2f6f159d4f4590bb713576ce78363, type: 3}
+    - {fileID: 4077820497611723564, guid: 816987b938ea14e899763f104637c654, type: 3}
+    - {fileID: 4077820497611723564, guid: 5b89f53a5d573418082fb95742d0f4a1, type: 3}
+    - {fileID: 4077820497611723564, guid: 5bff72dde993d4f8c9906447e6d65383, type: 3}
+    - {fileID: 4077820497611723564, guid: 28e5fffe1da4a49be8750888d3fc360f, type: 3}
+    - {fileID: 4077820497611723564, guid: 29e570aa166d84d849ba8c5acf1c7105, type: 3}
+    - {fileID: 7280008152271754766, guid: b3e920fc8af14463e9d1769c64e9ad93, type: 3}
+    - {fileID: 150084, guid: 4e603eafa21954fa9b2467f3664ee66d, type: 3}
+    - {fileID: 6820551239065171486, guid: b352b187007404d6badfe7bc07bfabdf, type: 3}
+    i: 7
+  decoration:
+    name: Decoration Level Objects
+    gos:
+    - {fileID: 1369590731161998, guid: f7c4c06253e8e4af0b9519520036e13e, type: 3}
+    - {fileID: 1369590731161998, guid: cd87a130308bf478ca53544625407325, type: 3}
+    - {fileID: 4156267073289134655, guid: f2c75fcfd3e26402b9938aac8e1b157a, type: 3}
+    - {fileID: 9006994619137931883, guid: 20e73f776e8b84996b083d89fe759e91, type: 3}
+    - {fileID: 167586, guid: 113a326640c624794b869d0def551221, type: 3}
+    - {fileID: 160890, guid: c022222a605bf4bbcbac9493e2f2c420, type: 3}
+    - {fileID: 162132, guid: 4fa1bd45188ff49c3abdd32151a14b88, type: 3}
+    - {fileID: 1950053970286006, guid: 3989bef2f3ca94a1fb206808b7c54ac9, type: 3}
+    - {fileID: 1950053970286006, guid: 59677e069f0654e6084af39f31408a6b, type: 3}
+    - {fileID: 3889464368732455501, guid: 817754476c4ca42df9fa76639668f2d8, type: 3}
+    - {fileID: 1677357946403030, guid: dcb7922a1d26a4ce6a88d53aa6edf80a, type: 3}
+    - {fileID: 135248, guid: c81bbc182a12441ca90b106920bc9c1d, type: 3}
+    - {fileID: 174984, guid: 07f71f2a1fed743cbbf85a060833c4cb, type: 3}
+    - {fileID: 1937517778652744, guid: 9c13a88028eb6402fb55eab81cdc5b7d, type: 3}
+    - {fileID: 1937517778652744, guid: d8653e0428a5a45dc9bd98ab4b8da4ed, type: 3}
+    - {fileID: 3889464368732455501, guid: 600facba31cfc4b548af9f64f82b2326, type: 3}
+    - {fileID: 3889464368732455501, guid: 911ea672274f54811a5ed4a1ef6dec78, type: 3}
+    - {fileID: 3889464368732455501, guid: 37f98afcefc5841fdb195cef1b33c0ed, type: 3}
+    - {fileID: 3889464368732455501, guid: 7c37bf142050c4b8293495fe32e23762, type: 3}
+    - {fileID: 3889464368732455501, guid: b13d21198f9e84131b198cf472faca6e, type: 3}
+    - {fileID: 3889464368732455501, guid: 9614461138ebd4e3fa4951415458a6e4, type: 3}
+    - {fileID: 3889464368732455501, guid: eb2b911014ac24cda906ca1d4d40dfd3, type: 3}
+    - {fileID: 3889464368732455501, guid: db3be3cdade834193b243ef8500e928b, type: 3}
+    i: 12
+  misc:
+    name: Misc Level Objects
+    gos:
+    - {fileID: 758749780674335635, guid: 2c83788b86ccb44348c4ed1180c9c928, type: 3}
+    - {fileID: 6943769008932498998, guid: 0fa7aede5df964f8ca77b1035877b1e4, type: 3}
+    - {fileID: 1005684985446652, guid: 1f4b0da620d90411ab56bee3848b094b, type: 3}
+    - {fileID: 3540573051062044183, guid: fc4bff8f4393f48da8d2cd364123f0c8, type: 3}
+    - {fileID: 1005684985446652, guid: f26727b089fa44054a2ad915e8e03226, type: 3}
+    - {fileID: 119706, guid: b6ff7499467204612bf148c5789e40ce, type: 3}
+    - {fileID: 119706, guid: ebd5d0feb594a478da1ae110edef5337, type: 3}
+    - {fileID: 119706, guid: 8b599ec2f843a450681d4ca143139629, type: 3}
+    - {fileID: 119706, guid: dd41076ba2a4547c082e99c8c20ee4e4, type: 3}
+    - {fileID: 5385865262944250724, guid: 46263a7746ea94fb38ff3a6d2c7467bd, type: 3}
+    - {fileID: 938380435574363685, guid: 9ef41f18774194f30b56016120955b43, type: 3}
+    i: 0
+  backgroundrocks:
+  - name: Stylized Rocks
+    gos:
+    - {fileID: 1925476929971972, guid: 63986140d4f9f204bae482e71e476ab9, type: 3}
+    - {fileID: 1035615090414494, guid: 48e6c6d70aab02945a27d38f08dad8c3, type: 3}
+    - {fileID: 1621803541560660, guid: 42a7c9ad8a311fa41a8e01b4d2cbc5a2, type: 3}
+    - {fileID: 1523670424354220, guid: b022a656af4771145a2707351f303f8c, type: 3}
+    - {fileID: 1523670424354220, guid: 997f03156e6b54c9d99f4771e100c4f9, type: 3}
+    - {fileID: 1523670424354220, guid: 3d8436bd612d94fff8ce783010812e28, type: 3}
+    - {fileID: 1737729914392172, guid: 385a9b1fbd327524dad93b19cee68111, type: 3}
+    - {fileID: 1566370733785412, guid: e42f0af21f001234f815cc7b96f04983, type: 3}
+    - {fileID: 1176299219347018, guid: 221b67e47f4ace24dbdb331e3c0a12f1, type: 3}
+    - {fileID: 1095142470104616, guid: 5eac55d0cf833734f8e5e676aeb8ab75, type: 3}
+    - {fileID: 1894650412641020, guid: ba32bbbc064f5ae4e803c12fa336a8db, type: 3}
+    - {fileID: 1239937682956344, guid: 5c0c72464aaaab44fb128dfeb3c5ce4e, type: 3}
+    - {fileID: 1239937682956344, guid: f6cd38d178ac345e6b12ac296ebab4e1, type: 3}
+    i: 7
+  - name: Cube Rocks
+    gos:
+    - {fileID: 100000, guid: d9d1fbfcf69364ffd8f9c6ade9ce90fe, type: 3}
+    - {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+    - {fileID: 100000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
+    - {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
+    - {fileID: 100000, guid: 84376f2a0948947b5a6dfe814a1100a0, type: 3}
+    i: 2
+  - name: Alien Big Rocks
+    gos:
+    - {fileID: 7118138521209128157, guid: b1c3bfcc278c1499b8e23313a5c5e346, type: 3}
+    - {fileID: 6794080683433131458, guid: 788b96ae94d2843b3a6a030eb0543f1a, type: 3}
+    - {fileID: 100178, guid: f730e52de527e48bcb5a606cee94f022, type: 3}
+    - {fileID: 100178, guid: 874d148629bd4434194b527ff50ebf94, type: 3}
+    - {fileID: 100178, guid: 88482b01e8c40416ea50b8ff2bbf0940, type: 3}
+    - {fileID: 100178, guid: 765dc717627474f46b0d827b1b6d4048, type: 3}
+    i: 5
+  - name: Stylized Rocks 2
+    gos:
+    - {fileID: 1925476929971972, guid: 63986140d4f9f204bae482e71e476ab9, type: 3}
+    - {fileID: 1035615090414494, guid: 48e6c6d70aab02945a27d38f08dad8c3, type: 3}
+    - {fileID: 1621803541560660, guid: 42a7c9ad8a311fa41a8e01b4d2cbc5a2, type: 3}
+    - {fileID: 1523670424354220, guid: b022a656af4771145a2707351f303f8c, type: 3}
+    - {fileID: 1523670424354220, guid: 997f03156e6b54c9d99f4771e100c4f9, type: 3}
+    - {fileID: 1523670424354220, guid: 3d8436bd612d94fff8ce783010812e28, type: 3}
+    - {fileID: 1737729914392172, guid: 385a9b1fbd327524dad93b19cee68111, type: 3}
+    - {fileID: 1566370733785412, guid: e42f0af21f001234f815cc7b96f04983, type: 3}
+    - {fileID: 1176299219347018, guid: 221b67e47f4ace24dbdb331e3c0a12f1, type: 3}
+    - {fileID: 1095142470104616, guid: 5eac55d0cf833734f8e5e676aeb8ab75, type: 3}
+    - {fileID: 1894650412641020, guid: ba32bbbc064f5ae4e803c12fa336a8db, type: 3}
+    - {fileID: 1239937682956344, guid: 5c0c72464aaaab44fb128dfeb3c5ce4e, type: 3}
+    - {fileID: 1239937682956344, guid: f6cd38d178ac345e6b12ac296ebab4e1, type: 3}
+    i: 3

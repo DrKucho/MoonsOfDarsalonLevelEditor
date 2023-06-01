@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mosh Dun RealRocksBackGroundTiles RedChannelOnly AllShadowMaking
+  m_Shader: {fileID: 4800000, guid: d8bfd23c61e5c4418a3e1f26ed2723f1, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 79d9ebdd186a3554292c1c855333b775, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _AllBorderShadowsIntensity: 0.536
+    - _AllProjectedShadowsIntensity: 0.735
+    - _AllShadowsIntensity: 1.24
+    - _Alpha: 1
+    - _Angle: -176.04933
+    - _Bottom_Clamp: 0.104
+    - _Bottom_Distance: 3.56
+    - _Bottom_Distance_Factor: 1
+    - _Bottom_Intensity: 1.65
+    - _Bottom_Intensity_Factor: 1
+    - _BumpScale: 1
+    - _ColorAddAmount: 0.04783456
+    - _ColorAddMult: 0
+    - _ColorAddMultiplica: 0
+    - _ColorMultAmount: 6.0257683
+    - _ColorSpecialAdd: 0.088561825
+    - _ColorSpecialMult: 0.52771133
+    - _Contrast: 1.082
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _General_Clamp: 0.105
+    - _Glossiness: 0.5
+    - _HueShift: 0
+    - _Long_Clamp: 1
+    - _Long_Distance: 0
+    - _Long_Distance_Factor: 1
+    - _Long_Intensity: 2.19
+    - _Long_Intensity_Factor: 1
+    - _Long_Steps: 7
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PreGain: 1
+    - _PreShift: 0
+    - _Projected_Bottom_Distance: 5.49
+    - _Projected_Bottom_Intensity: 0.647
+    - _Projected_Diagonal_Distance: 3.27
+    - _Projected_Diagonal_Intensity: 0.529
+    - _Projected_Directional_DissapearAtNight: 1
+    - _Projected_Directional_Distance: 0.002
+    - _Projected_Directional_Intensity: 1
+    - _Projected_Top_Distance: 10
+    - _Projected_Top_Intensity: 0.453
+    - _Sat: 1.196
+    - _Sharpness: 1
+    - _Side_Clamp: 0.1
+    - _Side_Distance: 1.8
+    - _Side_Distance_Factor: 1
+    - _Side_Intensity: 2.74
+    - _Side_Intensity_Factor: 1
+    - _Spacer: 0
+    - _SrcBlend: 1
+    - _TextAspectRatio: 1
+    - _Top_Clamp: 0.104
+    - _Top_Distance: 0.3
+    - _Top_Distance_Factor: 1
+    - _Top_Intensity: 0.67
+    - _Top_Intensity_Factor: 1
+    - _UVSec: 0
+    - _Val: 0.36
+    - _ZWrite: 1
+    - _nothing: 0
+    m_Colors:
+    - _AlphaOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AlphaScale: {r: 1, g: 1, b: 0, a: 0}
+    - _BrightColor: {r: 0.40784314, g: 0.35839546, b: 0.25490198, a: 1}
+    - _Color: {r: 0.86764705, g: 0.7708507, b: 0.7081531, a: 1}
+    - _ColorAdd: {r: 0.467, g: 0.533, b: 0.043727234, a: 0.533}
+    - _ColorSpecial: {r: 0.11510681, g: 0.15454605, b: 0.11349917, a: 0.46278366}
+    - _DarkColor: {r: 0, g: 0.0034122681, b: 0.066037714, a: 0.15686275}
+    - _DitherColor: {r: 0.7941176, g: 0.5421906, b: 0, a: 0.007843138}
+    - _DitherColor56: {r: 0, g: 0, b: 0, a: 0}
+    - _DitherColorBrights: {r: 0.14150941, g: 0.106703274, b: 0.074092194, a: 0.40784314}
+    - _DitherColorDarks: {r: 0.43529412, g: 0.26490197, b: 0.091411754, a: 0}
+    - _DitherColorLuma: {r: 0.6985294, g: 0.47692695, b: 0, a: 0.191}
+    - _DitherColorMids1: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.043137256}
+    - _DitherColorMids2: {r: 0, g: 0.385, b: 0.021904673, a: 0.09019608}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Mid1Color: {r: 0.19215687, g: 0.17771243, b: 0.14117648, a: 1}
+    - _Mid2Color: {r: 0.095, g: 0.085, b: 0.065, a: 0.5019608}
+    - _TexSize: {r: 2048, g: 384, b: 0, a: 0}
+  m_BuildTextureStacks: []

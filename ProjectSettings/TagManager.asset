@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BulletCover
+  - EnemyGenerator
+  - Ladder
+  - Sky
+  - GoodGuysBullet
+  - PickUp
+  - BaseKeeper
+  - EnemyNoHurt
+  - Enemy
+  - BadGuysBullet
+  - Bullet
+  - CopyRight
+  - Civilian
+  - Destructible
+  - Indestructible
+  - CameraTarget
+  - ShiftableCanvas
+  - Destination
+  - Home
+  - Decorative
+  - Half
+  - Sticker
+  - LastTimeSeenMark
+  - Front
+  - Rear
+  - Vehicle
+  - Parallax_Wrap
+  - Parallax
+  - Background
+  - InstantKill
+  - BaseArrival
+  - GoodGuys
+  - BadGuys
+  - DontAttackMe
+  - GoodGuysVehicle
+  - TeleportInvisible
+  - WeaponPickUp
+  - Light
+  - PlayerBullet
+  - FriendlyShip
+  - RadarDotBigGreen
+  - Base
+  - DetectableBase
+  - ColliderSettings
+  - Door
+  - Teleport
+  - Clear
+  - Bumper
+  - Cargo
+  - None
+  - DontDestroyOnNewLevel
+  - PickUpAlsoForAI
+  - ColliderSettingsInParent
+  - FriendlyShip Vertical
+  - DeflectShield
+  - TurnBack
+  - TurnBackAndDeflect
+  - DoorAndDeflect
+  - VisibleTarget
+  - Piece
+  - DropsPickups
+  - WildAnimals
+  - Pickable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - GoodGuys
+  - GoodGuysAttack
+  - BadGuys
+  - BadGuysAttack
+  - Ground
+  - GroundForBadGuysOnly
+  - GroundForBadGuysAtBirthOnly
+  - GroundForGoodGuysOnly
+  - Obstacle
+  - Level
+  - Ladder
+  - NoJumpDown
+  - LimitForCharacters
+  - ObstacleWontCollideWithCharacters
+  - Teleport
+  - GroundForPlayerOnly
+  - 
+  - 
+  - 
+  - 
+  - 
+  - SelfIllum
+  - Shadow
+  - Vision
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Decorative
+    uniqueID: 2561583523
+    locked: 0

@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7820596698834137555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7820596698834410931}
+  - component: {fileID: 5939474430882684324}
+  - component: {fileID: 7820596698836311955}
+  - component: {fileID: 7820596698835246547}
+  - component: {fileID: 7820596698827605107}
+  - component: {fileID: 7820596698827630167}
+  m_Layer: 0
+  m_Name: PickUpWaterGun (StickerModel)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7820596698834410931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400.7, y: 5.199997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5939474430882684324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edde7e9a878a4b4ebfb178ebb786852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  makePickableWhatShouldBePickable: 0
+  pivotMode: 1
+  rotation: {x: 0, y: 0, z: 0, w: 0}
+  variations: []
+  rotIndex: -1
+  flippingTransform: {fileID: 0}
+  previewSpriteRenderer: {fileID: 0}
+  previewSwizSprite: {fileID: 0}
+  tms: []
+--- !u!23 &7820596698836311955
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 95dff5450877640558c00df1f6211678, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &7820596698835246547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_Mesh: {fileID: 0}
+--- !u!114 &7820596698827605107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 11476952, guid: 7dece8774e9074c5dbf8257abaca49ef, type: 3}
+  _color: {r: 0.7352941, g: 1, b: 0.96713996, a: 1}
+  _scale: {x: 0.25, y: 0.25, z: 1}
+  _spriteId: 8
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  kuchoOnSpriteChanged: []
+  renderLayer: 0
+  updateMaterial: 1
+--- !u!114 &7820596698827630167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820596698834137555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb25422d1b8740a1b94cf5d79e2266f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  type: 0
+  playerStartPointIndex: 0
+  checkPointNeedsCargo: 0
+  turnOffPlayerAtStart: 0
+  enableDisable:
+    action: 0
+    gos: []
+  forceReturnToStoreIfOut: 0
+  createRealObjectOnStart: 1
+  cameraTargetAtStart: 0
+  delay: 0
+  delayTwoFrames: 0
+  copyMyScaleToItem: 1
+  realObjectOffset: {x: 0, y: 0, z: 0}
+  color: {r: 0.6098616, g: 1.0014348, b: 1.0367647, a: 1}
+  itemGroup: {fileID: 0}
+  rend: {fileID: 7820596698836311955}
+  sprite: {fileID: 0}
+  tkSprite: {fileID: 7820596698827605107}
+  levelObject: {fileID: 0}
+  storeFinder:
+    name: GadgetStore
+    store: {fileID: 0}
+    chars: 
+  store: {fileID: 0}
+  item: {fileID: 0}
+  _item: PickUpWaterGun
+  energyMultiplier: 1
+  stickersT: {fileID: 0}
+  obItem: {fileID: 0}
