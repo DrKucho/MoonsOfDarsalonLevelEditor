@@ -152,7 +152,7 @@ public class ShellHelper  {
 					if(string.IsNullOrEmpty(error)){
 						break;
 					}
-					if (error.ToUpper().Contains("ERROR"))// KUCHO HACK, lineas de log normales me las metia en standard error 
+					if (error.ToUpper().Contains("ERROR"))// KUCHO HACK, lineas de log normales me las metia en standard error  
 						hasError = true;
 					_queue.Add(
 						delegate()
