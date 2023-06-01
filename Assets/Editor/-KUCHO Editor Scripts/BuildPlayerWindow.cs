@@ -781,7 +781,7 @@ public class BuildPlayerWindow : EditorWindow
 
     public static IEnumerator Git_Pull()
     {
-        Debug.Log("DOWNLOADING CHANGES FROM GIT");
+        Debug.Log("DOWNLOADING CHANGES FROM GIT"); 
         var request = ShellHelper.ProcessCommand("git pull", Directory.GetCurrentDirectory());
         while (ShouldWait())
             yield return null;
