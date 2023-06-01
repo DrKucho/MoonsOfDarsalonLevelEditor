@@ -799,6 +799,8 @@ public class BuildPlayerWindow : EditorWindow
             Debug.Log("REFRESING UNITY");
             AssetDatabase.Refresh();
 
+            leave = Time.realtimeSinceStartup + 1f;
+
             Debug.Log("LEVEL EDITOR UPDATED TO VERSION"); 
             var qm = "\"";
             request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
