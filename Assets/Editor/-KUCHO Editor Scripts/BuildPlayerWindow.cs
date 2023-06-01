@@ -409,7 +409,7 @@ public class BuildPlayerWindow : EditorWindow
                         }
 
                         File.Copy(srcPath, destPath);
-                        Debug.Log("COPIED LEVEL USER " + i + " TO MOTHER PROJECT");
+                        Debug.Log("COPIED LEVEL USER " + i + " TO MOTHER PROJECT"); 
                     }
 
                     srcPath = KuchoHelper.FixDirectorySeparators(child3DModelsPath + "/USER " + i + " - BACKGROUND 3D MODELS.prefab");
