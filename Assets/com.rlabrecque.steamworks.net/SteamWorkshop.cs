@@ -112,7 +112,7 @@ public static class SteamWorkshop
 
     static void CreateItem()
     {
-        var id = SteamUtils.GetAppID();
+        var id = new AppId_t(GameData.instance.steamFullGameAppId);//SteamUtils.GetAppID(); //segun la tipa de steam , la app puede tener su propio ID y operar con el , pero al crear objeto le decimos para que APP es
         var steamAPICall = SteamUGC.CreateItem(id, EWorkshopFileType.k_EWorkshopFileTypeCommunity);
         var steamAPICallResult = CallResult<CreateItemResult_t>.Create();
         steamAPICallResult.Set(steamAPICall, CreateItemResult);

@@ -188,12 +188,14 @@ public class GameData : ScriptableObject
             return steamDemoAppId;// le mando la contraria, la demo game para que steam no se lie
         */
         
-        if (isLevelEditor && false) // no funciona, despues de intentar subir el articulo me devuelve error (Busy), he preguntado a steam
+        //if (isLevelEditor) // no funciona, despues de intentar subir el articulo me devuelve error (Busy), he preguntado a steam -> //segun la tipa de steam , la app puede tener su propio ID y operar con el , pero al crear objeto le decimos para que APP es
             return steamLevelEditorAppId;
+        /*
         else if (isDemo && false) // no funciona, creo que las appId de demo no sirven para esto, steamworks.net no conecta
             return steamDemoAppId;
         else
             return steamFullGameAppId;
+        */
     }
 
     #if UNITY_EDITOR
