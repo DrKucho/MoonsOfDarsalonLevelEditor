@@ -793,9 +793,13 @@ public class BuildPlayerWindow : EditorWindow
             while (ShellHelper.PendingActions())
                 yield return null;
             
+            Debug.Log("WAITING ONE SECOND");
+
             for(int i = 0; i < 60; i++)
                 yield return null;
             
+            Debug.Log("REFRESING UNITY");
+
             AssetDatabase.Refresh();
 
         }
