@@ -790,12 +790,6 @@ public class BuildPlayerWindow : EditorWindow
 
         if (!ShellHelper.hasError)
         {
-            Debug.Log("GETTING LAST COMMIT COMMENT");
-            var qm = "\"";
-            request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
-            while (ShouldWait())
-                yield return null;
-            
             Debug.Log("WAITING TWO SECONDS");
 
             float leave = Time.realtimeSinceStartup + 2;
@@ -805,6 +799,11 @@ public class BuildPlayerWindow : EditorWindow
             Debug.Log("REFRESING UNITY");
             AssetDatabase.Refresh();
 
+            Debug.Log("LEVEL EDITOR UPDATED TO VERSION");
+            var qm = "\"";
+            request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
+            while (ShouldWait())
+                yield return null;
         }
     }
 
