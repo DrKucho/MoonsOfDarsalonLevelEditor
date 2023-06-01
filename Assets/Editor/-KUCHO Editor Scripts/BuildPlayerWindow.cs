@@ -727,8 +727,7 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        for(int i = 0; i < 10; i++)
-            yield return null;
+        yield return new WaitForSeconds(1);
 
         if (!ShellHelper.hasError)
         {
@@ -737,8 +736,7 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
 
-            for(int i = 0; i < 10; i++)
-                yield return null;
+            yield return new WaitForSeconds(1);
 
             if (!ShellHelper.hasError)
             {
@@ -749,8 +747,7 @@ public class BuildPlayerWindow : EditorWindow
                 while (ShouldWait())
                     yield return null;
 
-                for(int i = 0; i < 10; i++)
-                    yield return null;
+                yield return new WaitForSeconds(1);
 
                 if (!ShellHelper.hasError)
                 {
@@ -759,8 +756,7 @@ public class BuildPlayerWindow : EditorWindow
                     while (ShouldWait())
                         yield return null;
                     
-                    for(int i = 0; i < 100; i++)
-                        yield return null;
+                    yield return new WaitForSeconds(3);
 
                     if (!ShellHelper.hasError)
                     {
@@ -782,8 +778,7 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        for(int i = 0; i < 10; i++)
-            yield return null;
+        yield return new WaitForSeconds(1);
 
         if (!ShellHelper.hasError)
         {
@@ -793,10 +788,9 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
             
-            Debug.Log("WAITING ONE SECOND");
+            Debug.Log("WAITING THREE SECONDs");
 
-            for(int i = 0; i < 60; i++)
-                yield return null;
+            yield return new WaitForSeconds(3);
             
             Debug.Log("REFRESING UNITY");
 
@@ -819,9 +813,7 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        yield return null;
-        yield return null;
-        yield return null;
+        yield return new WaitForSeconds(1);
 
         EditorCoroutines.Execute(Git_Pull());
     }
