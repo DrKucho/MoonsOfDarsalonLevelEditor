@@ -794,12 +794,13 @@ public class BuildPlayerWindow : EditorWindow
             while (Time.realtimeSinceStartup < leave)
                 yield return null;
             
-            Debug.Log("REFRESING UNITY IN 2");
+            Debug.Log("REFRESING UNITY IN 2"); 
             
             leave = Time.realtimeSinceStartup + 2;
             while (Time.realtimeSinceStartup < leave)
                 yield return null;
 
+            Debug.Log("REFRESING UNITY");
             AssetDatabase.Refresh();
 
         }
