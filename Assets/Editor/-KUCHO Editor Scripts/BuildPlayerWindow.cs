@@ -796,9 +796,9 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
             
-            Debug.Log("WAITING THREE SECONDS");
+            Debug.Log("WAITING TWO SECONDS");
 
-            float leave = Time.realtimeSinceStartup + 3;
+            float leave = Time.realtimeSinceStartup + 2;
             while (Time.realtimeSinceStartup < leave)
                 yield return null;
 
