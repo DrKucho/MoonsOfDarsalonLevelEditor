@@ -727,7 +727,9 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        yield return new WaitForSeconds(1);
+        float leave = Time.realtimeSinceStartup + 1;
+        while (Time.realtimeSinceStartup < leave)
+            yield return null;
 
         if (!ShellHelper.hasError)
         {
@@ -736,7 +738,9 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
 
-            yield return new WaitForSeconds(1);
+            leave = Time.realtimeSinceStartup + 1;
+            while (Time.realtimeSinceStartup < leave)
+                yield return null;
 
             if (!ShellHelper.hasError)
             {
@@ -747,7 +751,9 @@ public class BuildPlayerWindow : EditorWindow
                 while (ShouldWait())
                     yield return null;
 
-                yield return new WaitForSeconds(1);
+                leave = Time.realtimeSinceStartup + 1;
+                while (Time.realtimeSinceStartup < leave)
+                    yield return null;
 
                 if (!ShellHelper.hasError)
                 {
@@ -756,7 +762,9 @@ public class BuildPlayerWindow : EditorWindow
                     while (ShouldWait())
                         yield return null;
                     
-                    yield return new WaitForSeconds(3);
+                    leave = Time.realtimeSinceStartup + 3;
+                    while (Time.realtimeSinceStartup < leave)
+                        yield return null;
 
                     if (!ShellHelper.hasError)
                     {
@@ -788,15 +796,9 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
             
-            Debug.Log("WAITING FIVE SECONDs");
+            Debug.Log("WAITING THREE SECONDS");
 
-            float leave = Time.realtimeSinceStartup + 5;
-            while (Time.realtimeSinceStartup < leave)
-                yield return null;
-            
-            Debug.Log("REFRESING UNITY IN 2"); 
-            
-            leave = Time.realtimeSinceStartup + 2;
+            float leave = Time.realtimeSinceStartup + 3;
             while (Time.realtimeSinceStartup < leave)
                 yield return null;
 
@@ -820,7 +822,9 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        yield return new WaitForSeconds(1);
+        float leave = Time.realtimeSinceStartup + 1;
+        while (Time.realtimeSinceStartup < leave)
+            yield return null;
 
         EditorCoroutines.Execute(Git_Pull());
     }
