@@ -724,7 +724,7 @@ public class BuildPlayerWindow : EditorWindow
         
         Debug.Log("ADDING CHANGES");
         var request = ShellHelper.ProcessCommand("git add .", currentDir);
-        while (ShellHelper.PendingActions())
+        while (ShouldWait())
             yield return null;
 
         for(int i = 0; i < 10; i++)
@@ -734,7 +734,7 @@ public class BuildPlayerWindow : EditorWindow
         {
             Debug.Log("CHECKING STATUS CHANGES");
             request = ShellHelper.ProcessCommand("git status", currentDir);
-            while (ShellHelper.PendingActions())
+            while (ShouldWait())
                 yield return null;
 
             for(int i = 0; i < 10; i++)
@@ -746,7 +746,7 @@ public class BuildPlayerWindow : EditorWindow
                 comment = comment.Replace(' ', '_');
                 Debug.Log("COMMITING CHANGES WITH COMMENT " + comment);
                 request = ShellHelper.ProcessCommand("git commit -m " + "\"" + comment + "\"", currentDir);
-                while (ShellHelper.PendingActions())
+                while (ShouldWait())
                     yield return null;
 
                 for(int i = 0; i < 10; i++)
@@ -756,7 +756,7 @@ public class BuildPlayerWindow : EditorWindow
                 {
                     Debug.Log("PUSHING CHANGES");
                     request = ShellHelper.ProcessCommand("git push", currentDir);
-                    while (ShellHelper.PendingActions())
+                    while (ShouldWait())
                         yield return null;
                     
                     for(int i = 0; i < 100; i++)
@@ -779,7 +779,7 @@ public class BuildPlayerWindow : EditorWindow
     {
         Debug.Log("DOWNLOADING CHANGES FROM GIT");
         var request = ShellHelper.ProcessCommand("git pull", Directory.GetCurrentDirectory());
-        while (ShellHelper.PendingActions())
+        while (ShouldWait())
             yield return null;
 
         for(int i = 0; i < 10; i++)
@@ -790,7 +790,7 @@ public class BuildPlayerWindow : EditorWindow
             Debug.Log("GETTING LAST COMMIT COMMENT");
             var qm = "\"";
             request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
-            while (ShellHelper.PendingActions())
+            while (ShouldWait())
                 yield return null;
             
             Debug.Log("WAITING ONE SECOND");
@@ -804,11 +804,19 @@ public class BuildPlayerWindow : EditorWindow
 
         }
     }
+
+    public static bool ShouldWait()
+    {
+        if (ShellHelper.PendingActions() || ShellHelper.running)
+            return true;
+        return false;
+    }
+
     public static IEnumerator Git_OverwriteAllLocalChangesFromRepo()
     {
         Debug.Log("RESETTING LOCAL CHANGES");
         var request = ShellHelper.ProcessCommand("git reset --hard origin/main", Directory.GetCurrentDirectory());
-        while (ShellHelper.PendingActions())
+        while (ShouldWait())
             yield return null;
 
         yield return null;
