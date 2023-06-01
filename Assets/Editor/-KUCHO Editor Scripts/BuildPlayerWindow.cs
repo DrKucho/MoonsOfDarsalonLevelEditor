@@ -727,9 +727,8 @@ public class BuildPlayerWindow : EditorWindow
         while (ShellHelper.PendingActions())
             yield return null;
 
-        yield return null;
-        yield return null;
-        yield return null;
+        for(int i = 0; i < 10; i++)
+            yield return null;
 
         if (!ShellHelper.hasError)
         {
@@ -738,9 +737,8 @@ public class BuildPlayerWindow : EditorWindow
             while (ShellHelper.PendingActions())
                 yield return null;
 
-            yield return null;
-            yield return null;
-            yield return null;
+            for(int i = 0; i < 10; i++)
+                yield return null;
 
             if (!ShellHelper.hasError)
             {
@@ -751,9 +749,8 @@ public class BuildPlayerWindow : EditorWindow
                 while (ShellHelper.PendingActions())
                     yield return null;
 
-                yield return null;
-                yield return null;
-                yield return null;
+                for(int i = 0; i < 10; i++)
+                    yield return null;
 
                 if (!ShellHelper.hasError)
                 {
@@ -785,9 +782,8 @@ public class BuildPlayerWindow : EditorWindow
         while (ShellHelper.PendingActions())
             yield return null;
 
-        yield return null;
-        yield return null;
-        yield return null;
+        for(int i = 0; i < 10; i++)
+            yield return null;
 
         if (!ShellHelper.hasError)
         {
