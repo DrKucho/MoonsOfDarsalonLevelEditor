@@ -727,7 +727,7 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        float leave = Time.realtimeSinceStartup + 1;
+        float leave = Time.realtimeSinceStartup + 0.5f;
         while (Time.realtimeSinceStartup < leave)
             yield return null;
 
@@ -738,7 +738,7 @@ public class BuildPlayerWindow : EditorWindow
             while (ShouldWait())
                 yield return null;
 
-            leave = Time.realtimeSinceStartup + 1;
+            leave = Time.realtimeSinceStartup + 0.5f;
             while (Time.realtimeSinceStartup < leave)
                 yield return null;
 
@@ -751,7 +751,7 @@ public class BuildPlayerWindow : EditorWindow
                 while (ShouldWait())
                     yield return null;
 
-                leave = Time.realtimeSinceStartup + 1;
+                leave = Time.realtimeSinceStartup + 0.5f;
                 while (Time.realtimeSinceStartup < leave)
                     yield return null;
 
@@ -822,7 +822,7 @@ public class BuildPlayerWindow : EditorWindow
         while (ShouldWait())
             yield return null;
 
-        float leave = Time.realtimeSinceStartup + 1;
+        float leave = Time.realtimeSinceStartup + 0.5f;
         while (Time.realtimeSinceStartup < leave)
             yield return null;
 
