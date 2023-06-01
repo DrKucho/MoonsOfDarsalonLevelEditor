@@ -807,7 +807,7 @@ public class BuildPlayerWindow : EditorWindow
 
     public static bool ShouldWait()
     {
-        if (ShellHelper.PendingActions() || ShellHelper.running)
+        if (ShellHelper.PendingActions() || ShellHelper.running) 
             return true;
         return false;
     }
