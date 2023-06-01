@@ -736,8 +736,6 @@ public class BuildPlayerWindow : EditorWindow
             lastRequestDone = false;
             lastRequestError = false;
             request = ShellHelper.ProcessCommand("git status", currentDir);
-            request.onDone += OnDone;
-            request.onError += OnError;
             while (lastRequestDone == false)
                 yield return null;
             if (!lastRequestError)
@@ -748,8 +746,6 @@ public class BuildPlayerWindow : EditorWindow
                 lastRequestDone = false;
                 lastRequestError = false;
                 request = ShellHelper.ProcessCommand("git commit -m " + "\"" + comment + "\"", currentDir);
-                request.onDone += OnDone;
-                request.onError += OnError;
                 while (lastRequestDone == false)
                     yield return null;
 
@@ -759,8 +755,6 @@ public class BuildPlayerWindow : EditorWindow
                     lastRequestDone = false;
                     lastRequestError = false;
                     request = ShellHelper.ProcessCommand("git push", currentDir);
-                    request.onDone += OnDone;
-                    request.onError += OnError;
                     while (lastRequestDone == false)
                         yield return null;
                 }
@@ -804,13 +798,15 @@ public class BuildPlayerWindow : EditorWindow
     }
     public static IEnumerator Git_OverwriteAllLocalChangesFromRepo()
     {
-        Debug.Log("DOWNLOADING CHANGES HARD MODE FROM GIT");
+        Debug.Log("RESETTING LOCAL CHANGES");
         lastRequestDone = false;
         lastRequestError = false;
         var request = ShellHelper.ProcessCommand("git reset --hard origin/main", Directory.GetCurrentDirectory());
+        request.onDone += OnDone;
+        request.onError += OnError;
         while (lastRequestDone == false)
             yield return null;
-        AssetDatabase.Refresh();
+        EditorCoroutines.Execute(Git_Pull());
     }
 
 }
