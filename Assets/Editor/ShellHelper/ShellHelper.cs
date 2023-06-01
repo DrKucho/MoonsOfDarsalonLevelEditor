@@ -3,6 +3,7 @@ using System.Collections;
 using System.Diagnostics;
 using UnityEditor;
 using System.Collections.Generic;
+using Debug = UnityEngine.Debug;
 
 public class ShellHelper  {
 
@@ -70,7 +71,13 @@ public class ShellHelper  {
 
 	public static bool running;
 	public static bool hasError;
-	public static ShellRequest ProcessCommand(string cmd,string workDirectory,List<string> environmentVars = null)
+
+	public static ShellRequest ProcessCommand(string cmd, string workDirectory, List<string> environmentVars = null)
+	{
+		return ProcessCommand(cmd, null, null, workDirectory, environmentVars);
+	}
+
+	public static ShellRequest ProcessCommand(string cmd,string okEndMsg, string errorEndMsg, string workDirectory,List<string> environmentVars = null)
 	{
 		running = true;
 		hasError = false;
@@ -159,18 +166,25 @@ public class ShellHelper  {
 					);
 				}
 				p.Close();
-				if(hasError){
-					_queue.Add(delegate() {
+				if(hasError)
+				{
+					if (errorEndMsg != null)
+						Debug.LogError(errorEndMsg);
+					_queue.Add(delegate() 
+					{
 						req.Error();
 					});
 				}
-				else {
-					_queue.Add(delegate() {
+				else
+				{
+					if (okEndMsg != null)
+						Debug.Log(okEndMsg);
+					_queue.Add(delegate()
+					{
 						req.NotifyDone();
 					});
-				} 
+				}
 
-				
 			}catch(System.Exception e){
 				UnityEngine.Debug.LogException(e);
 				if(p != null){

@@ -744,17 +744,9 @@ public class BuildPlayerWindow : EditorWindow
                 if (!ShellHelper.hasError)
                 {
                     Debug.Log("PUSHING CHANGES");
-                    request = ShellHelper.ProcessCommand("git push", currentDir);
+                    request = ShellHelper.ProcessCommand("git push", "ALL DONE COMMITING AND PUSHING TO THE CLOUD", "SOME SHIT HAPPENED", currentDir);
                     while (ShellHelper.running)
                         yield return null;
-                    if (!ShellHelper.hasError)
-                    {
-                        Debug.Log("ALL DONE COMMITING AND PUSHING TO THE CLOUD");
-                    }
-                    else
-                    {
-                        Debug.LogError("SOME SHIT HAPPENED"); 
-                    }
                 }
             }
         }
