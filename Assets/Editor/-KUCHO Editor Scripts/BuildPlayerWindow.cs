@@ -810,6 +810,8 @@ public class BuildPlayerWindow : EditorWindow
 
     public static bool ShouldWait()
     {
+        if (Time.realtimeSinceStartup > ShellHelper.processStartTime + 10) // 0 segundos de time out porque a veces ShellHelper.runing se queda pillado
+            return false;
         if (ShellHelper.PendingActions() || ShellHelper.running)
             return true;
         return false;

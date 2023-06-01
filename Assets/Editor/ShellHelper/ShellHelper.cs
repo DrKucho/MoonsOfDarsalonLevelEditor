@@ -77,16 +77,18 @@ public class ShellHelper  {
 
 	public static bool running;
 	public static bool hasError;
+	public static float processStartTime;
 
 	public static ShellRequest ProcessCommand(string cmd, string workDirectory, List<string> environmentVars = null)
 	{
+		processStartTime = Time.realtimeSinceStartup;
 		running = true;
 		hasError = false;
 		ShellRequest req = new ShellRequest();
 		System.Threading.ThreadPool.QueueUserWorkItem(delegate(object state) {
 			Process p = null;
 			try{
-				ProcessStartInfo start = new ProcessStartInfo(shellApp);
+				ProcessStartInfo start = new ProcessStartInfo(shellApp); 
 
 				#if UNITY_EDITOR_OSX
 				string splitChar = ":";
@@ -109,7 +111,7 @@ public class ShellHelper  {
 				start.WorkingDirectory = workDirectory;
 
 				if(start.UseShellExecute){ 
-					start.RedirectStandardOutput = false;
+					start.RedirectStandardOutput = false; 
 					start.RedirectStandardError = false;
 					start.RedirectStandardInput = false;
 				} else{
