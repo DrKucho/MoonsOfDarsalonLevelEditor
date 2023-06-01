@@ -799,7 +799,7 @@ public class BuildPlayerWindow : EditorWindow
             Debug.Log("REFRESING UNITY");
             AssetDatabase.Refresh();
 
-            Debug.Log("LEVEL EDITOR UPDATED TO VERSION");
+            Debug.Log("LEVEL EDITOR UPDATED TO VERSION"); 
             var qm = "\"";
             request = ShellHelper.ProcessCommand("git log --pretty=format:" + qm + "%s" + qm + " -n 1", Directory.GetCurrentDirectory());
             while (ShouldWait())
