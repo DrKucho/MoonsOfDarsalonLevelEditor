@@ -32,7 +32,7 @@ posTwoCoordsAndHSVMults CalculateThingsForHSVFastProcessing(half3 _HueShift, hal
 	OUT.valueMults.y = .587 * _Val;
 	OUT.valueMults.z = .114 * _Val;
 	OUT.valueMults.w = .114 * OUT.VsuVsw.x;
-	OUT.valueMults2.x = .588 * OUT.VsuVsw.x; 
+	OUT.valueMults2.x = .588 * OUT.VsuVsw.x;
 	return (OUT);
 }
 

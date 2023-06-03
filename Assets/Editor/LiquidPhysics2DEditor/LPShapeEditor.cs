@@ -90,34 +90,36 @@ public class LPShapeEditor: Editor
 		{
 			Handles.DrawAAPolyLine(2f,new Vector3[2]{LastPoint,mousepos});
 		}
-		
+
 		switch (e.type)
-		{				
-		case EventType.MouseDown:	
-			if (!drawingpoint)
-			{
-				LastPoint = mousepos;
-				poly.AddPoint(mousepos - poly.transform.position);
-				if(poly.drawingfirstpoint)poly.drawingfirstpoint = false;
-			}								
-			drawingpoint = true;
-			e.Use(); 
-            break;
-			
-		case EventType.MouseUp:				            
-			drawingpoint = false; 
-			e.Use();          
-			break;
-			
-		case EventType.MouseMove:		
-			e.Use();
-             break;
-                
-        case EventType.Layout:
-            HandleUtility.AddDefaultControl(cID);
-            break;
-		    }	       
-		    if (GUI.changed) EditorUtility.SetDirty(target);         
+		{
+			case EventType.MouseDown:
+				if (!drawingpoint)
+				{
+					LastPoint = mousepos;
+					poly.AddPoint(mousepos - poly.transform.position);
+					if (poly.drawingfirstpoint) poly.drawingfirstpoint = false;
+				}
+
+				drawingpoint = true;
+				e.Use();
+				break;
+
+			case EventType.MouseUp:
+				drawingpoint = false;
+				e.Use();
+				break;
+
+			case EventType.MouseMove:
+				e.Use();
+				break;
+
+			case EventType.Layout:
+				HandleUtility.AddDefaultControl(cID);
+				break;
+		}
+
+		if (GUI.changed) EditorUtility.SetDirty(target);         
     }
     
 	protected void CheckDists(LPCorporeal poly)

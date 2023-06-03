@@ -39,13 +39,16 @@ public static class SteamWorkshop
         return result;
     }
 
+    public static AppId_t editorAppId = new AppId_t(GameData.instance.steamLevelEditorAppId);
+    public static AppId_t consumerAppId = new AppId_t(GameData.instance.steamFullGameAppId);
+
     public static bool levelSearchInProgress;
     public static void SearchLevelsWithTitle(string filter)
     {
         levelSearchInProgress = true;
-        AppId_t id = new AppId_t(GameData.instance.GetSteamAppId());
+        //AppId_t id = new AppId_t(GameData.instance.GetSteamAppId());
         var qHandle = SteamUGC.CreateQueryAllUGCRequest(EUGCQuery.k_EUGCQuery_RankedByTextSearch, EUGCMatchingUGCType.k_EUGCMatchingUGCType_Items,
-            id, id, 1);
+            editorAppId, consumerAppId, 1);
         if (qHandle != UGCQueryHandle_t.Invalid)
         {
             SteamUGC.SetSearchText(qHandle, filter);
@@ -112,8 +115,8 @@ public static class SteamWorkshop
 
     static void CreateItem()
     {
-        var id = new AppId_t(GameData.instance.steamFullGameAppId);//SteamUtils.GetAppID(); //segun la tipa de steam , la app puede tener su propio ID y operar con el , pero al crear objeto le decimos para que APP es
-        var steamAPICall = SteamUGC.CreateItem(id, EWorkshopFileType.k_EWorkshopFileTypeCommunity);
+        //var id = new AppId_t(GameData.instance.steamFullGameAppId);//SteamUtils.GetAppID(); //segun la tipa de steam , la app puede tener su propio ID y operar con el , pero al crear objeto le decimos para que APP es
+        var steamAPICall = SteamUGC.CreateItem(consumerAppId, EWorkshopFileType.k_EWorkshopFileTypeCommunity); 
         var steamAPICallResult = CallResult<CreateItemResult_t>.Create();
         steamAPICallResult.Set(steamAPICall, CreateItemResult);
     }
@@ -133,7 +136,7 @@ public static class SteamWorkshop
 
     static void UpdateItem()
     {
-        var updateHandle = SteamUGC.StartItemUpdate(SteamUtils.GetAppID(), publishedFileID);
+        var updateHandle = SteamUGC.StartItemUpdate(consumerAppId, publishedFileID);
 
         if (updateHandle != UGCUpdateHandle_t.Invalid)
         {
@@ -152,10 +155,9 @@ public static class SteamWorkshop
         {
             Debug.Log("Handle Mala");
         }
- 
     }
 
-    static void UpdateItemResult(SubmitItemUpdateResult_t param, bool bIOFailure)
+    static void UpdateItemResult(SubmitItemUpdateResult_t param, bool bIOFailure) 
     {
         if (param.m_eResult == EResult.k_EResultOK)
         {

@@ -64,6 +64,10 @@ Shader "_Kucho/Terrain/MOD Foreground Terrain"
 				OUT.color     = IN.color * _Color;
 				OUT.texcoord0 = IN.texcoord0;
 				OUT.texcoord1 = (IN.texcoord0 - _AlphaOffset) * _AlphaScale;
+				OUT.valueMults2.y = 0; // inicializacion para evitar warning
+				OUT.valueMults2.z = 0; // inicializacion para evitar warning
+				OUT.valueMults2.w = 0; // inicializacion para evitar warning
+				
 				OUT = CalculateThingsForHSVFastProcessing(_HueShift, _Sat, _Val, OUT); 
 			}
 

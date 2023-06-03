@@ -57,6 +57,17 @@ public static class StaticSteamManager {
 		EditorApplication.quitting += OnDestroy;
 	}
 
+	private static AppId_t _appID;
+	public static AppId_t appID
+	{
+		get
+		{
+			if (_appID.m_AppId == 0)
+				_appID = new AppId_t(GameData.instance.GetSteamAppId());// MOD DEMO = 1644470 , MOD FULL = 1234180 
+			return _appID;
+		}
+	}
+
 	static public void Init() {   
 		
 		if(s_EverInitialized) {
@@ -86,8 +97,8 @@ public static class StaticSteamManager {
 			// See the Valve documentation for more information: https://partner.steamgames.com/doc/sdk/api#initialization_and_shutdown
 			if (GameData.instance) // puede fallar si esta abriendo el proyecto por primera vez, parece que no enconetra gamedata porque no esta construida la asset database?
 			{
-				var id = new AppId_t(GameData.instance.GetSteamAppId()); // MOD DEMO = 1644470 , MOD FULL = 1234180 
-				if (SteamAPI.RestartAppIfNecessary(id))
+				//var appID = new AppId_t(GameData.instance.GetSteamAppId()); // MOD DEMO = 1644470 , MOD FULL = 1234180 
+				if (SteamAPI.RestartAppIfNecessary(appID))
 				{
 					Debug.Log("[Steamworks.NET] Shutting down because RestartAppIfNecessary returned true. Steam will restart the application.");
 

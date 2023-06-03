@@ -57,7 +57,8 @@ Shader "_Kucho/TreeShader"
                 {
 					OUT.pos = UnityObjectToClipPos(IN.pos); // pos = posicion en la pantalla ?
                     OUT.texcoord1 = mul (unity_ObjectToWorld, IN.pos); // world pos!
-                    OUT.texcoord0 = IN.texcoord0.xy;  
+                    OUT.texcoord0 = IN.texcoord0.xy;
+            		OUT.color = (0,0,0,0);// inicializacion para evitar warning
                 }
                
                 sampler2D _MainTex;

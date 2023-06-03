@@ -170,5 +170,5 @@ Material:
     - _Mid2Color: {r: 0.4172361, g: 0.45490196, b: 0.41305098, a: 0.12156863}
     - _MidColor: {r: 0.44117647, g: 0.40211913, b: 0.35514706, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TexSize: {r: 1920, g: 768, b: 0, a: 0}
+    - _TexSize: {r: 3200, g: 2176, b: 0, a: 0}
   m_BuildTextureStacks: []
