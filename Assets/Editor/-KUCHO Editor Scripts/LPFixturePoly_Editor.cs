@@ -10,5 +10,6 @@ public class LPFixturePoly_Editor : Editor
     public override void OnInspectorGUI()
     {
 	    var sc = (LPFixturePoly)target;
+        DrawDefaultInspector();
     }
 }

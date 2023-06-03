@@ -61,5 +61,12 @@ public abstract class LPFixture : LPCorporeal
 	int userDataFlags;
     bool applicationIsPlaying ; // no puedo leer Application.IsPLaying desde el audio thread
 
-	
+    public override void OnValidate(){
+	    if (isActiveAndEnabled)
+	    {
+		    if (pointsList == null)
+			    pointsList = new List<Vector2>();
+		    CopyPointsListToPointsCopy();
+	    }
+    }
 }

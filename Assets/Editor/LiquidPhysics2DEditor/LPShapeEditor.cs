@@ -97,8 +97,12 @@ public class LPShapeEditor: Editor
 				if (!drawingpoint)
 				{
 					LastPoint = mousepos;
-					poly.AddPoint(mousepos - poly.transform.position);
-					if (poly.drawingfirstpoint) poly.drawingfirstpoint = false;
+					var p = mousepos - poly.transform.position;
+					poly.AddPoint(p);
+					Debug.Log("NEW POINT AT:" + p);
+					
+					if (poly.drawingfirstpoint)
+						poly.drawingfirstpoint = false;
 				}
 
 				drawingpoint = true;

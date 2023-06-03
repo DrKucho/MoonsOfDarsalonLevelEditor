@@ -17,7 +17,7 @@ public abstract class LPCorporeal : LPThing
 	[HideInInspector] public bool EditMe = true;
     
 	[HideInInspector] public Vector2[] pointsListOriginal;
-	[HideInInspector] public List<Vector2> pointsList;
+	public List<Vector2> pointsList;
 	[HideInInspector] public Vector2[] pointsCopy;
 	[HideInInspector] public bool isComplex = false; // se pone a true si no se ha podido crear el poligono por intersecciones feas y otros problemas
 
